@@ -12,7 +12,7 @@
 |
 */
 Route::get('/zhou', function(){
-     echo "svn";
+     echo "svn hook ok  ";
 });
 Route::get('admin/code', "Admin\LoginController@code");
 //Route::any('admin/test', "Admin\LoginController@test");
