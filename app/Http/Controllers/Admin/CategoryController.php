@@ -27,7 +27,7 @@ class CategoryController extends CommonController
         foreach ($data as $k=> $v) {
             if ($v->cate_pid==0) {
                //$arr[]=$data[$k];
-                $arr[]=$data[$k];
+                $arr[]=$v;
             }
         }
         dd($arr);
