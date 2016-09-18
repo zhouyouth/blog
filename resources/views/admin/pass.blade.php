@@ -18,15 +18,13 @@
 <div class="result_wrap">
     <form action="{{url('admin/pass')}}" method="post" >
         {{csrf_field()}}
-        {{--{{$errors->all()}}--}}
-
+        <div class="mark">
         @if(count($errors)>0)
             @foreach($errors->all() as $error)
-                {{$error}}
+                    <p>{{$error}}</p>
             @endforeach
         @endif
-
-
+        </div>
         <table class="add_tab">
             <tbody>
             <tr>
