@@ -56,14 +56,13 @@
                         <th>描述</th>
                         <th>点击</th>
                         <th>分类排序</th>
+                        <th>分类父id</th>
                         <th>操作</th>
                     </tr>
                      @foreach($category as $v)
                     <tr>
                         <td class="tc"><input type="checkbox" name="id[]" value="59"></td>
-                        <td class="tc">
-                            <input type="text" name="ord[]" value="0">
-                        </td>
+
                         <td class="tc">{{$v->cate_id}}</td>
                         <td>
                             <a href="#">{{$v->cate_name}}</a>
