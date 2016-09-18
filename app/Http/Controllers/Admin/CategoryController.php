@@ -11,12 +11,23 @@ use App\Http\Model\Category;
 class CategoryController extends CommonController
 {
     //cate list
-    public  function index(){
-     //dd("hello");
+    public function index()
+    {
+        //dd("hello");
         $category = Category::all();
+        $data = $this->getTree($category);
 
-       return view('admin.category.index')->with('category',$category);
+        return view('admin.category.index')->with('category', $category);
 
+    }
+
+    public function  getTree($data)
+    {
+        foreach ($data as $$k => $v) {
+            if ($v->cate_pid==0) {
+               echo $v->cate_name;
+            }
+        }
     }
 
 }
