@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
-use App\http\Model\User;
+use App\http\Model;
 
 class IndexController extends Controller
 {
@@ -40,7 +40,7 @@ class IndexController extends Controller
             ];
             $validator = Validator::make($input, $rules,$message);
             if($validator->passes()){
-              $user = User::class
+              $user = User::first();
 
               $_password = Crypt::decrypt($user->user_pass);
               if($input['user_pass']==$_password){
