@@ -45,7 +45,7 @@ class IndexController extends Controller
 
               $_password = Crypt::decrypt($user->user_pass);
               if($input['user_pass']==$_password){
-                 $user->userPass = Crypt::encrypt($input['password']);
+                 $user->userPass = Crypt::encrypt($input['new_password']);
                  $user->update();
               }
             } else {
