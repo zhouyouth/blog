@@ -12,7 +12,7 @@ class CategoryController extends CommonController
 {
     //cate list
     public  function index(){
-        dd(config()->app);
+        dd(config());
 //      $dategorys = Category::all();
 //        dd($dategorys);
 
