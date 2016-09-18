@@ -58,7 +58,7 @@
                         <th>分类排序</th>
                         <th>操作</th>
                     </tr>
-                     @foreach($category as $k)
+                     @foreach($category as $v)
                     <tr>
                         <td class="tc"><input type="checkbox" name="id[]" value="59"></td>
                         <td class="tc">
