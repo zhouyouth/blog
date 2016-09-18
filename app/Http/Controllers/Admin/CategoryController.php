@@ -28,6 +28,12 @@ class CategoryController extends CommonController
             if ($v->cate_pid==0) {
                //$arr[]=$data[$k];
                 $arr[]=$v;
+                foreach($data as $m => $n){
+                  if($n->cate_pid ==$v->cate_id){
+                      $arr[] = $data[$k];
+                  }
+
+                }
             }
         }
         dd($arr);
