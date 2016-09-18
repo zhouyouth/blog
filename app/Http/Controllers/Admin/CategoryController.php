@@ -14,7 +14,7 @@ class CategoryController extends CommonController
     public  function index(){
      //dd("hello");
       $dategorys = Category::all();
-        dd($dategorys);
+        //dd($dategorys);
        return view('admin.category.index');
 
     }
