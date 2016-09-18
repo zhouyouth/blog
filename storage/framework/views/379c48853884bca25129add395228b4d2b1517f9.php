@@ -18,16 +18,13 @@
     <form action="<?php echo e(url('admin/pass')); ?>" method="post" >
         <?php echo e(csrf_field()); ?>
 
-        <?php /*<?php echo e($errors->all()); ?>*/ ?>
-
+        <div class="mark">
         <?php if(count($errors)>0): ?>
             <?php foreach($errors->all() as $error): ?>
-                <?php echo e($error); ?>
-
+                    <p><?php echo e($error); ?></p>
             <?php endforeach; ?>
         <?php endif; ?>
-
-
+        </div>
         <table class="add_tab">
             <tbody>
             <tr>
