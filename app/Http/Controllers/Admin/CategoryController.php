@@ -15,14 +15,14 @@ class CategoryController extends CommonController
     {
         //dd("hello");
         $category = Category::all();
-        $category = $this->getTree($category,'cate_id','cate_pid');
+        $category = $this->getTree($category,'cate_id','cate_pid','0','┃━━━');
 //        var_dump($category);exit;
 
         return view('admin.category.index')->with('category', $category);
 
     }
 
-    public function  getTree($data,$id,$pid,$leve=0)
+    public function  getTree($data,$id,$pid,$leve=0,$cate_tag)
     {
         $arr= array();
         foreach ($data as $k=> $v) {
@@ -32,7 +32,7 @@ class CategoryController extends CommonController
                 $arr[]=$v;
                 foreach($data as $m => $n){
                   if($n->$pid ==$v->$id){
-                      $n['_cate_name'] = '┃━━━ '.$n['cate_name'];
+                      $n['_cate_name'] = $cate_tag.$n['cate_name'];
                       $arr[] = $n;
                   }
 
