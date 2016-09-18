@@ -74,7 +74,7 @@ return [
             'username' => env('DB_USERNAME', ''),
             'password' => env('DB_PASSWORD', ''),
             'charset' => 'utf8',
-            'prefix' =>env('DB_PREFIX','blog_'),
+            'prefix' => env('DB_PREFIX','blog_'),
             'schema' => 'public',
         ],
 
