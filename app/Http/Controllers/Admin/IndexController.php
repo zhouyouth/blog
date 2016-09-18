@@ -38,8 +38,13 @@ class IndexController extends Controller
 
             ];
             $validator = Validator::make($input, $rules,$message);
-            if($validator->passes()) {
-
+            if($validator->passes()){
+              $user = User::first();
+              $_password = Crypt::decrypt($user->user_pass);
+              if($input['user_pass']==$_password){
+                 $user->userPass = Crypt::encrypt($input['password']);
+                 $user->update();
+              }
             } else {
                // dd($validator);
                 return back()->withErrors($validator);
