@@ -9,10 +9,10 @@ use App\Http\Requests;
 
 class CategoryController extends CommonController
 {
-    //get.admin/category
+    //cate list
     public  function index(){
 
-           echo "cate .index";
+
 
     }
 
