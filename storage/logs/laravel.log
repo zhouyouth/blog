@@ -11105,3 +11105,6 @@ Stack trace:
 #70 E:\wamp\www\blog\public\index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #71 E:\wamp\www\blog\index.php(22): require_once('E:\\wamp\\www\\blo...')
 #72 {main}  
+[2016-09-18 13:54:32] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected ';'' in E:\wamp\www\blog\app\Http\Controllers\Admin\CategoryController.php:15
+Stack trace:
+#0 {main}  
