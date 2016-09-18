@@ -54,6 +54,7 @@
                         <th class="tc">分类名称</th>
                         <th>标题</th>
                         <th>描述</th>
+                        <th>关键字</th>
                         <th>点击</th>
                         <th>分类排序</th>
                         <th>分类父id</th>
