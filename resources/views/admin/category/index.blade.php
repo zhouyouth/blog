@@ -71,8 +71,8 @@
                         <td>{{$v->cate_title}}</td>
                         <td>{{$v->cate_description}}</td>
                         <td>{{$v->cate_key_keywords}}</td>
-                        <td>{{$v->view}}</td>
-                        <td>{{$v->order}}</td>
+                        <td>{{$v->cate_view}}</td>
+                        <td>{{$v->cate_order}}</td>
                         <td>{{$v->cate_pid}}</td>
                         <td>
                             <a href="#">修改</a>
