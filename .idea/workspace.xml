@@ -177,8 +177,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="365" />
-    <option name="y" value="451" />
+    <option name="x" value="149" />
+    <option name="y" value="214" />
     <option name="width" value="1936" />
     <option name="height" value="1054" />
   </component>
@@ -664,11 +664,17 @@
       <option name="project" value="LOCAL" />
       <updated>1474171778738</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="&#10;">
+      <created>1474172022383</created>
+      <option name="number" value="00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1474172022383</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="365" y="451" width="1936" height="1054" extended-state="0" />
+    <frame x="149" y="214" width="1936" height="1054" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
