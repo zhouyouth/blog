@@ -47,7 +47,7 @@ class IndexController extends Controller
               if($input['user_pass']==$_password){
                  $user->user_pass = Crypt::encrypt($input['new_password']);
                  $user->update();
-                  return redirect('admin/info');
+                  return back()->with('errors','密码修改成功!');
               }else{
                   return back()->with('errors','原密码错误!');
               }
