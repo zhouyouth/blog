@@ -48,6 +48,8 @@ class IndexController extends Controller
                  $user->user_pass = Crypt::encrypt($input['new_password']);
                  $user->update();
                   return redirect("admin/info");
+              }else{
+                  return back()->with('errors','原密码错误!')
               }
             } else {
                // dd($validator);
