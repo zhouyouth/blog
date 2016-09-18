@@ -1,15 +1,6 @@
 @extends('layouts.admin')
 @section('content')
 
-
-
-
-
-
-
-
-
-
     <body>
     <!--面包屑导航 开始-->
     <div class="crumb_warp">
@@ -162,5 +153,6 @@
             </div>
         </div>
     </form>
+    <!--结果页快捷搜索框 end-->
 
 @endsection
