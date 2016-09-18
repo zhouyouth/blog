@@ -23,11 +23,14 @@ class CategoryController extends CommonController
 
     public function  getTree($data)
     {
-        foreach ($data as  $v) {
+        $arr= array();
+        foreach ($data as $k=> $v) {
             if ($v->cate_pid==0) {
-               echo $v->cate_name;
+               $arr[]=$k;
             }
         }
+        dd($arr);
     }
+
 
 }
