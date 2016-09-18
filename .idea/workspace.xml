@@ -38,8 +38,8 @@
       <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53257793">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+            <state vertical-scroll-proportion="0.6572238">
+              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
               </folding>
@@ -175,8 +175,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="290" />
-    <option name="y" value="96" />
+    <option name="x" value="378" />
+    <option name="y" value="97" />
     <option name="width" value="1377" />
     <option name="height" value="895" />
   </component>
@@ -481,18 +481,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00036" summary="&#10;">
-      <created>1474177896925</created>
-      <option name="number" value="00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1474177896925</updated>
-    </task>
-    <task id="LOCAL-00037" summary="&#10;">
-      <created>1474178070872</created>
-      <option name="number" value="00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1474178070872</updated>
-    </task>
     <task id="LOCAL-00038" summary="&#10;">
       <created>1474178091737</created>
       <option name="number" value="00038" />
@@ -775,11 +763,23 @@
       <option name="project" value="LOCAL" />
       <updated>1474189793172</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="&#10;">
+      <created>1474189823454</created>
+      <option name="number" value="00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1474189823454</updated>
+    </task>
+    <task id="LOCAL-00086" summary="&#10;">
+      <created>1474189882491</created>
+      <option name="number" value="00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1474189882491</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="290" y="96" width="1377" height="895" extended-state="0" />
+    <frame x="378" y="97" width="1377" height="895" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1234,8 +1234,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53257793">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state vertical-scroll-proportion="0.6572238">
+          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
           </folding>
