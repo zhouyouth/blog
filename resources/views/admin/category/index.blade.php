@@ -50,14 +50,12 @@
                 <table class="list_tab">
                     <tr>
                         <th class="tc" width="5%"><input type="checkbox" name=""></th>
-                        <th class="tc">排序</th>
                         <th class="tc">ID</th>
+                        <th class="tc">分类名称</th>
                         <th>标题</th>
-                        <th>审核状态</th>
+                        <th>描述</th>
                         <th>点击</th>
-                        <th>发布人</th>
-                        <th>更新时间</th>
-                        <th>评论</th>
+                        <th>分类排序</th>
                         <th>操作</th>
                     </tr>
                      @foreach($category as $k)
@@ -66,15 +64,16 @@
                         <td class="tc">
                             <input type="text" name="ord[]" value="0">
                         </td>
-                        <td class="tc">59</td>
+                        <td class="tc">{{$v->cate_id}}</td>
                         <td>
-                            <a href="#">Apple iPhone 6 Plus (A1524) 16GB 金色 移动联通电信4G手机</a>
+                            <a href="#">{{$v->cate_name}}</a>
                         </td>
-                        <td>0</td>
-                        <td>2</td>
-                        <td>admin</td>
-                        <td>2014-03-15 21:11:01</td>
-                        <td></td>
+                        <td>{{$v->cate_title}}</td>
+                        <td>{{$v->cate_description}}</td>
+                        <td>{{$v->cate_key_keywords}}</td>
+                        <td>{{$v->view}}</td>
+                        <td>{{$v->order}}</td>
+                        <td>{{$v->cate_pid}}</td>
                         <td>
                             <a href="#">修改</a>
                             <a href="#">删除</a>
