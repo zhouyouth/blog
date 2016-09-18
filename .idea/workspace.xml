@@ -38,8 +38,8 @@
       <file leaf-file-name="pass.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/pass.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.36610168">
-              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+            <state vertical-scroll-proportion="0.4903955">
+              <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -588,7 +588,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474165540500</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="&#10;">
+      <created>1474166151794</created>
+      <option name="number" value="00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1474166151794</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1016,8 +1022,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/pass.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.36610168">
-          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.4903955">
+          <caret line="27" column="6" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
           <folding />
         </state>
       </provider>

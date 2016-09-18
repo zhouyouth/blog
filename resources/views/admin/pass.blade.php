@@ -19,7 +19,7 @@
                     <p>{{$error}}</p>
                 @endforeach
               @else
-                    <p>{{$error}}</p>
+                    <p>{{$errors}}</p>
               @endif
             </div>
                  @endif
