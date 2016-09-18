@@ -49,7 +49,7 @@ class IndexController extends Controller
                  $user->update();
                   return redirect("admin/info");
               }else{
-                  return back()->with('errors','原密码错误!')
+                  return back()->with('errors','原密码错误!');
               }
             } else {
                // dd($validator);
