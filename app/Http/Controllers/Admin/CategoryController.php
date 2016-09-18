@@ -15,7 +15,7 @@ class CategoryController extends CommonController
      //dd("hello");
       $dategorys = Category::all();
         dd($dategorys);
-
+       return view('admin.category.index');
 
     }
 
