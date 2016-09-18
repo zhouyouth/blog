@@ -16,6 +16,7 @@ class CategoryController extends CommonController
         //dd("hello");
         $category = Category::all();
         $category = $this->getTree($category);
+        var_dump($category);exit;
 
         return view('admin.category.index')->with('category', $category);
 
@@ -30,6 +31,7 @@ class CategoryController extends CommonController
                 $arr[]=$v;
                 foreach($data as $m => $n){
                   if($n->cate_pid ==$v->cate_id){
+                      $n['_cate_name'] = ' ┃━━━'.$n['cate_name'];
                       $arr[] = $n;
                   }
 
