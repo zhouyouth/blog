@@ -10,6 +10,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
 use App\http\Model\User;
+use Illuminate\Support\Facades\Crypt;
 
 class IndexController extends Controller
 {
