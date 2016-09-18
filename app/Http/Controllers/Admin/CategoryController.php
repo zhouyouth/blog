@@ -22,11 +22,11 @@ class CategoryController extends CommonController
 
     }
 
-    public function  getTree($data,$id,$pid)
+    public function  getTree($data,$id,$pid,$leve=0)
     {
         $arr= array();
         foreach ($data as $k=> $v) {
-            if ($v->$pid==0) {
+            if ($v->$pid==$leve) {
                 $v['_cate_name']= $v['cate_name'];
                //$arr[]=$data[$k];
                 $arr[]=$v;
