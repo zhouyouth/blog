@@ -36,7 +36,7 @@ class CategoryController extends CommonController
                 }
             }
         }
-        dd($arr);
+       return $arr;
     }
 
 
