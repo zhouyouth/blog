@@ -10,6 +10,13 @@
 <div class="result_wrap">
     <div class="result_title">
         <h3>修改密码</h3>
+        <div class="mark">
+            <?php if(count($errors)>0): ?>
+                <?php foreach($errors->all() as $error): ?>
+                    <p><?php echo e($error); ?></p>
+                <?php endforeach; ?>
+            <?php endif; ?>
+        </div>
     </div>
 </div>
 <!--结果集标题与导航组件 结束-->
@@ -18,13 +25,7 @@
     <form action="<?php echo e(url('admin/pass')); ?>" method="post" >
         <?php echo e(csrf_field()); ?>
 
-        <div class="mark">
-        <?php if(count($errors)>0): ?>
-            <?php foreach($errors->all() as $error): ?>
-                    <p><?php echo e($error); ?></p>
-            <?php endforeach; ?>
-        <?php endif; ?>
-        </div>
+
         <table class="add_tab">
             <tbody>
             <tr>
