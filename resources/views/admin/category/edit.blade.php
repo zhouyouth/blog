@@ -57,7 +57,7 @@
                     <tr>
                         <th>分类名称：</th>
                         <td>
-                            <input type="text" name="cate_name" value="{{$feild->cate_name}}">
+                            <input type="text" name="cate_name" value="{{$field->cate_name}}">
                             <span><i class="fa fa-exclamation-circle yellow"></i>必须填写</span>
                         </td>
                     </tr>
@@ -65,7 +65,7 @@
                     <tr>
                         <th><i class="require">*</i>标题：</th>
                         <td>
-                            <input type="text" class="lg" name="cate_title" value="{{$feild->cate_tittle}}">
+                            <input type="text" class="lg" name="cate_title" value="{{$field->cate_tittle}}">
                             <p></p>
                         </td>
                     </tr>
@@ -73,19 +73,19 @@
                     <tr>
                         <th>关键字：</th>
                         <td>
-                            <textarea name="cate_keywords">{{$feild->cate_keywords}}</textarea>
+                            <textarea name="cate_keywords">{{$field->cate_keywords}}</textarea>
                         </td>
                     </tr>
                     <tr>
                         <th>描述：</th>
                         <td>
-                            <textarea class="lg" name="cate_description">{{$feild->cate_name}}</textarea>
+                            <textarea class="lg" name="cate_description">{{$field->cate_name}}</textarea>
                             <p></p>
                         </td>
                     </tr>
                     <tr>
                         <th><i class="require">*</i>排序：</th>
-                        <td><input type="text" name="cate_order" value="{{$feild->cate_order}}"></td>
+                        <td><input type="text" name="cate_order" value="{{$field->cate_order}}"></td>
                     </tr>
                     <tr>
                         <th></th>
