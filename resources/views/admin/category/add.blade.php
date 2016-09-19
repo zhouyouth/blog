@@ -49,7 +49,7 @@
                         <th>标题：</th>
                         <td>
                             <input type="text" name="">
-                            <span>这里是默认长度</span>
+
                         </td>
                     </tr>
                     <tr>
