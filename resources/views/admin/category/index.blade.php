@@ -119,7 +119,7 @@
       function changeOrder(){
           $.post('{{url("admin/cate/changeorder")}}',{'_token':'{{csrf_token()}}'},function(){
 
-
+             alert("123")
           });
 
       }
