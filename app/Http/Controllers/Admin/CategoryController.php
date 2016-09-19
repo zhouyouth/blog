@@ -84,8 +84,7 @@ class CategoryController extends CommonController
     }
     //编辑数据
     public  function update(){
-
-        dd(Input::all());
+        dd(Input::except('_method','_token'));
     }
 
 }
