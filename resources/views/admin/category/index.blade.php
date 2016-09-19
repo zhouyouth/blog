@@ -121,7 +121,6 @@
           //alert(orderid);
           //排序id
           $.post("{{url('admin/cate/changeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'cate_id':cate_id},function(data){
-             alert(data.status);
               if(data.status==1){
 
                   layer.msg(data.msg,{icon:6});
