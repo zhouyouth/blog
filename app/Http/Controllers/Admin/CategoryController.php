@@ -85,7 +85,7 @@ class CategoryController extends CommonController
     //编辑数据
     public  function update($cate_id){
         $input= Input::except('_method','_token');
-        $re=Category::where('cate_id',$cate_id)->update();
+        $re=Category::where('cate_id',$cate_id)->update($input);
         dd($re);
     }
 
