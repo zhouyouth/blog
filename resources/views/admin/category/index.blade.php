@@ -62,7 +62,7 @@
                     </tr>
                      @foreach($category as $v)
                     <tr>
-                        <td class="tc"><input type="text" name="id[]" value="{{$v->cate_order}}"></td>
+                        <td class="tc"><input type="text" onchange="changeOrder();" name="id[]" value="{{$v->cate_order}}"></td>
                         <td class="tc">{{$v->cate_id}}</td>
                         <td>
                             <a href="#">{{$v->_cate_name}}</a>
@@ -115,5 +115,12 @@
         </div>
     </form>
     <!--结果页快捷搜索框 end-->
+    <script>
+      function chngeOrder(){
+          alert();
+
+      }
+
+    </script>
 
 @endsection
