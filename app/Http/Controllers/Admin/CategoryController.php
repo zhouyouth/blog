@@ -26,7 +26,7 @@ class CategoryController extends CommonController
     public  function changeOrder(){
         $input = Input::all();
         $cate = Category::find($input['cate_id']);
-        $cate->cate_order = $input['cate_order'];
+        $cate->cate_order = $input['orderid'];
         $re = $cate->update();
         if($re){
              $data = [
