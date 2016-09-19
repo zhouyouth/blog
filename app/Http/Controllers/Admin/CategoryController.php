@@ -23,7 +23,7 @@ class CategoryController extends CommonController
     }
 
     public  function changeOrder(){
-      $input = \Input::class
+      $input = \ Input::all();
       dd($input);
 
 
