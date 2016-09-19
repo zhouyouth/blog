@@ -29,7 +29,7 @@
             <table class="add_tab">
                 <tbody>
                     <tr>
-                        <th width="120"><i class="require">*</i>分类：</th>
+                        <th width="120"><i class="require">*</i>父分类：</th>
                         <td>
                             <select name="">
                                 <option value="">==请选择==</option>
@@ -39,13 +39,19 @@
                         </td>
                     </tr>
                     <tr>
-                        <th><i class="require">*</i>标题：</th>
+                        <th><i class="require">*</i>分类名称：</th>
                         <td>
                             <input type="text" class="lg" name="">
                             <p></p>
                         </td>
                     </tr>
-
+                    <tr>
+                        <th>标题：</th>
+                        <td>
+                            <input type="text" name="">
+                            <span><i class="fa fa-exclamation-circle yellow"></i>这里是默认长度</span>
+                        </td>
+                    </tr>
                     <tr>
                         <th>关键字：</th>
                         <td>
@@ -61,7 +67,7 @@
                     </tr>
                     <tr>
                         <th><i class="require">*</i>排序：</th>
-                        <td><input type="text" name=""></td>
+                        <td><input type="file" name=""></td>
                     </tr>
                     <tr>
                         <th></th>
