@@ -122,7 +122,7 @@
           //排序id
           $.post("{{url('admin/cate/changeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'cate_id':cate_id},function(data){
 
-              alert(data.msg);
+             layer.msg(data.msg,{icon:6});
           });
 
       }
