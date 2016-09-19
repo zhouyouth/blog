@@ -49,7 +49,7 @@
                             <select name="cate_pid">
                                 <option value="0">==请选择==</option>
                                 @foreach($data as $v)
-                                <option value="20">{{$v->cate_name}}</option>
+                                <option value="{{$v->cate_pid}}">{{$v->cate_name}}</option>
                                 @endforeach
                             </select>
                         </td>
