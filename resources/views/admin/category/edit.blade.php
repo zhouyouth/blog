@@ -71,7 +71,7 @@
                     <tr>
                         <th><i class="require">*</i>标题：</th>
                         <td>
-                            <input type="text" class="lg" name="cate_title" value="{{$field->cate_tittle}}">
+                            <input type="text" class="lg" name="cate_title" value="{{$field->cate_title}}">
                             <p></p>
                         </td>
                     </tr>
