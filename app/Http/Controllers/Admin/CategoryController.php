@@ -76,10 +76,16 @@ class CategoryController extends CommonController
       }
 
   }
+   //编辑回显
     public function edit($cate_id){
         $field = Category::find($cate_id);
         $data=Category::where('cate_pid',0)->get();
         return view('admin.category.edit',compact('field','data'));
+    }
+    //编辑数据
+    public  function update(){
+
+        dd(Input::all());
     }
 
 }
