@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Model\Category;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Validator;
 
 class CategoryController extends CommonController
 {
@@ -50,8 +51,32 @@ class CategoryController extends CommonController
       return view('admin.category.add',compact('data'));
   }
   public function  store(){
-    $input = Input::all();
-     dd($input);
+      $rules = [
+          'cate_name' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
+      ];
+      $message=[
+          'cate_name.required'=>'新密码不能为空!',
+
+
+      ];
+
+      $validator = Validator::make($input, $rules,$message);
+      dd($validator);
+//      if($validator->passes()){
+//          $user = User::first();
+//
+//          $_password = Crypt::decrypt($user->user_pass);
+//          if($input['user_pass']==$_password){
+//              $user->user_pass = Crypt::encrypt($input['new_password']);
+//              $user->update();
+//              return back()->with('errors','密码修改成功!');
+//          }else{
+//              return back()->with('errors','原密码错误!');
+//          }
+//      } else {
+//          // dd($validator);
+//          return back()->withErrors($validator);
+//      }
 
 
   }
