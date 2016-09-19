@@ -38,8 +38,8 @@
       <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.72302157">
-              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.52517986">
+              <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
               </folding>
@@ -178,8 +178,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="427" />
-    <option name="y" value="137" />
+    <option name="x" value="311" />
+    <option name="y" value="113" />
     <option name="width" value="1291" />
     <option name="height" value="745" />
   </component>
@@ -477,24 +477,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00162" summary="&#10;">
-      <created>1474266016746</created>
-      <option name="number" value="00162" />
-      <option name="project" value="LOCAL" />
-      <updated>1474266016749</updated>
-    </task>
-    <task id="LOCAL-00163" summary="&#10;">
-      <created>1474266103823</created>
-      <option name="number" value="00163" />
-      <option name="project" value="LOCAL" />
-      <updated>1474266103823</updated>
-    </task>
-    <task id="LOCAL-00164" summary="&#10;">
-      <created>1474266126140</created>
-      <option name="number" value="00164" />
-      <option name="project" value="LOCAL" />
-      <updated>1474266126140</updated>
-    </task>
     <task id="LOCAL-00165" summary="&#10;">
       <created>1474266300481</created>
       <option name="number" value="00165" />
@@ -771,11 +753,29 @@
       <option name="project" value="LOCAL" />
       <updated>1474274486612</updated>
     </task>
-    <option name="localTasksCounter" value="211" />
+    <task id="LOCAL-00211" summary="&#10;">
+      <created>1474274584683</created>
+      <option name="number" value="00211" />
+      <option name="project" value="LOCAL" />
+      <updated>1474274584683</updated>
+    </task>
+    <task id="LOCAL-00212" summary="&#10;">
+      <created>1474274729610</created>
+      <option name="number" value="00212" />
+      <option name="project" value="LOCAL" />
+      <updated>1474274729610</updated>
+    </task>
+    <task id="LOCAL-00213" summary="&#10;">
+      <created>1474274742290</created>
+      <option name="number" value="00213" />
+      <option name="project" value="LOCAL" />
+      <updated>1474274742290</updated>
+    </task>
+    <option name="localTasksCounter" value="214" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="427" y="137" width="1291" height="745" extended-state="0" />
+    <frame x="311" y="113" width="1291" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1223,8 +1223,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72302157">
-          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.52517986">
+          <caret line="84" column="10" selection-start-line="84" selection-start-column="10" selection-end-line="84" selection-end-column="10" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
           </folding>
