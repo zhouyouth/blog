@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<link rel="stylesheet" href="style/css/ch-ui.admin.css">
-	<link rel="stylesheet" href="style/font/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../style/css/ch-ui.admin.css">
+	<link rel="stylesheet" href="../style/font/css/font-awesome.min.css">
 </head>
 <body>
     <!--面包屑导航 开始-->
