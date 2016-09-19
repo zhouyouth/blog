@@ -13,7 +13,7 @@ class Category extends Model
         $category = self::all();
         return  self::getTree($category,'cate_id','cate_pid','0','┃━━━');
     }
-    public function  getTree($data,$id,$pid,$leve=0,$cate_tag)
+    public static function  getTree($data,$id,$pid,$leve=0,$cate_tag)
     {
         $arr= array();
         foreach ($data as $k=> $v) {
