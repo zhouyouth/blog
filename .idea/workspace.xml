@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -38,8 +37,8 @@
       <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77951">
-              <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.093541205">
+              <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
               </folding>
@@ -167,7 +166,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="955" />
+    <option name="x" value="537" />
     <option name="y" value="47" />
     <option name="width" value="1291" />
     <option name="height" value="1087" />
@@ -439,18 +438,6 @@
       <created>1473494915925</created>
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
-    </task>
-    <task id="LOCAL-00143" summary="&#10;">
-      <created>1474259249083</created>
-      <option name="number" value="00143" />
-      <option name="project" value="LOCAL" />
-      <updated>1474259249083</updated>
-    </task>
-    <task id="LOCAL-00144" summary="&#10;">
-      <created>1474259356264</created>
-      <option name="number" value="00144" />
-      <option name="project" value="LOCAL" />
-      <updated>1474259356265</updated>
     </task>
     <task id="LOCAL-00145" summary="&#10;">
       <created>1474259973822</created>
@@ -734,11 +721,23 @@
       <option name="project" value="LOCAL" />
       <updated>1474271124016</updated>
     </task>
-    <option name="localTasksCounter" value="192" />
+    <task id="LOCAL-00192" summary="&#10;">
+      <created>1474271169230</created>
+      <option name="number" value="00192" />
+      <option name="project" value="LOCAL" />
+      <updated>1474271169230</updated>
+    </task>
+    <task id="LOCAL-00193" summary="&#10;">
+      <created>1474271327021</created>
+      <option name="number" value="00193" />
+      <option name="project" value="LOCAL" />
+      <updated>1474271327021</updated>
+    </task>
+    <option name="localTasksCounter" value="194" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="955" y="47" width="1291" height="1087" extended-state="0" />
+    <frame x="537" y="47" width="1291" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1184,8 +1183,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77951">
-          <caret line="78" column="23" selection-start-line="78" selection-start-column="23" selection-end-line="78" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.093541205">
+          <caret line="54" column="29" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
           </folding>
