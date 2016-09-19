@@ -39,56 +39,35 @@
                         </td>
                     </tr>
                     <tr>
-                        <th><i class="require">*</i>标题：</th>
+                        <th><i class="require">*</i>分类名称：</th>
                         <td>
                             <input type="text" class="lg" name="">
-                            <p>标题可以写30个字</p>
+                            <p></p>
                         </td>
                     </tr>
                     <tr>
-                        <th>作者：</th>
+                        <th>标题：</th>
                         <td>
                             <input type="text" name="">
                             <span><i class="fa fa-exclamation-circle yellow"></i>这里是默认长度</span>
                         </td>
                     </tr>
                     <tr>
-                        <th><i class="require">*</i>价格：</th>
-                        <td>
-                            <input type="text" class="sm" name="">元
-                            <span><i class="fa fa-exclamation-circle yellow"></i>这里是短文本长度</span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th><i class="require">*</i>缩略图：</th>
-                        <td><input type="file" name=""></td>
-                    </tr>
-                    <tr>
-                        <th>单选框：</th>
-                        <td>
-                            <label for=""><input type="radio" name="">单选按钮一</label>
-                            <label for=""><input type="radio" name="">单选按钮二</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>复选框：</th>
-                        <td>
-                            <label for=""><input type="checkbox" name="">复选框一</label>
-                            <label for=""><input type="checkbox" name="">复选框二</label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>描述：</th>
+                        <th>关键字：</th>
                         <td>
                             <textarea name="discription"></textarea>
                         </td>
                     </tr>
                     <tr>
-                        <th>详细内容：</th>
+                        <th>描述：</th>
                         <td>
                             <textarea class="lg" name="content"></textarea>
                             <p>标题可以写30个字</p>
                         </td>
+                    </tr>
+                    <tr>
+                        <th><i class="require">*</i>排序：</th>
+                        <td><input type="file" name=""></td>
                     </tr>
                     <tr>
                         <th></th>
