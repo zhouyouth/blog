@@ -22,7 +22,7 @@ class CategoryController extends CommonController
         return view('admin.category.index')->with('category', $category);
 
     }
-
+//ajax 排序
     public  function changeOrder(){
         $input = Input::all();
         $cate = Category::find($input['cate_id']);
@@ -45,5 +45,7 @@ class CategoryController extends CommonController
         }
         return $data;
     }
-
+  public function  create(){
+      return view('admin.category.add');
+  }
 }
