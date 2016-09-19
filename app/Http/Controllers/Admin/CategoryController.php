@@ -31,13 +31,13 @@ class CategoryController extends CommonController
         if($re){
              $data = [
 
-                 'status' =>0,
+                 'status' =>1,
                  'msg'   =>'排序更新成功'
              ];
         }else{
             $data = [
 
-                'status' =>1,
+                'status' =>0,
                 'msg'   =>'排序更新失败'
             ];
 
