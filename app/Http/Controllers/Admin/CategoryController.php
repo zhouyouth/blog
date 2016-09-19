@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Model\Category;
+use Illuminate\Support\Facades\Input;
 
 class CategoryController extends CommonController
 {
@@ -23,7 +24,7 @@ class CategoryController extends CommonController
     }
 
     public  function changeOrder(){
-      $input = \ Input::all();
+      $input = Input::all();
       dd($input);
 
 
