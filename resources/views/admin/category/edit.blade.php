@@ -48,9 +48,9 @@
                         <td>
                             <select name="cate_pid">
                                 <option value="0">==请选择==</option>
-
+                                @foreach($data as $v)
                                 <option value="{{$v->cate_id}}"
-                                        @foreach($data as $v)
+
                                         @if($v->cate_id==$field->cate_pid)
                                         selected
                                         @endif
