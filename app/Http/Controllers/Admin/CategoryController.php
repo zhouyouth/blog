@@ -61,7 +61,7 @@ class CategoryController extends CommonController
 
       $validator = Validator::make($input, $rules,$message);
       if($validator->passes()){
-
+          dd($input);
       }else{
 
           return back()->withErrors($validator);
