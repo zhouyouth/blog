@@ -23,7 +23,7 @@
         </div>
     </div>
     <!--结果集标题与导航组件 结束-->
-    
+
     <div class="result_wrap">
         <form action="{{url('admin/category')}}" method="post">
             {{csrf_field()}}
@@ -44,7 +44,7 @@
                         <th>分类名称：</th>
                         <td>
                             <input type="text" name="cate_name">
-                            <span><i class="fa fa-exclamation-circle yellow"></i>这里是默认长度</span>
+                            <span><i class="fa fa-exclamation-circle yellow"></i>必须填写</span>
                         </td>
                     </tr>
 
