@@ -25,7 +25,7 @@ class CategoryController extends CommonController
 
     public  function changeOrder(){
       $input = Input::all();
-      dd($input['cate_id']);
+      var_dump($input);
 
 
     }
