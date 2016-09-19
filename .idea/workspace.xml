@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -36,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5894621">
-              <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+            <state vertical-scroll-proportion="-19.275862">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
               </folding>
@@ -48,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.551723">
-              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.66191">
+              <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -164,8 +163,8 @@
         <option value="$PROJECT_DIR$/app/Http/Model/Category.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/admin.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" />
       </list>
     </option>
   </component>
@@ -511,12 +510,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00091" summary="&#10;">
-      <created>1474190474349</created>
-      <option name="number" value="00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1474190474349</updated>
-    </task>
     <task id="LOCAL-00092" summary="&#10;">
       <created>1474190672264</created>
       <option name="number" value="00092" />
@@ -805,7 +798,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474258983323</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="&#10;">
+      <created>1474259049237</created>
+      <option name="number" value="00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1474259049237</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1240,21 +1239,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.551723">
-          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5894621">
-          <caret line="37" column="21" selection-start-line="37" selection-start-column="21" selection-end-line="37" selection-end-column="21" />
+        <state vertical-scroll-proportion="-19.275862">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66191">
+          <caret line="124" column="10" selection-start-line="124" selection-start-column="10" selection-end-line="124" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
