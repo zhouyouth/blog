@@ -73,7 +73,7 @@
                         <td>{{$v->cate_view}}</td>
                         <td>{{$v->cate_pid}}</td>
                         <td>
-                            <a href="{{url('admin/category/'.$v->cate_id.'/edit')}}>修改</a>
+                            <a href="{{url('admin/category/'.$v->cate_id.'/edit')}}">修改</a>
                             <a href="#">删除</a>
                         </td>
                     </tr>
