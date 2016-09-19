@@ -86,7 +86,11 @@ class CategoryController extends CommonController
     public  function update($cate_id){
         $input= Input::except('_method','_token');
         $re=Category::where('cate_id',$cate_id)->update($input);
-        dd($re);
+       if($re){
+           return redirect('admin/category');
+       }else{
+           return back()->withErrors('errors','分类编辑失败');
+       }
     }
 
 }
