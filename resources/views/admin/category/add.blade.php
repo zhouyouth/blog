@@ -25,7 +25,7 @@
     <!--结果集标题与导航组件 结束-->
     
     <div class="result_wrap">
-        <form action="" method="post">
+        <form action="{{url('admin/category')}}" method="post">
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>

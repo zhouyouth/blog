@@ -38,7 +38,7 @@
       <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-21.551723">
+            <state vertical-scroll-proportion="-22.310345">
               <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
@@ -50,8 +50,8 @@
       <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/category/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45883644">
-              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.19319429">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -177,8 +177,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="821" />
-    <option name="y" value="49" />
+    <option name="x" value="733" />
+    <option name="y" value="67" />
     <option name="width" value="1291" />
     <option name="height" value="1100" />
   </component>
@@ -528,12 +528,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00117" summary="&#10;">
-      <created>1474251384855</created>
-      <option name="number" value="00117" />
-      <option name="project" value="LOCAL" />
-      <updated>1474251384855</updated>
-    </task>
     <task id="LOCAL-00118" summary="&#10;">
       <created>1474252952983</created>
       <option name="number" value="00118" />
@@ -822,11 +816,17 @@
       <option name="project" value="LOCAL" />
       <updated>1474266300481</updated>
     </task>
-    <option name="localTasksCounter" value="166" />
+    <task id="LOCAL-00166" summary="&#10;">
+      <created>1474266443052</created>
+      <option name="number" value="00166" />
+      <option name="project" value="LOCAL" />
+      <updated>1474266443052</updated>
+    </task>
+    <option name="localTasksCounter" value="167" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="821" y="49" width="1291" height="1100" extended-state="0" />
+    <frame x="733" y="67" width="1291" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1260,7 +1260,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.551723">
+        <state vertical-scroll-proportion="-22.310345">
           <caret line="45" column="21" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
@@ -1270,8 +1270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/category/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45883644">
-          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.19319429">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding />
         </state>
       </provider>
