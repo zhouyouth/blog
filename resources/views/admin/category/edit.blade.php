@@ -39,7 +39,7 @@
     </div>
 
     <div class="result_wrap">
-        <form action="{{url('admin/category')}}" method="post">
+        <form action="{{url('admin/category'.$field->cate_id)}}" method="post">
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>
