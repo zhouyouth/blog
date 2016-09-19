@@ -51,7 +51,7 @@ class CategoryController extends CommonController
       return view('admin.category.add',compact('data'));
   }
   public function  store(){
-      $input=Input::all();
+      $input=Input::except('_token');
       $rules = [
           'cate_name' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
       ];
