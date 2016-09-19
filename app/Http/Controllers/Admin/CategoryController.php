@@ -24,10 +24,25 @@ class CategoryController extends CommonController
     }
 
     public  function changeOrder(){
-      $input = Input::all();
-      var_dump($input);
+        $input = Input::all();
+        $cate = Category::find($input['cate_id']);
+        $cate->cate_order = $input['cate_order'];
+        $re = $cate->update();
+        if($re){
+             $data = [
 
+                 'status' =>0,
+                 'msg'   =>'排序更新成功'
+             ];
+        }else{
+            $data = [
 
+                'status' =>1,
+                'msg'   =>'排序更新失败'
+            ];
+
+        }
+        return $data;
     }
 
 }
