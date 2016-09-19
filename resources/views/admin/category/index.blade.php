@@ -49,9 +49,8 @@
             <div class="result_content">
                 <table class="list_tab">
                     <tr>
-                        <th class="tc" width="5%"><input type="checkbox" name=""></th>
+
                         <th>分类排序</th>
-                        <th class="tc" width="5%"><input type="order" name=""></th>
                         <th class="tc">ID</th>
                         <th class="tc">分类名称</th>
                         <th>标题</th>
