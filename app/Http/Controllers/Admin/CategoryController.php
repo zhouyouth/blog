@@ -48,4 +48,10 @@ class CategoryController extends CommonController
   public function  create(){
       return view('admin.category.add');
   }
+  public function  store(){
+    $input = Input::all();
+     dd($input);
+
+
+  }
 }
