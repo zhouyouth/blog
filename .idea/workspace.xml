@@ -81,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Model/Category.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.33809">
-              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -165,7 +165,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="716" />
+    <option name="x" value="411" />
     <option name="y" value="154" />
     <option name="width" value="1291" />
     <option name="height" value="1100" />
@@ -490,18 +490,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00098" summary="&#10;">
-      <created>1474190947557</created>
-      <option name="number" value="00098" />
-      <option name="project" value="LOCAL" />
-      <updated>1474190947557</updated>
-    </task>
-    <task id="LOCAL-00099" summary="&#10;">
-      <created>1474247620137</created>
-      <option name="number" value="00099" />
-      <option name="project" value="LOCAL" />
-      <updated>1474247620138</updated>
-    </task>
     <task id="LOCAL-00100" summary="&#10;">
       <created>1474247648437</created>
       <option name="number" value="00100" />
@@ -784,11 +772,23 @@
       <option name="project" value="LOCAL" />
       <updated>1474260046146</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <task id="LOCAL-00147" summary="&#10;">
+      <created>1474263457600</created>
+      <option name="number" value="00147" />
+      <option name="project" value="LOCAL" />
+      <updated>1474263457600</updated>
+    </task>
+    <task id="LOCAL-00148" summary="&#10;">
+      <created>1474263722710</created>
+      <option name="number" value="00148" />
+      <option name="project" value="LOCAL" />
+      <updated>1474263722710</updated>
+    </task>
+    <option name="localTasksCounter" value="149" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="716" y="154" width="1291" height="1100" extended-state="0" />
+    <frame x="411" y="154" width="1291" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1232,7 +1232,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Model/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33809">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
         </state>
       </provider>
