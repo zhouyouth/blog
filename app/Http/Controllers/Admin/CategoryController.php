@@ -74,8 +74,9 @@ class CategoryController extends CommonController
 
           return back()->withErrors($validator);
       }
-     public function edit(){
+     public function edit($cate_id){
         $field = Category::find($cate_id);
+            dd($field);
         return view('admin.category.edit');
         }
   }
