@@ -117,7 +117,10 @@
     <!--结果页快捷搜索框 end-->
     <script>
       function changeOrder(){
-          alert();
+          $.post('{{url("admin/cate/changeorder")}}}',{},function(){
+
+
+          });
 
       }
 
