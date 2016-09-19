@@ -14,7 +14,7 @@ class CategoryController extends CommonController
     public function index()
     {
         //dd("hello");
-        $category = Category::all();
+        $category = Category::tree();
 
 //        var_dump($category);exit;
 
