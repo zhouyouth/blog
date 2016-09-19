@@ -22,4 +22,10 @@ class CategoryController extends CommonController
 
     }
 
+    public  function changeOrder(){
+
+
+
+    }
+
 }
