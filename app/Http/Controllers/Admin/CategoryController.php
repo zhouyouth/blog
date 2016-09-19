@@ -78,7 +78,8 @@ class CategoryController extends CommonController
   }
     public function edit($cate_id){
         $field = Category::find($cate_id);
-        return view('admin.category.edit',compact('field'));
+        $data=Category::where('cate_pid',0)->get();
+        return view('admin.category.edit',compact('field','data'));
     }
 
 }
