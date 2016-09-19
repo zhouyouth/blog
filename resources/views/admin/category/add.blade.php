@@ -34,8 +34,9 @@
                         <td>
                             <select name="cate_pid">
                                 <option value="0">==请选择==</option>
-                                <option value="19">精品界面</option>
-                                <option value="20">推荐界面</option>
+                                @foreach($data as $v)
+                                <option value="20">{{$v->cate_name}}</option>
+                                @endforeach
                             </select>
                         </td>
                     </tr>
