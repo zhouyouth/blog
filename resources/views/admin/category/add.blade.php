@@ -69,7 +69,7 @@
                     </tr>
                     <tr>
                         <th><i class="require">*</i>排序：</th>
-                        <td><input type="file" name=""></td>
+                        <td><input type="text" name=""></td>
                     </tr>
                     <tr>
                         <th></th>
