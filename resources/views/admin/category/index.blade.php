@@ -62,10 +62,9 @@
                     </tr>
                      @foreach($category as $v)
                     <tr>
-                        <td class="tc"><input type="checkbox" name="id[]" value="59"></td>
-                        <td>{{$v->cate_order}}</td>
-                        <td class="tc"><input type="checkbox" name="order" value="59"></td>
-                        <td class="tc">{{$v->cate_id}}</td>
+                        <td class="tc"><input type="text" name="id[]" value="59">{{$v->cate_order}}</td>
+
+                        <td class="tc"><input type="checkbox" name="order" value="59">{{$v->cate_id}}</td>
                         <td>
                             <a href="#">{{$v->_cate_name}}</a>
                         </td>
