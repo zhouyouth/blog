@@ -62,7 +62,12 @@ class CategoryController extends CommonController
       $validator = Validator::make($input, $rules,$message);
       if($validator->passes()){
           $re =Category::create($input);
-          dd($re);
+          if($re){
+              return redirect('admin/category');
+          }else{
+              return back()->withErrors('errors','分类添加失败');
+          }
+
       }else{
 
           return back()->withErrors($validator);
