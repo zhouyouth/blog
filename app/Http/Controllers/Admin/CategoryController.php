@@ -46,11 +46,13 @@ class CategoryController extends CommonController
         }
         return $data;
     }
-  public function  create(){
+
+    public function  create(){
       $data=Category::where('cate_pid',0)->get();
       return view('admin.category.add',compact('data'));
   }
-  public function  store(){
+  //添加
+    public function  store(){
       $input=Input::except('_token');
       $rules = [
           'cate_name' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
@@ -72,8 +74,9 @@ class CategoryController extends CommonController
 
           return back()->withErrors($validator);
       }
-
-
-
+     public function edit(){
+        $field = Category::find($cate_id);
+        return view('admin.category.edit');
+        }
   }
 }
