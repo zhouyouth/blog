@@ -28,7 +28,7 @@ class CategoryController extends CommonController
         $cate = Category::find($input['cate_id']);
         $cate->cate_order = $input['orderid'];
         $re = $cate->update();
-        var_dump($re);exit;
+        //var_dump($re);exit;
         if($re){
              $data = [
 
