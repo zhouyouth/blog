@@ -50,8 +50,8 @@
       <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/category/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50713503">
-              <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.53128433">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -177,8 +177,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="17" />
-    <option name="y" value="54" />
+    <option name="x" value="226" />
+    <option name="y" value="2" />
     <option name="width" value="1291" />
     <option name="height" value="1100" />
   </component>
@@ -528,18 +528,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00114" summary="&#10;">
-      <created>1474250058767</created>
-      <option name="number" value="00114" />
-      <option name="project" value="LOCAL" />
-      <updated>1474250058767</updated>
-    </task>
-    <task id="LOCAL-00115" summary="&#10;">
-      <created>1474250140354</created>
-      <option name="number" value="00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1474250140354</updated>
-    </task>
     <task id="LOCAL-00116" summary="&#10;">
       <created>1474250491232</created>
       <option name="number" value="00116" />
@@ -822,11 +810,23 @@
       <option name="project" value="LOCAL" />
       <updated>1474266016749</updated>
     </task>
-    <option name="localTasksCounter" value="163" />
+    <task id="LOCAL-00163" summary="&#10;">
+      <created>1474266103823</created>
+      <option name="number" value="00163" />
+      <option name="project" value="LOCAL" />
+      <updated>1474266103823</updated>
+    </task>
+    <task id="LOCAL-00164" summary="&#10;">
+      <created>1474266126140</created>
+      <option name="number" value="00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1474266126140</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="17" y="54" width="1291" height="1100" extended-state="0" />
+    <frame x="226" y="2" width="1291" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1270,8 +1270,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/category/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50713503">
-          <caret line="49" column="54" selection-start-line="49" selection-start-column="54" selection-end-line="49" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.53128433">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
           <folding />
         </state>
       </provider>

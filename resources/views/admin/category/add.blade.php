@@ -31,7 +31,7 @@
                     <tr>
                         <th width="120"><i class="require">*</i>父分类：</th>
                         <td>
-                            <select name="">
+                            <select name="cate_pid">
                                 <option value="">==请选择==</option>
                                 <option value="19">精品界面</option>
                                 <option value="20">推荐界面</option>
@@ -41,7 +41,7 @@
                     <tr>
                         <th>分类名称：</th>
                         <td>
-                            <input type="text" name="">
+                            <input type="text" name="cate_name">
                             <span><i class="fa fa-exclamation-circle yellow"></i>这里是默认长度</span>
                         </td>
                     </tr>
@@ -49,7 +49,7 @@
                     <tr>
                         <th><i class="require">*</i>标题：</th>
                         <td>
-                            <input type="text" class="lg" name="">
+                            <input type="text" class="lg" name="cate_title">
                             <p></p>
                         </td>
                     </tr>
@@ -57,19 +57,19 @@
                     <tr>
                         <th>关键字：</th>
                         <td>
-                            <textarea name="discription"></textarea>
+                            <textarea name="cate_keywords"></textarea>
                         </td>
                     </tr>
                     <tr>
                         <th>描述：</th>
                         <td>
-                            <textarea class="lg" name="content"></textarea>
+                            <textarea class="lg" name="cate_description"></textarea>
                             <p>标题可以写30个字</p>
                         </td>
                     </tr>
                     <tr>
                         <th><i class="require">*</i>排序：</th>
-                        <td><input type="text" name=""></td>
+                        <td><input type="text" name="cate_order"></td>
                     </tr>
                     <tr>
                         <th></th>
