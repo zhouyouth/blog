@@ -38,8 +38,8 @@
       <file leaf-file-name="CategoryController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2755214">
-              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.6136114">
+              <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
               <folding>
                 <element signature="e#47#75#0#PHP" expanded="true" />
               </folding>
@@ -157,8 +157,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="400" />
-    <option name="y" value="92" />
+    <option name="x" value="355" />
+    <option name="y" value="30" />
     <option name="width" value="1291" />
     <option name="height" value="1100" />
   </component>
@@ -474,12 +474,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00124" summary="&#10;">
-      <created>1474253471070</created>
-      <option name="number" value="00124" />
-      <option name="project" value="LOCAL" />
-      <updated>1474253471070</updated>
-    </task>
     <task id="LOCAL-00125" summary="&#10;">
       <created>1474253509875</created>
       <option name="number" value="00125" />
@@ -768,11 +762,17 @@
       <option name="project" value="LOCAL" />
       <updated>1474268089726</updated>
     </task>
-    <option name="localTasksCounter" value="173" />
+    <task id="LOCAL-00173" summary="&#10;">
+      <created>1474268167816</created>
+      <option name="number" value="00173" />
+      <option name="project" value="LOCAL" />
+      <updated>1474268167816</updated>
+    </task>
+    <option name="localTasksCounter" value="174" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="400" y="92" width="1291" height="1100" extended-state="0" />
+    <frame x="355" y="30" width="1291" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1218,8 +1218,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2755214">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.6136114">
+          <caret line="63" column="10" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
           <folding>
             <element signature="e#47#75#0#PHP" expanded="true" />
           </folding>

@@ -56,28 +56,17 @@ class CategoryController extends CommonController
           'cate_name' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
       ];
       $message=[
-          'cate_name.required'=>'新密码不能为空!',
-
-
+          'cate_name.required'=>'分类名称不能为空!',
       ];
 
       $validator = Validator::make($input, $rules,$message);
-      dd($validator);
-//      if($validator->passes()){
-//          $user = User::first();
-//
-//          $_password = Crypt::decrypt($user->user_pass);
-//          if($input['user_pass']==$_password){
-//              $user->user_pass = Crypt::encrypt($input['new_password']);
-//              $user->update();
-//              return back()->with('errors','密码修改成功!');
-//          }else{
-//              return back()->with('errors','原密码错误!');
-//          }
-//      } else {
-//          // dd($validator);
-//          return back()->withErrors($validator);
-//      }
+      if($validator->passes()){
+
+      }else{
+
+          return back()->withErrors($validator);
+      }
+
 
 
   }
