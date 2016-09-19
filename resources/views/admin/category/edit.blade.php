@@ -85,7 +85,7 @@
                     <tr>
                         <th>描述：</th>
                         <td>
-                            <textarea class="lg" name="cate_description">{{$field->cate_name}}</textarea>
+                            <textarea class="lg" name="cate_description">{{$field->cate_description}}</textarea>
                             <p></p>
                         </td>
                     </tr>
