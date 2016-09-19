@@ -117,7 +117,9 @@
     <!--结果页快捷搜索框 end-->
     <script>
       function changeOrder(obj,cate_id){
-          var orderid= $(obj).val();//排序id
+          var orderid= $(obj).val();
+          alert(orderid);
+          //排序id
           $.post("{{url('admin/cate/changeorder')}}",{'_token':"{{csrf_token()}}",'orderId':"orderid",'cate_id':cate_id},function(){
 
 
