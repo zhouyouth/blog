@@ -9,7 +9,7 @@ class Category extends Model
     protected $table="category";
     protected $primaryKey="cate_id";
     public    $timestamps=false;
-    protected $fillable=["cate_name,cate_keywords,cate_description,cate_view,cate_order,cate_pid"];
+    protected $fillable=["cate_name,cate_title,cate_keywords,cate_description,cate_order,cate_pid"];
     public static function  tree(){
         //$category = self::all();
         $category = self::orderBy('cate_order','asc')->get();
