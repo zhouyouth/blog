@@ -46,7 +46,8 @@ class CategoryController extends CommonController
         return $data;
     }
   public function  create(){
-      return view('admin.category.add');
+      $data=Category::where('cate_pid',0)->get();
+      return view('admin.category.add',compact('data'));
   }
   public function  store(){
     $input = Input::all();

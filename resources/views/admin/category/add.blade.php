@@ -33,7 +33,7 @@
                         <th width="120"><i class="require">*</i>父分类：</th>
                         <td>
                             <select name="cate_pid">
-                                <option value="">==请选择==</option>
+                                <option value="0">==请选择==</option>
                                 <option value="19">精品界面</option>
                                 <option value="20">推荐界面</option>
                             </select>
