@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -47,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79136693">
+            <state vertical-scroll-proportion="-15.172414">
               <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/category/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="10.413794">
-              <caret line="41" column="60" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="60" />
+            <state vertical-scroll-proportion="0.74279124">
+              <caret line="87" column="99" selection-start-line="87" selection-start-column="99" selection-end-line="87" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -165,9 +165,9 @@
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Model/Category.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/category/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/CategoryController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -188,10 +188,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="348" />
-    <option name="y" value="224" />
-    <option name="width" value="1291" />
-    <option name="height" value="745" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -487,12 +487,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00169" summary="&#10;">
-      <created>1474266976855</created>
-      <option name="number" value="00169" />
-      <option name="project" value="LOCAL" />
-      <updated>1474266976855</updated>
-    </task>
     <task id="LOCAL-00170" summary="&#10;">
       <created>1474267108203</created>
       <option name="number" value="00170" />
@@ -781,15 +775,21 @@
       <option name="project" value="LOCAL" />
       <updated>1474275342733</updated>
     </task>
-    <option name="localTasksCounter" value="218" />
+    <task id="LOCAL-00218" summary="&#10;">
+      <created>1474275382835</created>
+      <option name="number" value="00218" />
+      <option name="project" value="LOCAL" />
+      <updated>1474275382835</updated>
+    </task>
+    <option name="localTasksCounter" value="219" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="348" y="224" width="1291" height="745" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2623883" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17217484" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -1225,18 +1225,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/edit.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="10.413794">
-          <caret line="41" column="60" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="60" />
+        <state vertical-scroll-proportion="-15.172414">
+          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/category/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79136693">
-          <caret line="74" column="28" selection-start-line="74" selection-start-column="28" selection-end-line="74" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.74279124">
+          <caret line="87" column="99" selection-start-line="87" selection-start-column="99" selection-end-line="87" selection-end-column="99" />
           <folding />
         </state>
       </provider>
