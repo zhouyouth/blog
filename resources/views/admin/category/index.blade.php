@@ -62,7 +62,8 @@
                     </tr>
                      @foreach($category as $v)
                     <tr>
-                        <td class="tc"><input type="text" onchange="changeOrder();" name="id[]" value="{{$v->cate_order}}"></td>
+                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->cate_id}}                        <td; class="tc">{{$v->cate_id}}</td>
+                        );" name="id[]" value="{{$v->cate_order}}"></td>
                         <td class="tc">{{$v->cate_id}}</td>
                         <td>
                             <a href="#">{{$v->_cate_name}}</a>
