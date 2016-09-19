@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="../style/css/ch-ui.admin.css">
-	<link rel="stylesheet" href="../style/font/css/font-awesome.min.css">
-</head>
+@extends('layouts.admin')
+@section('content')
+
 <body>
     <!--面包屑导航 开始-->
     <div class="crumb_warp">
@@ -105,6 +101,5 @@
             </table>
         </form>
     </div>
+@endsection
 
-</body>
-</html>
