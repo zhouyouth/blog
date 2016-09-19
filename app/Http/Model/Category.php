@@ -12,6 +12,7 @@ class Category extends Model
     public static function  tree(){
         //$category = self::all();
         $category = self::orderBy('cate_order','asc')->get();
+        dd($category);
         return  self::getTree($category,'cate_id','cate_pid','0','┃━━━');
     }
     public static function  getTree($data,$id,$pid,$leve=0,$cate_tag)
