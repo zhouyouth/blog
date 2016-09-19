@@ -23,6 +23,17 @@
         </div>
     </div>
     <!--结果集标题与导航组件 结束-->
+    @if(count($errors)>0)
+        <div class="mark">
+            @if(is_object($errors))
+                @foreach($errors->all() as $error)
+                    <p>{{$error}}</p>
+                @endforeach
+            @else
+                <p>{{$errors}}</p>
+            @endif
+        </div>
+    @endif
 
     <div class="result_wrap">
         <form action="{{url('admin/category')}}" method="post">
