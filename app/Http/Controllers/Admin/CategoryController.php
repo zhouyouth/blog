@@ -83,7 +83,7 @@ class CategoryController extends CommonController
         return view('admin.category.edit',compact('field','data'));
     }
     //编辑数据
-    public  function update(){
+    public  function update($cate_id){
         $input= Input::except('_method','_token');
         $re=Category::where('cate_id',$cate_id)->update();
         dd($re);
