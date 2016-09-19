@@ -50,20 +50,22 @@
                 <table class="list_tab">
                     <tr>
                         <th class="tc" width="5%"><input type="checkbox" name=""></th>
+                        <th>分类排序</th>
+                        <th class="tc" width="5%"><input type="order" name=""></th>
                         <th class="tc">ID</th>
                         <th class="tc">分类名称</th>
                         <th>标题</th>
                         <th>描述</th>
                         <th>关键字</th>
                         <th>点击</th>
-                        <th>分类排序</th>
                         <th>分类父id</th>
                         <th>操作</th>
                     </tr>
                      @foreach($category as $v)
                     <tr>
                         <td class="tc"><input type="checkbox" name="id[]" value="59"></td>
-
+                        <td>{{$v->cate_order}}</td>
+                        <td class="tc"><input type="checkbox" name="order" value="59"></td>
                         <td class="tc">{{$v->cate_id}}</td>
                         <td>
                             <a href="#">{{$v->_cate_name}}</a>
@@ -72,7 +74,6 @@
                         <td>{{$v->cate_description}}</td>
                         <td>{{$v->cate_key_keywords}}</td>
                         <td>{{$v->cate_view}}</td>
-                        <td>{{$v->cate_order}}</td>
                         <td>{{$v->cate_pid}}</td>
                         <td>
                             <a href="#">修改</a>
