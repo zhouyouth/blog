@@ -39,17 +39,17 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>分类：</th>
+                        <th><i class="require">*</i>分类名称：</th>
                         <td>
-                            <input type="text" name="">
-                            <span><i class="fa fa-exclamation-circle yellow"></i>这里是默认长度</span>
+                            <input type="text" class="lg" name="">
+                            <p></p>
                         </td>
                     </tr>
                     <tr>
                         <th>标题：</th>
                         <td>
                             <input type="text" name="">
-
+                            <span><i class="fa fa-exclamation-circle yellow"></i>这里是默认长度</span>
                         </td>
                     </tr>
                     <tr>
