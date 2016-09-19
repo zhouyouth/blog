@@ -50,7 +50,7 @@
                 <table class="list_tab">
                     <tr>
 
-                        <th>分类排序</th>
+                        <th>排序</th>
                         <th class="tc">ID</th>
                         <th class="tc">分类名称</th>
                         <th>标题</th>
