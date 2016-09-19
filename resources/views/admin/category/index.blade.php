@@ -116,7 +116,7 @@
     </form>
     <!--结果页快捷搜索框 end-->
     <script>
-      function chngeOrder(){
+      function changeOrder(){
           alert();
 
       }
