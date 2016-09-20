@@ -10,7 +10,7 @@
         <?php $timestamp = time();?>
         $(function() {
             $('#file_upload').uploadify({
-                'buttonText' : 'BROWSE...',
+                'buttonText' : '选择图片',
                 'formData'     : {
                     'timestamp' : '<?php echo $timestamp;?>',
                     'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
