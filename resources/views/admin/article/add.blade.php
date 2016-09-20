@@ -73,7 +73,7 @@
                         <th>缩略图：</th>
                         <td>
                             <input type="text" name="cate_name">
-                            <span><i class="fa "></i></span>
+                            <span><i class="fa fa-exclamation-circle "></i></span>
                         </td>
                     </tr>
 
