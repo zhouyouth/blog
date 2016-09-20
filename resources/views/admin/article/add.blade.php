@@ -65,7 +65,7 @@
                     <tr>
                         <th>编辑：</th>
                         <td>
-                            <input type="text" name="cate_editor">
+                            <input type="text" name="art_editor">
                             <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
                         </td>
                     </tr>
