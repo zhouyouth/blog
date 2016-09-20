@@ -139,7 +139,7 @@
             btn: ['确定','删除'] //按钮
         }, function(){
             $.post("{{url('admin/category')}}/"+cate_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
-               if(data.staus==0){
+               if(data.status==0){
                    location.href =location.href;
                    layer.msg(data.msg,{icon:6});
                }else{
