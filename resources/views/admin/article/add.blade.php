@@ -6,6 +6,14 @@
     <script>
         var ue = UE.getEditor('editor');
     </script>
+    <!--编辑器样式矫正 -->
+
+    <style>
+        .edui-default{line-height: 28px;}
+        div.edui-combox-body,div.edui-button-body,div.edui-splitbutton-body
+        {overflow: hidden; height:20px;}
+        div.edui-box{overflow: hidden; height:22px;}
+    </style>
     <body>
     <!--面包屑导航 开始-->
     <div class="crumb_warp">
