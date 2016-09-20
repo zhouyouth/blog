@@ -93,7 +93,7 @@ class CategoryController extends CommonController
        }
     }
    //删除
-    public function destory(){
+    public function destroy(){
       $input = Input::all();
         dd($input);
 
