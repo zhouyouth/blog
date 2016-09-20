@@ -91,7 +91,7 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>描述：</th>
+                        <th>内容：</th>
                         <td>
                             <textarea class="lg" name="cate_description"></textarea>
 
