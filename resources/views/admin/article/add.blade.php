@@ -99,7 +99,7 @@
                     <tr>
                         <th>缩略图：</th>
                         <td>
-                            {{--<input type="file" id="file_upload" name="art_thumb" multiple="true">--}}
+                            <input type="text" id="file_upload" name="art_thumb" multiple="true">
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
                         </td>
                         <style>
