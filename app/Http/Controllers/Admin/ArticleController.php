@@ -16,9 +16,8 @@ class ArticleController extends CommonController
    }
   //添加文章回显
    public  function create() {
-
-      return view('admin.article.add');
-
+      $data=0;
+      return view('admin.article.add',compact('data');
    }
 
 }
