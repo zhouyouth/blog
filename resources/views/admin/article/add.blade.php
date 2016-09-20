@@ -107,9 +107,7 @@
                         <th>内容：</th>
 
                         <td>
-                            <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
-                            <textarea class="lg" name="art_content"></textarea>
-
+                            <script id="editor" name="art_content" type="text/plain" style="width:1024px;height:500px;"></script>
                         </td>
                     </tr>
 
