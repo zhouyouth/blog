@@ -31,7 +31,7 @@ Route::group(['middleware' => ['admin.login'],'prefix'=>'admin','namespace'=>'Ad
     Route::any('upload', "CommonController@upload");
 
 } );
-Route::any('test', "admin\IndexController@index");
+Route::any('/test', "admin\IndexController@index");
 
 
 
