@@ -95,7 +95,7 @@ class CategoryController extends CommonController
    //删除
     public function destory(){
       $input = Input::all();
-      dd($input);
+        dd($input);
 
    }
 }
