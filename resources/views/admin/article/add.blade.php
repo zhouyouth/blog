@@ -87,12 +87,10 @@
                         <th>描述：</th>
                         <td>
                             <textarea class="lg" name="cate_description"></textarea>
-                            <p>标题可以写30个字</p>
                         </td>
                     </tr>
                     <tr>
-                        <th><i class="require">*</i>排序：</th>
-                        <td><input type="text" name="cate_order"></td>
+                        <textarea class="lg" name="cate_description"></textarea>
                     </tr>
                     <tr>
                         <th></th>
