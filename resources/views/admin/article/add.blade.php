@@ -3,7 +3,10 @@
     <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/ueditor.config.js')}}"></script>
     <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/ueditor.all.min.js')}}"> </script>
     <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/lang/zh-cn/zh-cn.js')}}"></script>
-<body>
+    <script>
+        var ue = UE.getEditor('editor');
+    </script>
+    <body>
     <!--面包屑导航 开始-->
     <div class="crumb_warp">
         <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
@@ -91,9 +94,12 @@
 
                         </td>
                     </tr>
+
                     <tr>
                         <th>内容：</th>
+
                         <td>
+                            <script id="editor" type="text/plain" style="width:1024px;height:500px;"></script>
                             <textarea class="lg" name="art_content"></textarea>
 
                         </td>
