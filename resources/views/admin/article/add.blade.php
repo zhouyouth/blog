@@ -58,42 +58,41 @@
                     <tr>
                         <th><i class="require">*</i>文章标题：</th>
                         <td>
-                            <input type="text" class="lg" name="cate_title">
+                            <input type="text" class="lg" name="art_title">
                             <p></p>
                         </td>
                     </tr>
                     <tr>
                         <th>编辑：</th>
                         <td>
-                            <input type="text" name="cate_name">
+                            <input type="text" name="cate_editor">
                             <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
                         </td>
                     </tr>
                     <tr>
                         <th>缩略图：</th>
                         <td>
-                            <input type="text" name="cate_name">
+                            <input type="text" name="art_thumb">
                             <span><i class="fa  "></i></span>
                         </td>
                     </tr>
-
                     <tr>
                         <th>关键字：</th>
                         <td>
-                            <textarea name="cate_keywords"></textarea>
+                            <textarea name="art_tag"></textarea>
                         </td>
                     </tr>
                     <tr>
                         <th>描述：</th>
                         <td>
-                            <textarea class="lg" name="cate_description"></textarea>
+                            <textarea class="lg" name="art_description"></textarea>
 
                         </td>
                     </tr>
                     <tr>
                         <th>内容：</th>
                         <td>
-                            <textarea class="lg" name="cate_description"></textarea>
+                            <textarea class="lg" name="art_content"></textarea>
 
                         </td>
                     </tr>
