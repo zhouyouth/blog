@@ -1,6 +1,8 @@
 @extends('layouts.admin')
 @section('content')
-
+    <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/ueditor.config.js')}}"></script>
+    <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/ueditor.all.min.js')}}"> </script>
+    <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/lang/zh-cn/zh-cn.js')}}"></script>
 <body>
     <!--面包屑导航 开始-->
     <div class="crumb_warp">
