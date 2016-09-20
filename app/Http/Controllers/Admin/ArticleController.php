@@ -17,7 +17,7 @@ class ArticleController extends CommonController
    }
   //添加文章回显
    public  function create() {
-       $data=Category::where('cate_pid',0)->get();
+       $data=Category::tree();
       return view('admin.article.add',compact('data'));
    }
 
