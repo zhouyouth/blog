@@ -92,5 +92,10 @@ class CategoryController extends CommonController
            return back()->withErrors('errors','分类编辑失败');
        }
     }
+   //删除
+    public function destory(){
+      $input = Input::all();
+      dd($input);
 
+   }
 }
