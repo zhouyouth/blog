@@ -1,8 +1,8 @@
 @extends('layouts.admin')
 @section('content')
-    <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/ueditor.config.js')}}"></script>
-    <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/ueditor.all.min.js')}}"> </script>
-    <script type="text/javascript" charset="utf-8" src="{{url('resources/org/ueditor/lang/zh-cn/zh-cn.js')}}"></script>
+    <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/ueditor.config.js')}}"></script>
+    <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/ueditor.all.min.js')}}"> </script>
+    <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/lang/zh-cn/zh-cn.js')}}"></script>
     <script>
         var ue = UE.getEditor('editor');
     </script>
