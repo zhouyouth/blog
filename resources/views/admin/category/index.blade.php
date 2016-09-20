@@ -74,7 +74,7 @@
                         <td>{{$v->cate_pid}}</td>
                         <td>
                             <a href="{{url('admin/category/'.$v->cate_id.'/edit')}}">修改</a>
-                            <a href="javascript:void(0);" onclick="delCate($v->cate_id);">删除</a>
+                            <a href="javascript:void(0)" onclick="delCate($v->cate_id);">删除</a>
                         </td>
                     </tr>
                     @endforeach
