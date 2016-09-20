@@ -98,7 +98,7 @@
                     <tr>
                         <th>缩略图：</th>
                         <td>
-                            <input type="text" id="file_upload" name="art_thumb">
+                            <input type="file" id="file_upload" name="art_thumb">
                             <span><i class="fa  "></i></span>
                         </td>
                     </tr>
