@@ -79,8 +79,6 @@
                         </td>
                     </tr>
                     @endforeach
-                    
-
                 </table>
 
                 <div class="page_list">
