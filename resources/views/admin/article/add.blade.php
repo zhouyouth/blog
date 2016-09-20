@@ -6,6 +6,7 @@
     <script src="{{asset('resources/org/uploadify/jquery.uploadify.min.js')}}" type="text/javascript"></script>
     <script>
         var ue = UE.getEditor('editor');
+        <?php $timestamp = time();?>
         $(function() {
             $('#file_upload').uploadify({
                 'formData'     : {
