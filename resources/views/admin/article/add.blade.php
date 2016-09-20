@@ -102,6 +102,11 @@
                             {{--<input type="file" id="file_upload" name="art_thumb" multiple="true">--}}
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
                         </td>
+                        <style>
+                            .uploadify{display:inline-block;}
+                            .uploadify-button{border:none; border-radius:5px; margin-top:8px;}
+                            table.add_tab tr td span.uploadify-button-text{color: #FFF; margin:0;}
+                        </style>
                     </tr>
                     <tr>
                         <th>关键字：</th>
