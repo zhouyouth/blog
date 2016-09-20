@@ -20,13 +20,19 @@
         });
 
     </script>
-    <!--编辑器样式矫正 -->
+
 
     <style>
+        <!--编辑器样式矫正 -->
         .edui-default{line-height: 28px;}
         div.edui-combox-body,div.edui-button-body,div.edui-splitbutton-body
         {overflow: hidden; height:20px;}
         div.edui-box{overflow: hidden; height:22px;}
+
+       /*上传样式*/
+        .uploadify{display:inline-block;}
+        .uploadify-button{border:none; border-radius:5px; margin-top:8px;}
+        table.add_tab tr td span.uploadify-button-text{color: #FFF; margin:0;}
     </style>
     <body>
     <!--面包屑导航 开始-->
@@ -99,14 +105,10 @@
                     <tr>
                         <th>缩略图：</th>
                         <td>
-                            <input type="text" id="file_upload" name="art_thumb" multiple="true">
+                            <input type="text" class="fa  name="art_thumb" >
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
                         </td>
-                        <style>
-                            .uploadify{display:inline-block;}
-                            .uploadify-button{border:none; border-radius:5px; margin-top:8px;}
-                            table.add_tab tr td span.uploadify-button-text{color: #FFF; margin:0;}
-                        </style>
+
                     </tr>
                     <tr>
                         <th>关键字：</th>
