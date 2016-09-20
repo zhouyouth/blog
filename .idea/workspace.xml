@@ -194,8 +194,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="387" />
-    <option name="y" value="217" />
+    <option name="x" value="640" />
+    <option name="y" value="188" />
     <option name="width" value="1291" />
     <option name="height" value="745" />
   </component>
@@ -493,12 +493,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00192" summary="&#10;">
-      <created>1474271169230</created>
-      <option name="number" value="00192" />
-      <option name="project" value="LOCAL" />
-      <updated>1474271169230</updated>
-    </task>
     <task id="LOCAL-00193" summary="&#10;">
       <created>1474271327021</created>
       <option name="number" value="00193" />
@@ -787,7 +781,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474338463959</updated>
     </task>
-    <option name="localTasksCounter" value="241" />
+    <task id="LOCAL-00241" summary="&#10;">
+      <created>1474338573355</created>
+      <option name="number" value="00241" />
+      <option name="project" value="LOCAL" />
+      <updated>1474338573356</updated>
+    </task>
+    <option name="localTasksCounter" value="242" />
     <servers />
   </component>
   <component name="TodoView">
@@ -800,7 +800,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="387" y="217" width="1291" height="745" extended-state="0" />
+    <frame x="640" y="188" width="1291" height="745" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
