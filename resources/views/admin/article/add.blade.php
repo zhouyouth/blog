@@ -98,8 +98,8 @@
                     <tr>
                         <th>缩略图：</th>
                         <td>
-                            <input type="file" id="file_upload" name="art_thumb">
-                            <span><i class="fa  "></i></span>
+                            <input type="file" id="file_upload" name="art_thumb" multiple="true">
+                            <span><i class="fa"></i></span>
                         </td>
                     </tr>
                     <tr>
