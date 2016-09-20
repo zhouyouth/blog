@@ -47,12 +47,5 @@ class IndexController extends Controller
         }else {
             return view('admin.pass');
         }
-//
-
     }
-public function  test(){
-    echo "index";exit;
-
-}
-
 }
