@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/article/add.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/article/add.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -66,10 +65,10 @@
       <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.12607944">
-              <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.64594126">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
-                <element signature="e#4817#4851#0#HTML" expanded="true" />
+                <element signature="e#4816#4850#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,8 +167,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="267" />
-    <option name="y" value="198" />
+    <option name="x" value="315" />
+    <option name="y" value="252" />
     <option name="width" value="1291" />
     <option name="height" value="768" />
   </component>
@@ -481,18 +480,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00259" summary="&#10;">
-      <created>1474341033004</created>
-      <option name="number" value="00259" />
-      <option name="project" value="LOCAL" />
-      <updated>1474341033004</updated>
-    </task>
-    <task id="LOCAL-00260" summary="&#10;">
-      <created>1474341106581</created>
-      <option name="number" value="00260" />
-      <option name="project" value="LOCAL" />
-      <updated>1474341106581</updated>
-    </task>
     <task id="LOCAL-00261" summary="&#10;">
       <created>1474342255886</created>
       <option name="number" value="00261" />
@@ -775,7 +762,19 @@
       <option name="project" value="LOCAL" />
       <updated>1474359693233</updated>
     </task>
-    <option name="localTasksCounter" value="308" />
+    <task id="LOCAL-00308" summary="&#10;">
+      <created>1474360387218</created>
+      <option name="number" value="00308" />
+      <option name="project" value="LOCAL" />
+      <updated>1474360387218</updated>
+    </task>
+    <task id="LOCAL-00309" summary="&#10;">
+      <created>1474361118044</created>
+      <option name="number" value="00309" />
+      <option name="project" value="LOCAL" />
+      <updated>1474361118044</updated>
+    </task>
+    <option name="localTasksCounter" value="310" />
     <servers />
   </component>
   <component name="TodoView">
@@ -788,7 +787,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="267" y="198" width="1291" height="768" extended-state="0" />
+    <frame x="315" y="252" width="1291" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1231,10 +1230,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12607944">
-          <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.64594126">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
-            <element signature="e#4817#4851#0#HTML" expanded="true" />
+            <element signature="e#4816#4850#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
