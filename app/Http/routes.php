@@ -28,7 +28,7 @@ Route::group(['middleware' => ['admin.login'],'prefix'=>'admin','namespace'=>'Ad
     Route::post('cate/changeorder', "CategoryController@changeOrder");
     Route::resource('category','CategoryController');
     Route::resource('article','ArticleController');
-    Route::any('upload', "CommnController@upload");
+    Route::any('upload', "CommonController@upload");
 } );
 
 
