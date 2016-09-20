@@ -87,14 +87,14 @@
                         <th>描述：</th>
                         <td>
                             <textarea class="lg" name="cate_description"></textarea>
-                            <p>标题可以写30个字</p>
+
                         </td>
                     </tr>
                     <tr>
                         <th>描述：</th>
                         <td>
                             <textarea class="lg" name="cate_description"></textarea>
-                            <p>标题可以写30个字</p>
+
                         </td>
                     </tr>
 
