@@ -10,8 +10,8 @@
         <?php $timestamp = time();?>
         $(function() {
             $('#file_upload').uploadify({
+                'buttonText' : 'BROWSE...',
                 'formData'     : {
-                    'buttonText' : 'BROWSE...',
                     'timestamp' : '<?php echo $timestamp;?>',
                     'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
                 },
