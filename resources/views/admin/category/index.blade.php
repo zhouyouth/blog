@@ -4,6 +4,9 @@
     <body>
     <!--面包屑导航 开始-->
     <div class="crumb_warp">
+        <div class="result_title">
+            <h3>分类管理</h3>
+        </div>
         <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
         <i class="fa fa-home"></i> <a href="#">首页</a>  &raquo; 分类列表
     </div>
