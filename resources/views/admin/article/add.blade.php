@@ -53,19 +53,20 @@
                             </select>
                         </td>
                     </tr>
-                    <tr>
-                        <th>文章名称：</th>
-                        <td>
-                            <input type="text" name="cate_name">
-                            <span><i class="fa fa-exclamation-circle yellow"></i>必须填写</span>
-                        </td>
-                    </tr>
+
 
                     <tr>
-                        <th><i class="require">*</i>标题：</th>
+                        <th><i class="require">*</i>文章标题：</th>
                         <td>
                             <input type="text" class="lg" name="cate_title">
                             <p></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>编辑：</th>
+                        <td>
+                            <input type="text" name="cate_name">
+                            <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
                         </td>
                     </tr>
 
