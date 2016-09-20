@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Model\Category;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -16,7 +17,7 @@ class ArticleController extends CommonController
    }
   //添加文章回显
    public  function create() {
-      $data=0;
+       $data=Category::where('cate_pid',0)->get();
       return view('admin.article.add',compact('data'));
    }
 
