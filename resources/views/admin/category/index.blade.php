@@ -138,7 +138,7 @@
         layer.confirm('确定要删除？', {
             btn: ['确定','删除'] //按钮
         }, function(){
-            $.post("{{url('admin/category/')}}}"+cate_id,{},function (data){
+            $.post("{{url('admin/category')}}}/"+cate_id,{},function (data){
 
             });
         });
