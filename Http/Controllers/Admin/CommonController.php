@@ -9,5 +9,10 @@ use App\Http\Controllers\Controller;
 
 class CommonController extends Controller
 {
+   //upload piture
+    public  function  upload(){
+
+        echo "图片上传";
+    }
 
 }
