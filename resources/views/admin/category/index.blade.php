@@ -36,9 +36,8 @@
     <form action="#" method="post">
         <div class="result_wrap">
             <div class="result_title">
-                <h3>分类管理</h3>
+                <h3>快捷操作</h3>
             </div>
-            <!--快捷导航 开始-->
             <div class="result_content">
                 <div class="short_wrap">
                     <a href="#"><i class="fa fa-plus"></i>新增文章</a>
@@ -46,7 +45,6 @@
                     <a href="#"><i class="fa fa-refresh"></i>更新排序</a>
                 </div>
             </div>
-            <!--快捷导航 结束-->
         </div>
 
         <div class="result_wrap">
