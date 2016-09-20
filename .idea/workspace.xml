@@ -66,10 +66,10 @@
       <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34196892">
-              <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.12607944">
+              <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
               <folding>
-                <element signature="e#4663#4697#0#HTML" expanded="true" />
+                <element signature="e#4817#4851#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,8 +168,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="162" />
-    <option name="y" value="55" />
+    <option name="x" value="267" />
+    <option name="y" value="198" />
     <option name="width" value="1291" />
     <option name="height" value="768" />
   </component>
@@ -282,6 +282,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="org" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploadify" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -458,18 +480,6 @@
       <created>1473494915925</created>
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
-    </task>
-    <task id="LOCAL-00257" summary="&#10;">
-      <created>1474340831569</created>
-      <option name="number" value="00257" />
-      <option name="project" value="LOCAL" />
-      <updated>1474340831569</updated>
-    </task>
-    <task id="LOCAL-00258" summary="&#10;">
-      <created>1474340907848</created>
-      <option name="number" value="00258" />
-      <option name="project" value="LOCAL" />
-      <updated>1474340907848</updated>
     </task>
     <task id="LOCAL-00259" summary="&#10;">
       <created>1474341033004</created>
@@ -753,7 +763,19 @@
       <option name="project" value="LOCAL" />
       <updated>1474359487927</updated>
     </task>
-    <option name="localTasksCounter" value="306" />
+    <task id="LOCAL-00306" summary="&#10;">
+      <created>1474359533740</created>
+      <option name="number" value="00306" />
+      <option name="project" value="LOCAL" />
+      <updated>1474359533740</updated>
+    </task>
+    <task id="LOCAL-00307" summary="&#10;">
+      <created>1474359693233</created>
+      <option name="number" value="00307" />
+      <option name="project" value="LOCAL" />
+      <updated>1474359693233</updated>
+    </task>
+    <option name="localTasksCounter" value="308" />
     <servers />
   </component>
   <component name="TodoView">
@@ -766,7 +788,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="162" y="55" width="1291" height="768" extended-state="0" />
+    <frame x="267" y="198" width="1291" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1209,10 +1231,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34196892">
-          <caret line="102" column="28" selection-start-line="102" selection-start-column="28" selection-end-line="102" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.12607944">
+          <caret line="102" column="26" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
           <folding>
-            <element signature="e#4663#4697#0#HTML" expanded="true" />
+            <element signature="e#4817#4851#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
