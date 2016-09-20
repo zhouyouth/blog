@@ -3,8 +3,20 @@
     <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/ueditor.config.js')}}"></script>
     <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/ueditor.all.min.js')}}"> </script>
     <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/lang/zh-cn/zh-cn.js')}}"></script>
+    <script src="{{asset('resources/org/uploadify/jquery.uploadify.min.js')}}" type="text/javascript"></script>
     <script>
         var ue = UE.getEditor('editor');
+        $(function() {
+            $('#file_upload').uploadify({
+                'formData'     : {
+                    'timestamp' : '<?php echo $timestamp;?>',
+                    'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
+                },
+                'swf'      : 'uploadify.swf',
+                'uploader' : 'uploadify.php'
+            });
+        });
+
     </script>
     <!--编辑器样式矫正 -->
 

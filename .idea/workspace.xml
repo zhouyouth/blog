@@ -66,10 +66,10 @@
       <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6006826">
-              <caret line="109" column="129" selection-start-line="109" selection-start-column="129" selection-end-line="109" selection-end-column="129" />
+            <state vertical-scroll-proportion="0.45051193">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
               <folding>
-                <element signature="e#4029#4063#0#HTML" expanded="true" />
+                <element signature="e#4524#4558#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -168,8 +168,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="187" />
-    <option name="y" value="152" />
+    <option name="x" value="617" />
+    <option name="y" value="126" />
     <option name="width" value="1291" />
     <option name="height" value="775" />
   </component>
@@ -459,18 +459,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00247" summary="&#10;">
-      <created>1474339801525</created>
-      <option name="number" value="00247" />
-      <option name="project" value="LOCAL" />
-      <updated>1474339801525</updated>
-    </task>
-    <task id="LOCAL-00248" summary="&#10;">
-      <created>1474340134701</created>
-      <option name="number" value="00248" />
-      <option name="project" value="LOCAL" />
-      <updated>1474340134701</updated>
-    </task>
     <task id="LOCAL-00249" summary="&#10;">
       <created>1474340187137</created>
       <option name="number" value="00249" />
@@ -753,7 +741,19 @@
       <option name="project" value="LOCAL" />
       <updated>1474357324926</updated>
     </task>
-    <option name="localTasksCounter" value="296" />
+    <task id="LOCAL-00296" summary="&#10;">
+      <created>1474357464448</created>
+      <option name="number" value="00296" />
+      <option name="project" value="LOCAL" />
+      <updated>1474357464448</updated>
+    </task>
+    <task id="LOCAL-00297" summary="&#10;">
+      <created>1474358691878</created>
+      <option name="number" value="00297" />
+      <option name="project" value="LOCAL" />
+      <updated>1474358691878</updated>
+    </task>
+    <option name="localTasksCounter" value="298" />
     <servers />
   </component>
   <component name="TodoView">
@@ -766,7 +766,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="187" y="152" width="1291" height="775" extended-state="0" />
+    <frame x="617" y="126" width="1291" height="775" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -837,13 +837,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/mail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96640825">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/style/js/jquery.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1198,6 +1191,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/org/uploadify/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.22525597">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/category/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-75.10345">
@@ -1208,10 +1209,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6006826">
-          <caret line="109" column="129" selection-start-line="109" selection-start-column="129" selection-end-line="109" selection-end-column="129" />
+        <state vertical-scroll-proportion="0.45051193">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
-            <element signature="e#4029#4063#0#HTML" expanded="true" />
+            <element signature="e#4524#4558#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
