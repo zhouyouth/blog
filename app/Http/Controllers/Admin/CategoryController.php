@@ -98,12 +98,12 @@ class CategoryController extends CommonController
      $re = Category::where('cate_id',$cate_id)->delete();
      if($re){
          $data=[
-             'status'=>1,
+             'status'=>0,
              'msg'=>'删除成功!'
          ];
      }else{
          $data=[
-             'status'=>0,
+             'status'=>1,
              'msg'=>'删除失败!'
          ];
          return $data;
