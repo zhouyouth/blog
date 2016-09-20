@@ -47,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.5060449">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -191,8 +191,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="227" />
-    <option name="y" value="369" />
+    <option name="x" value="219" />
+    <option name="y" value="362" />
     <option name="width" value="1291" />
     <option name="height" value="768" />
   </component>
@@ -449,12 +449,6 @@
       <created>1473494915925</created>
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
-    </task>
-    <task id="LOCAL-00278" summary="&#10;">
-      <created>1474353500294</created>
-      <option name="number" value="00278" />
-      <option name="project" value="LOCAL" />
-      <updated>1474353500294</updated>
     </task>
     <task id="LOCAL-00279" summary="&#10;">
       <created>1474353560204</created>
@@ -744,7 +738,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474363075740</updated>
     </task>
-    <option name="localTasksCounter" value="327" />
+    <task id="LOCAL-00327" summary="&#10;">
+      <created>1474363093164</created>
+      <option name="number" value="00327" />
+      <option name="project" value="LOCAL" />
+      <updated>1474363093165</updated>
+    </task>
+    <option name="localTasksCounter" value="328" />
     <servers />
   </component>
   <component name="TodoView">
@@ -757,7 +757,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="227" y="369" width="1291" height="768" extended-state="0" />
+    <frame x="219" y="362" width="1291" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1207,7 +1207,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5060449">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
           <folding />
         </state>
       </provider>
