@@ -94,7 +94,7 @@ class CategoryController extends CommonController
     }
    //删除
     public function destroy($cate_id){
-     $re = Category::->where('cate_id',$cate_id)->delete();
+     $re = Category::where('cate_id',$cate_id)->delete();
      if($re){
          $data=[
              'status'=>1,
