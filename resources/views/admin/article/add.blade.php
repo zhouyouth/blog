@@ -15,7 +15,7 @@
                     'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
                 },
                 'swf'      : '{{asset("resources/org/uploadify")}}/uploadify.swf',
-                'uploader' : '{{asset("resources/org/uploadify")}}/uuploadify.php'
+                'uploader' : '{{asset("resources/org/uploadify")}}/uploadify.php'
             });
         });
 
