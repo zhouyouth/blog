@@ -8,7 +8,8 @@ use App\Http\Requests;
 
 class ArticleController extends CommonController
 {
-   public  function  index(){
+   //article list
+    public  function  index(){
        echo "123article";
 
 
