@@ -51,7 +51,7 @@ class IndexController extends Controller
 
     }
 public function  test(){
-    echo "index";
+    echo "index";exit;
 
 }
 
