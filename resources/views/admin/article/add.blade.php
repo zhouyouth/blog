@@ -69,6 +69,13 @@
                             <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
                         </td>
                     </tr>
+                    <tr>
+                        <th>缩略图：</th>
+                        <td>
+                            <input type="text" name="cate_name">
+                            <span><i class="fa fa-exclamation-circle yellow"></i></span>
+                        </td>
+                    </tr>
 
                     <tr>
                         <th>关键字：</th>
