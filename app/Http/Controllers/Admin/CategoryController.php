@@ -93,9 +93,19 @@ class CategoryController extends CommonController
        }
     }
    //删除
-    public function destroy(){
-      $input = Input::all();
-        dd($input);
-
+    public function destroy($cate_id){
+     $re = Category::->where('cate_id',$cate_id)->delete();
+     if($re){
+         $data=[
+             'status'=>1,
+             'msg'=>'删除成功!'
+         ];
+     }else{
+         $data=[
+             'status'=>0,
+             'msg'=>'删除失败!'
+         ];
+         return $data;
+     }
    }
 }
