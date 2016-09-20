@@ -66,14 +66,14 @@
                         <th>编辑：</th>
                         <td>
                             <input type="text" name="cate_name">
-                            <span><i class="fa fa-exclamation-circle red"></i>作者</span>
+                            <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
                         </td>
                     </tr>
                     <tr>
                         <th>缩略图：</th>
                         <td>
                             <input type="text" name="cate_name">
-                            <span><i class="fa fa-exclamation-circle "></i></span>
+                            <span><i class="fa  "></i></span>
                         </td>
                     </tr>
 
