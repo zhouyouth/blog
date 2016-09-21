@@ -110,9 +110,9 @@
                     <tr>
                         <th>缩略图：</th>
                         <td>
-                            <img src="./jpg"/>
                             <input type="text" class="fa  name="art_thumb" >
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
+                            <img src="./jpg"/>
                         </td>
 
                     </tr>
