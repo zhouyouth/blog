@@ -15,7 +15,7 @@ class ArticleController extends CommonController
    //article list
     public  function  index(){
         $article = Article::orderBy('art_id','desc')->paginate(3);
-      echo   $article->links();
+      //echo   $article->links();
       return view('admin.article.index',compact('article'));
    }
   //添加文章回显
