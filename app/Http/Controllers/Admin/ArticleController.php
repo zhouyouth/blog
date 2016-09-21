@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\http\Model\Article;
 use App\Http\Model\Category;
 use Illuminate\Http\Request;
 
@@ -21,7 +22,8 @@ class ArticleController extends CommonController
    }
    public function store(){
      $input = Input::except('_token');
-       dd($input);
+     $re = Article::create($input);
+      dd($re);
    }
 }
 
