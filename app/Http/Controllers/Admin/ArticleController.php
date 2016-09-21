@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use Illuminate\Support\Facades\Input;
+use Illuminate\Support\Facades\Validator;
 
 class ArticleController extends CommonController
 {
@@ -31,7 +32,6 @@ class ArticleController extends CommonController
            'art_title.required'=>'文章名称不能为空!',
            'art_editor.required'=>'文章名称不能为空!',
        ];
-
        $validator = Validator::make($input, $rules,$message);
        if($validator->passes()){
            $re = Article::create($input);
