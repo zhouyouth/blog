@@ -22,8 +22,6 @@ class ArticleController extends CommonController
    public function store(){
      $input = Input::except('_token');
        dd($input);
-
-
    }
 }
 
