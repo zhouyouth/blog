@@ -44,7 +44,7 @@
       <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.448276">
+            <state vertical-scroll-proportion="-18.206896">
               <caret line="114" column="83" selection-start-line="114" selection-start-column="74" selection-end-line="114" selection-end-column="83" />
               <folding />
             </state>
@@ -74,8 +74,8 @@
       <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5914286">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.74857146">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
               <folding>
                 <element signature="e#46#73#0#PHP" expanded="true" />
               </folding>
@@ -602,12 +602,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00355" summary="&#10;">
-      <created>1474423636258</created>
-      <option name="number" value="00355" />
-      <option name="project" value="LOCAL" />
-      <updated>1474423636258</updated>
-    </task>
     <task id="LOCAL-00356" summary="&#10;">
       <created>1474423687319</created>
       <option name="number" value="00356" />
@@ -896,7 +890,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474443640194</updated>
     </task>
-    <option name="localTasksCounter" value="404" />
+    <task id="LOCAL-00404" summary="&#10;">
+      <created>1474443703854</created>
+      <option name="number" value="00404" />
+      <option name="project" value="LOCAL" />
+      <updated>1474443703854</updated>
+    </task>
+    <option name="localTasksCounter" value="405" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1312,14 +1312,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.448276">
-          <caret line="114" column="83" selection-start-line="114" selection-start-column="74" selection-end-line="114" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Http/Controllers/Admin/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-14.275862">
@@ -1344,10 +1336,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/article/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.206896">
+          <caret line="114" column="83" selection-start-line="114" selection-start-column="74" selection-end-line="114" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5914286">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.74857146">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
           <folding>
             <element signature="e#46#73#0#PHP" expanded="true" />
           </folding>
