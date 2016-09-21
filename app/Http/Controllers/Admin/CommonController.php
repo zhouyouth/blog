@@ -18,7 +18,7 @@ class CommonController extends Controller
           $entension = $file->getClientOriginalExtension();
           $newName=date('YmdHis').mt_rand(100,999).'.'.$entension;
           $path = $file ->move(base_path().'/uploads',$newName);
-          $filepath='uploads'.$newName;
+        return  $filepath='uploads'.$newName;
       }
 
      }
