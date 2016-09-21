@@ -54,25 +54,25 @@
                         <th>排序</th>
                         <th class="tc">ID</th>
                         <th class="tc">文章名称</th>
-                        <th>标题</th>
+                        <th>图片</th>
                         <th>描述</th>
                         <th>关键字</th>
                         <th>点击</th>
-                        <th>文章父id</th>
+                        <th>文章内容</th>
                         <th>操作</th>
                     </tr>
-                     @foreach($category as $v)
+                     @foreach($article as $v)
                     <tr>
-                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->cate_id}});" name="id[]" value="{{$v->cate_order}}"></td>
-                        <td class="tc">{{$v->cate_id}}</td>
+                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->art_id}});" name="id[]" value="{{$v->art_order}}"></td>
+                        <td class="tc">{{$v->art_id}}</td>
                         <td>
-                            <a href="#">{{$v->_cate_name}}</a>
+                            <a href="#">{{$v->art_name}}</a>
                         </td>
-                        <td>{{$v->cate_title}}</td>
-                        <td>{{$v->cate_description}}</td>
-                        <td>{{$v->cate_keywords}}</td>
-                        <td>{{$v->cate_view}}</td>
-                        <td>{{$v->cate_pid}}</td>
+                        <td>{{$v->art_title}}</td>
+                        <td>{{$v->art_description}}</td>
+                        <td>{{$v->art_keywords}}</td>
+                        <td>{{$v->art_view}}</td>
+                        <td>{{$v->art_content}}</td>
                         <td>
                             <a href="{{url('admin/category/'.$v->cate_id.'/edit')}}">修改</a>
                             <a href="javascript:void(0)" onclick="delCate({{$v->cate_id}});">删除</a>
