@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.63212436">
-              <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+              <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -401,12 +401,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00294" summary="&#10;">
-      <created>1474357118691</created>
-      <option name="number" value="00294" />
-      <option name="project" value="LOCAL" />
-      <updated>1474357118691</updated>
-    </task>
     <task id="LOCAL-00295" summary="&#10;">
       <created>1474357324926</created>
       <option name="number" value="00295" />
@@ -695,7 +689,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474421595632</updated>
     </task>
-    <option name="localTasksCounter" value="343" />
+    <task id="LOCAL-00343" summary="&#10;">
+      <created>1474421676952</created>
+      <option name="number" value="00343" />
+      <option name="project" value="LOCAL" />
+      <updated>1474421676952</updated>
+    </task>
+    <option name="localTasksCounter" value="344" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1150,7 +1150,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.63212436">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
           <folding />
         </state>
       </provider>
