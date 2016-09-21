@@ -19,7 +19,7 @@
                 'uploader' : '{{url("admin/upload")}}',
                 'onUploadSuccess' : function(file, data, response) {
                     $('#thumb').attr('src','/'+data);
-                   console.log($('#thumb').next()) ;
+                    $('#text').val(data);
                     //layer.msg('上传成功!',{icon: 6});
                 }
             });
@@ -112,7 +112,7 @@
                         <th>缩略图：</th>
                         <td>
                             <div><img  id="thumb"  width="200" width="400" src=""/></div>
-                            <input type="text" class="fa  name="art_thumb" >
+                            <input type="text" id="text" class="fa  name="art_thumb" >
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
 
                         </td>
