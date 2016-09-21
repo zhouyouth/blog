@@ -18,7 +18,7 @@
                 'swf'      : '{{asset("resources/org/uploadify")}}/uploadify.swf',
                 'uploader' : '{{url("admin/upload")}}',
                 'onUploadSuccess' : function(file, data, response) {
-                    alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':' + data);
+                    $('#thumb').src=data;
                     layer.msg('上传成功!',{icon: 6});
                 }
             });
@@ -112,7 +112,7 @@
                         <td>
                             <input type="text" class="fa  name="art_thumb" >
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
-                            <img src="./jpg"/>
+                            <img  id="thumb" src=""/>
                         </td>
 
                     </tr>
