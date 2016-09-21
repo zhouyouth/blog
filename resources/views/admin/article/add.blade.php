@@ -73,7 +73,6 @@
                 @endif
             </div>
         @endif
-
     </div>
 
     <div class="result_wrap">

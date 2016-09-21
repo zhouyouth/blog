@@ -14,7 +14,7 @@ class ArticleController extends CommonController
 {
    //article list
     public  function  index(){
-       echo "123article";
+      return ('admin.article.index');
    }
   //添加文章回显
    public  function create() {
