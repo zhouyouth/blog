@@ -19,8 +19,8 @@
                 'uploader' : '{{url("admin/upload")}}',
                 'onUploadSuccess' : function(file, data, response) {
                     alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':' + data);
+                    layer.msg('上传成功!',{icon: 5});
                 }
-
             });
         });
 
