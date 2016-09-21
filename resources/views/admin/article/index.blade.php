@@ -51,7 +51,7 @@
             <div class="result_content">
                 <table class="list_tab">
                     <tr>
-                        <th>排序</th>
+
                         <th class="tc">ID</th>
                         <th class="tc">文章名称</th>
                         <th>图片</th>
@@ -63,7 +63,6 @@
                     </tr>
                      @foreach($article as $v)
                     <tr>
-                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->art_id}});" name="id[]" value="{{$v->art_order}}"></td>
                         <td class="tc">{{$v->art_id}}</td>
                         <td>
                             <a href="#">{{$v->art_name}}</a>
