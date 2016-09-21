@@ -41,8 +41,8 @@
             </div>
             <div class="result_content">
                 <div class="short_wrap">
-                    <a href="{{url('admin/category/create')}}"><i class="fa fa-plus"></i>新增文章</a>
-                    <a href="{{url('admin/category')}}"><i class="fa fa-plus"></i>文章列表</a>
+                    <a href="{{url('admin/article/create')}}"><i class="fa fa-plus"></i>新增文章</a>
+                    <a href="{{url('admin/article')}}"><i class="fa fa-plus"></i>文章列表</a>
                 </div>
             </div>
         </div>
@@ -51,7 +51,6 @@
             <div class="result_content">
                 <table class="list_tab">
                     <tr>
-
                         <th>排序</th>
                         <th class="tc">ID</th>
                         <th class="tc">文章名称</th>
