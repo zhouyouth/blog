@@ -84,12 +84,10 @@
         <div class="page_list">
             {{$article->links()}}
         </div>
-        </div>
-        </div>
     </form>
     <!--结果页快捷搜索框 end-->
     <style>
-     .result_content ul li span{
+     .page_list ul li span{
          font-size: 15px;
          padding: 6px 12px;
      }
