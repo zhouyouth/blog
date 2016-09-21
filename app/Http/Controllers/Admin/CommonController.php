@@ -13,7 +13,6 @@ class CommonController extends Controller
     //upload piture
     public  function  upload(){
       $input = Input::all();
-     var_dump($input::file());
-
+     var_dump(Input::file());
      }
 }
