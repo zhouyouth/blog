@@ -18,9 +18,8 @@
                 'swf'      : '{{asset("resources/org/uploadify")}}/uploadify.swf',
                 'uploader' : '{{url("admin/upload")}}',
                 'onUploadSuccess' : function(file, data, response) {
-                    alert(data);
                     $('#thumb').attr('src','/'+data);
-                    layer.msg('上传成功!',{icon: 6});
+                    //layer.msg('上传成功!',{icon: 6});
                 }
             });
         });
