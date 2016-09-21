@@ -19,7 +19,7 @@
                 'uploader' : '{{url("admin/upload")}}',
                 'onUploadSuccess' : function(file, data, response) {
                     $('#thumb').attr('src','/'+data);
-                    $('art_thumb').val(data);
+                   console($('#thumb').next()) ;
                     //layer.msg('上传成功!',{icon: 6});
                 }
             });
