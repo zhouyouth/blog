@@ -32,7 +32,7 @@ Route::group(['middleware' => ['admin.login'],'prefix'=>'admin','namespace'=>'Ad
 
 } );
 
-Route::any('uplo', "CommonController@uplo");
+Route::any('uplo', "admin\CommonController@uplo");
 
 
 
