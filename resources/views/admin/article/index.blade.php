@@ -88,6 +88,13 @@
         </div>
     </form>
     <!--结果页快捷搜索框 end-->
+    <style>
+     .result_content ul li span{
+         font-size:15px;
+         padding:6px 12px;
+     }
+
+    </style>
     <script>
       function changeOrder(obj,cate_id){
           var orderid= $(obj).val();
