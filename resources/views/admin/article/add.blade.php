@@ -13,7 +13,7 @@
                 'buttonText' : '选择图片',
                 'formData'     : {
                     'timestamp' : '<?php echo $timestamp;?>',
-                    'token'     : '<?php echo md5('unique_salt' . $timestamp);?>'
+                    '_token'     : '{{csrf_token()}}'
                 },
                 'swf'      : '{{asset("resources/org/uploadify")}}/uploadify.swf',
                 'uploader' : '{{url("admin/upload")}}'
