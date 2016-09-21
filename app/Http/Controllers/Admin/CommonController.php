@@ -9,7 +9,7 @@ use App\Http\Controllers\Controller;
 
 class CommonController extends Controller
 {
-     public  function  uplo(){
+     public  function  upload(){
 
            echo "456 common";
      }
