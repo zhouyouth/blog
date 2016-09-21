@@ -9,7 +9,8 @@ use App\Http\Controllers\Controller;
 
 class CommonController extends Controller
 {
-     public  function  upload(){
+    //upload piture
+    public  function  upload(){
 
            echo "456 common";
      }
