@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\http\Model\Article;
+use App\Http\Model\Article;
 use App\Http\Model\Category;
 use Illuminate\Http\Request;
 
