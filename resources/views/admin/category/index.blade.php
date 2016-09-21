@@ -13,6 +13,7 @@
 	<!--结果页快捷搜索框 开始-->
 	<div class="search_wrap">
         <form action="" method="post">
+            {{csrf_field()}}
             <table class="search_tab">
                 <tr>
                     <th width="120">选择分类:</th>
