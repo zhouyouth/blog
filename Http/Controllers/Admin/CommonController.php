@@ -10,8 +10,7 @@ use App\Http\Controllers\Controller;
 class CommonController extends Controller
 {
    //upload piture
-    public static function  upload(){
-
+    public static function  uplo(){
         echo "图片上传";
     }
 
