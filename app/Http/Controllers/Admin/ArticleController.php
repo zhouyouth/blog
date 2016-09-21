@@ -22,7 +22,32 @@ class ArticleController extends CommonController
    }
    public function store(){
      $input = Input::except('_token');
-     $re = Article::create($input);
+     $input['art_time']= time();
+       $rules = [
+           'art_title' => 'required',
+           'art_editor' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
+       ];
+       $message=[
+           'art_title.required'=>'文章名称不能为空!',
+           'art_editor.required'=>'文章名称不能为空!',
+       ];
+
+       $validator = Validator::make($input, $rules,$message);
+       if($validator->passes()){
+           $re = Article::create($input);
+           if($re){
+               return redirect('admin/category');
+           }else{
+               return back()->withErrors('errors','文章添加失败');
+           }
+       }else{
+           return back()->withErrors($validator);
+       }
+
+
+
+
+
    }
 }
 
