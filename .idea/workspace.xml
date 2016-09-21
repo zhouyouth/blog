@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Http/Controllers/Admin/CommonController.php" afterPath="$PROJECT_DIR$/Http/Controllers/Admin/CommonController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/framework/views/379c48853884bca25129add395228b4d2b1517f9.php" afterPath="$PROJECT_DIR$/storage/framework/views/379c48853884bca25129add395228b4d2b1517f9.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/storage/logs/laravel.log" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -43,11 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.620689">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.672973">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -73,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CommonController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Http/Controllers/Admin/CommonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6079447">
-              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
+            <state vertical-scroll-proportion="-9.862069">
+              <caret line="13" column="20" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="20" />
               <folding>
                 <element signature="e#46#74#0#PHP" expanded="true" />
               </folding>
@@ -168,8 +170,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/ArticleController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/article/add.blade.php" />
         <option value="$PROJECT_DIR$/Http/Controllers/Admin/IndexController.php" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/Http/Controllers/Admin/CommonController.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
       </list>
     </option>
   </component>
@@ -190,8 +192,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="284" />
-    <option name="y" value="339" />
+    <option name="x" value="264" />
+    <option name="y" value="351" />
     <option name="width" value="1291" />
     <option name="height" value="768" />
   </component>
@@ -448,18 +450,6 @@
       <created>1473494915925</created>
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
-    </task>
-    <task id="LOCAL-00288" summary="&#10;">
-      <created>1474354481733</created>
-      <option name="number" value="00288" />
-      <option name="project" value="LOCAL" />
-      <updated>1474354481734</updated>
-    </task>
-    <task id="LOCAL-00289" summary="&#10;">
-      <created>1474354535104</created>
-      <option name="number" value="00289" />
-      <option name="project" value="LOCAL" />
-      <updated>1474354535105</updated>
     </task>
     <task id="LOCAL-00290" summary="&#10;">
       <created>1474355792321</created>
@@ -743,7 +733,19 @@
       <option name="project" value="LOCAL" />
       <updated>1474420217957</updated>
     </task>
-    <option name="localTasksCounter" value="337" />
+    <task id="LOCAL-00337" summary="&#10;">
+      <created>1474420231455</created>
+      <option name="number" value="00337" />
+      <option name="project" value="LOCAL" />
+      <updated>1474420231456</updated>
+    </task>
+    <task id="LOCAL-00338" summary="&#10;">
+      <created>1474420285846</created>
+      <option name="number" value="00338" />
+      <option name="project" value="LOCAL" />
+      <updated>1474420285846</updated>
+    </task>
+    <option name="localTasksCounter" value="339" />
     <servers />
   </component>
   <component name="TodoView">
@@ -756,7 +758,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="284" y="339" width="1291" height="768" extended-state="0" />
+    <frame x="264" y="351" width="1291" height="768" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -768,7 +770,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31433225" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32810047" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1179,11 +1181,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/Http/Controllers/Admin/CommonController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.620689">
-          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
+        <state vertical-scroll-proportion="-9.862069">
+          <caret line="13" column="20" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="20" />
+          <folding>
+            <element signature="e#46#74#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1197,13 +1201,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Http/Controllers/Admin/CommonController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6079447">
-          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-          <folding>
-            <element signature="e#46#74#0#PHP" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.672973">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

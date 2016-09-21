@@ -10,13 +10,19 @@
 <div class="result_wrap">
     <div class="result_title">
         <h3>修改密码</h3>
-        <div class="mark">
+
             <?php if(count($errors)>0): ?>
+            <div class="mark">
+             <?php if(is_object($errors)): ?>
                 <?php foreach($errors->all() as $error): ?>
                     <p><?php echo e($error); ?></p>
                 <?php endforeach; ?>
-            <?php endif; ?>
-        </div>
+              <?php else: ?>
+                    <p><?php echo e($errors); ?></p>
+              <?php endif; ?>
+            </div>
+                 <?php endif; ?>
+
     </div>
 </div>
 <!--结果集标题与导航组件 结束-->
