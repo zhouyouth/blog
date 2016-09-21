@@ -91,7 +91,12 @@
          font-size: 15px;
          padding: 6px 12px;
      }
-
+     .page_list ul .active span{
+         background-color: #337ab7;
+         border-color: #337ab7;
+         color: #fff;
+         cursor: default;
+     }
     </style>
     <script>
       function changeOrder(obj,cate_id){
