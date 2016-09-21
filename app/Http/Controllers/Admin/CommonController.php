@@ -9,5 +9,8 @@ use App\Http\Controllers\Controller;
 
 class CommonController extends Controller
 {
+     public  function  uplo(){
 
+
+     }
 }
