@@ -14,8 +14,5 @@ class CommonController extends Controller
 
         echo "图片上传";
     }
-    public static function  index(){
 
-        echo "index";
-    }
 }
