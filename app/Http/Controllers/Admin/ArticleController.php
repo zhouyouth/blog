@@ -36,7 +36,7 @@ class ArticleController extends CommonController
        if($validator->passes()){
            $re = Article::create($input);
            if($re){
-               return redirect('admin/category');
+               return redirect('admin/article');
            }else{
                return back()->withErrors('errors','文章添加失败');
            }
