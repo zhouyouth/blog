@@ -113,7 +113,7 @@
                         <td>
                             <div><img  id="thumb"  width="200" width="400" src=""/></div>
                             <input type="text" id="text" class="fa  name="art_thumb" >
-                            <input id="file_upload" name="file_upload" type="file" multiple="true">
+                            <input id="file_upload" name="art_thumb" type="file" multiple="true">
 
                         </td>
 
