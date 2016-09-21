@@ -12,7 +12,14 @@ class CommonController extends Controller
 {
     //upload piture
     public  function  upload(){
-      $input = Input::all();
-     var_dump(Input::file());
+      $file = Input::file('Filedata');
+      if($file->isValid()){
+          $realPath = $file->getRealPath();//tmp 文件的绝对路径
+          $entension = $file->getClientOrignalExtension();//上传文件的后缀
+          $newName=date('YmdHis').mt_rand(100,999).'.'.$entension;
+          $path = $file ->move(base_path().'/uploads',$newName);
+
+      }
+
      }
 }
