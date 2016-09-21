@@ -62,6 +62,7 @@
     </div>
     <!--结果集标题与导航组件 结束-->
     <div class="result_title">
+        qweqeqweqweqw
         @if(count($errors)>0)
             <div class="mark">
                 @if(is_object($errors))
