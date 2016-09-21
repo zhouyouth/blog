@@ -87,7 +87,8 @@
     </form>
     <!--结果页快捷搜索框 end-->
     <style>
-     .page_list ul li span{
+     <!-- 分页样式  -->
+        .page_list ul li span{
          font-size: 15px;
          padding: 6px 12px;
      }
