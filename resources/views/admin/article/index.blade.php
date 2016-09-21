@@ -65,9 +65,9 @@
                     <tr>
                         <td class="tc">{{$v->art_id}}</td>
                         <td>
-                            <a href="#">{{$v->art_name}}</a>
+                            <a href="#">{{$v->art_title}}</a>
                         </td>
-                        <td>{{$v->art_title}}</td>
+                        <td><img src="/{{$v->art_thumb}}" width="200px" width="200px"></td>
                         <td>{{$v->art_description}}</td>
                         <td>{{$v->art_keywords}}</td>
                         <td>{{$v->art_view}}</td>
