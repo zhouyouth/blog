@@ -11,6 +11,6 @@ class CommonController extends Controller
 {
      public  function  uplo(){
 
-
+           echo "123";
      }
 }
