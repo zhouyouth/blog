@@ -67,7 +67,7 @@
                         <td>
                             <a href="#">{{$v->art_title}}</a>
                         </td>
-                        <td><img src="/{{$v->art_thumb}}" width="20px" width="20px"></td>
+                        <td><img src="/{{$v->art_thumb}}" width="50px" width="50px"></td>
                         <td>{{$v->art_description}}</td>
                         <td>{{$v->art_keywords}}</td>
                         <td>{{$v->art_view}}</td>
