@@ -41,7 +41,6 @@ class ArticleController extends CommonController
                return back()->withErrors('errors','文章添加失败');
            }
        }else{
-           dd($validator->Errors());
            return back()->withErrors($validator);
        }
 
