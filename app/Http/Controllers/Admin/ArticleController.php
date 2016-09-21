@@ -14,7 +14,8 @@ class ArticleController extends CommonController
 {
    //article list
     public  function  index(){
-      return ('admin.article.index');
+        $article = Article::tree();
+      return view('admin.article.index',compact('article'));
    }
   //添加文章回显
    public  function create() {
