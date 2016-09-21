@@ -18,7 +18,12 @@ class ArticleController extends CommonController
        $data=Category::tree();
       return view('admin.article.add',compact('data'));
    }
+   public function store(){
+     $input = Input::except('_token');
+       dd($input);
 
+
+   }
 }
 
 
