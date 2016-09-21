@@ -16,7 +16,11 @@
                     '_token'     : '{{csrf_token()}}'
                 },
                 'swf'      : '{{asset("resources/org/uploadify")}}/uploadify.swf',
-                'uploader' : '{{url("admin/upload")}}'
+                'uploader' : '{{url("admin/upload")}}',
+                'onUploadSuccess' : function(file, data, response) {
+                    alert('The file ' + file.name + ' was successfully uploaded with a response of ' + response + ':' + data);
+                }
+
             });
         });
 
