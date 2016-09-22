@@ -66,8 +66,8 @@
                         <td>
                             <a href="#">{{$v->link_name}}</a>
                         </td>
-                        <td><img src="/" width="50px" width="50px">图标</td>
                         <td>{{$v->link_title}}</td>
+                        <td><img src="/" width="50px" width="50px">图标</td>
                         <td>{{$v->link_url}}</td>
                         <td>
                             <a href="{{url('admin/linkicle/'.$v->link_id.'/edit')}}">修改</a>
