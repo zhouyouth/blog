@@ -10,6 +10,6 @@ use App\Http\Controllers\Controller;
 class LinksController extends Controller
 {
     public  function  index(){
-        echo "links";
+        return view('admin.links.index');
     }
 }
