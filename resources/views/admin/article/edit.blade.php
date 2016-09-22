@@ -98,22 +98,22 @@
                     <tr>
                         <th><i class="require">*</i>文章标题：</th>
                         <td>
-                            <input type="text" class="lg" name="art_title">
+                            <input type="text" class="lg" name="art_title" value="{{$article->art_title}}">
                             <p></p>
                         </td>
                     </tr>
                     <tr>
                         <th>编辑：</th>
                         <td>
-                            <input type="text" name="art_editor">
+                            <input type="text" name="art_editor" value="{{$article->editor}}">
                             <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
                         </td>
                     </tr>
                     <tr>
                         <th>缩略图：</th>
                         <td>
-                            <div><img  id="thumb"   /></div>
-                            <input type="text" id="text" class="fa" name="art_thumb"  >
+                            <div><img  id="thumb"  src="{{$article->art_thumb}}" /></div>
+                            <input type="text" id="text" class="fa" name="art_thumb" value="{{$article->art_thumb}}" >
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
                         </td>
 
@@ -121,13 +121,13 @@
                     <tr>
                         <th>关键字：</th>
                         <td>
-                            <textarea name="art_tag"></textarea>
+                            <textarea name="art_tag">{{$article->art_tag}}</textarea>
                         </td>
                     </tr>
                     <tr>
                         <th>描述：</th>
                         <td>
-                            <textarea class="lg" name="art_description"></textarea>
+                            <textarea class="lg" name="art_description">{{$article->art_description}}</textarea>
 
                         </td>
                     </tr>
@@ -136,7 +136,7 @@
                         <th>内容：</th>
 
                         <td>
-                            <script id="editor" name="art_content" type="text/plain" style="width:1024px;height:500px;"></script>
+                            <script id="editor" name="art_content" type="text/plain" style="width:1024px;height:500px;">{{$article->art_content}}</script>
                         </td>
                     </tr>
 
