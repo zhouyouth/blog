@@ -24,13 +24,11 @@ class LinksController extends Controller
         //var_dump($re);exit;
         if($re){
             $data = [
-
                 'status' =>1,
                 'msg'   =>'排序更新成功'
             ];
         }else{
             $data = [
-
                 'status' =>0,
                 'msg'   =>'排序更新失败'
             ];
