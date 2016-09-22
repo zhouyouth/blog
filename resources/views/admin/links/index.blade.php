@@ -97,12 +97,26 @@
      }
     </style>
     <script>
+        function changeOrder(obj,link_id){
+            var orderid= $(obj).val();
+            //alert(orderid);
+            //排序id
+            $.post("{{url('admin/links/changeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'link_id':link_id},function(data){
+                if(data.status==1){
+
+                    layer.msg(data.msg,{icon:6});
+
+                }else{
+                    layer.msg(data.msg,{icon:5});
+                }
+            });
+        }
     function dellinkicle(link_id){
 //询问框
         layer.confirm('确定要删除？', {
             btn: ['确定','取消'] //按钮
         }, function(){
-            $.post("{{url('admin/linkicle')}}/"+link_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
+            $.post("{{url('admin/links')}}/"+link_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
                if(data.status==0){
                    location.href =location.href;
                    layer.msg(data.msg,{icon:6});
