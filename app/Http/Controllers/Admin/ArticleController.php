@@ -53,9 +53,8 @@ class ArticleController extends CommonController
       return view('admin.article.edit',compact('data','article'));
   }
  public function update($art_id){
-  $input = Input::all();
-   dd($input);
-
+     $input = Input::except('_token','_method');
+     dd($input);
  }
 }
 
