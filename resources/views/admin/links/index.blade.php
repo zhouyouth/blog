@@ -41,8 +41,8 @@
             </div>
             <div class="result_content">
                 <div class="short_wrap">
-                    <a href="{{url('admin/linkicle/create')}}"><i class="fa fa-plus"></i>新增友情链接</a>
-                    <a href="{{url('admin/linkicle')}}"><i class="fa fa-plus"></i>友情链接列表</a>
+                    <a href="{{url('admin/links/create')}}"><i class="fa fa-plus"></i>新增友情链接</a>
+                    <a href="{{url('admin/links')}}"><i class="fa fa-plus"></i>友情链接列表</a>
                 </div>
             </div>
         </div>
