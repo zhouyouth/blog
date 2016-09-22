@@ -73,7 +73,7 @@
                         <td>{{$v->art_view}}</td>
                         <td>{{$v->art_content}}</td>
                         <td>
-                            <a href="{{url('admin/article/'.$v->$art_id.'/edit')}}">修改</a>
+                            <a href="{{url('admin/article/'.$v->art_id.'/edit')}}">修改</a>
                             <a href="javascript:void(0)" onclick="delCate({{$v->cate_id}});">删除</a>
                         </td>
                     </tr>
