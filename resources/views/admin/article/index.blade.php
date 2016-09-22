@@ -74,7 +74,7 @@
                         <td>{{$v->art_editor}}</td>
                         <td>
                             <a href="{{url('admin/article/'.$v->art_id.'/edit')}}">修改</a>
-                            <a href="javascript:void(0)" onclick="delCate({{$v->cate_id}});">删除</a>
+                            <a href="javascript:void(0)" onclick="delArticle({{$v->art_id}});">删除</a>
                         </td>
                     </tr>
                     @endforeach
@@ -100,29 +100,12 @@
      }
     </style>
     <script>
-      function changeOrder(obj,cate_id){
-          var orderid= $(obj).val();
-          //alert(orderid);
-          //排序id
-          $.post("{{url('admin/cate/changeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'cate_id':cate_id},function(data){
-              if(data.status==1){
-
-                  layer.msg(data.msg,{icon:6});
-
-             }else{
-                 layer.msg(data.msg,{icon:5});
-
-             }
-
-          });
-
-      }
-    function delCate(cate_id){
+    function delArticle(art_id){
 //询问框
         layer.confirm('确定要删除？', {
             btn: ['确定','删除'] //按钮
         }, function(){
-            $.post("{{url('admin/category')}}/"+cate_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
+            $.post("{{url('admin/article')}}/"+art_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
                if(data.status==0){
                    location.href =location.href;
                    layer.msg(data.msg,{icon:6});
