@@ -17,8 +17,9 @@ class LinksController extends Controller
     //ajax 排序
     public  function changeOrder(){
         $input = Input::all();
+        echo "123";exit;
         $cate = Links::find($input['link_id']);
-        $cate->cate_order = $input['orderid'];
+        $cate->link_order = $input['orderid'];
         $re = $cate->update();
         //var_dump($re);exit;
         if($re){
