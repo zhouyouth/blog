@@ -54,7 +54,12 @@ class ArticleController extends CommonController
   }
  public function update($art_id){
      $input = Input::except('_token','_method');
-     dd($input);
+     $re=Article::where('art_id',$art_id)->update($input);
+     if($re){
+         return redirect('admin/article');
+     }else{
+         return back()->withErrors('errors','编辑文章失败!');
+     }
  }
 }
 
