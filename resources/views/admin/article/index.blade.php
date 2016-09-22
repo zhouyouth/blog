@@ -69,7 +69,7 @@
                         </td>
                         <td><img src="/{{$v->art_thumb}}" width="50px" width="50px"></td>
                         <td>{{$v->art_description}}</td>
-                        <td>{{$v->art_keywords}}</td>
+                        <td>{{$v->art_tag}}</td>
                         <td>{{$v->art_view}}</td>
                         <td>{{$v->art_content}}</td>
                         <td>
