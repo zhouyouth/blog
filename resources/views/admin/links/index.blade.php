@@ -6,7 +6,7 @@
     <div class="crumb_warp">
 
         <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
-        <i class="fa fa-home"></i> <a href="#">首页</a>  &raquo; 文章列表
+        <i class="fa fa-home"></i> <a href="#">首页</a>  &raquo; 友情链接列表
     </div>
     <!--面包屑导航 结束-->
 
@@ -16,7 +16,7 @@
             {{csrf_field()}}
             <table class="search_tab">
                 <tr>
-                    <th width="120">选择文章:</th>
+                    <th width="120">选择友情链接:</th>
                     <td>
                         <select onchange="location.href=this.value;">
                             <option value="">全部</option>
@@ -37,12 +37,12 @@
     <form action="#" method="post">
         <div class="result_wrap">
             <div class="result_title">
-                <h3>文章管理</h3>
+                <h3>友情链接管理</h3>
             </div>
             <div class="result_content">
                 <div class="short_wrap">
-                    <a href="{{url('admin/article/create')}}"><i class="fa fa-plus"></i>新增文章</a>
-                    <a href="{{url('admin/article')}}"><i class="fa fa-plus"></i>文章列表</a>
+                    <a href="{{url('admin/article/create')}}"><i class="fa fa-plus"></i>新增友情链接</a>
+                    <a href="{{url('admin/article')}}"><i class="fa fa-plus"></i>友情链接列表</a>
                 </div>
             </div>
         </div>
