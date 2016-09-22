@@ -77,7 +77,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/admin/article/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.26237625">
-              <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+              <caret line="114" column="106" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="106" />
               <folding />
             </state>
           </provider>
@@ -544,12 +544,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00397" summary="&#10;">
-      <created>1474441481121</created>
-      <option name="number" value="00397" />
-      <option name="project" value="LOCAL" />
-      <updated>1474441481121</updated>
-    </task>
     <task id="LOCAL-00398" summary="&#10;">
       <created>1474442002556</created>
       <option name="number" value="00398" />
@@ -838,7 +832,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474508316311</updated>
     </task>
-    <option name="localTasksCounter" value="446" />
+    <task id="LOCAL-00446" summary="&#10;">
+      <created>1474508432268</created>
+      <option name="number" value="00446" />
+      <option name="project" value="LOCAL" />
+      <updated>1474508432268</updated>
+    </task>
+    <option name="localTasksCounter" value="447" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1289,7 +1289,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/admin/article/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26237625">
-          <caret line="114" column="57" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+          <caret line="114" column="106" selection-start-line="114" selection-start-column="106" selection-end-line="114" selection-end-column="106" />
           <folding />
         </state>
       </provider>
