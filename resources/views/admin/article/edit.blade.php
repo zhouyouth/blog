@@ -112,7 +112,7 @@
                     <tr>
                         <th>缩略图：</th>
                         <td>
-                            <div><img  id="thumb"  src="{{$article->art_thumb}}" /></div>
+                            <div><img  id="thumb"  src="/{{$article->art_thumb}}" /></div>
                             <input type="text" id="text" class="fa" name="art_thumb" value="{{$article->art_thumb}}" >
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
                         </td>
