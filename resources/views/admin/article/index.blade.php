@@ -53,7 +53,7 @@
                     <tr>
 
                         <th class="tc">ID</th>
-                        <th class="tc" width="300">标题</th>
+                        <th class="tc" width="520">标题</th>
                         <th>图片</th>
                         <th>描述</th>
                         <th>关键字</th>
