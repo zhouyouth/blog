@@ -53,12 +53,12 @@
                     <tr>
 
                         <th class="tc">ID</th>
-                        <th class="tc">文章名称</th>
+                        <th class="tc" width="300">标题</th>
                         <th>图片</th>
                         <th>描述</th>
                         <th>关键字</th>
                         <th>点击</th>
-                        <th>文章内容</th>
+                        {{--<th>文章内容</th>--}}
                         <th>操作</th>
                     </tr>
                      @foreach($article as $v)
@@ -71,7 +71,7 @@
                         <td>{{$v->art_description}}</td>
                         <td>{{$v->art_tag}}</td>
                         <td>{{$v->art_view}}</td>
-                        <td>{{$v->art_content}}</td>
+                        {{--<td>{{$v->art_content}}</td>--}}
                         <td>
                             <a href="{{url('admin/article/'.$v->art_id.'/edit')}}">修改</a>
                             <a href="javascript:void(0)" onclick="delCate({{$v->cate_id}});">删除</a>
