@@ -47,7 +47,8 @@ class ArticleController extends CommonController
        }
    }
   public  function edit($art_id){
-     return view('admin.article.edit');
+      $data=Category::tree();
+      return view('admin.article.edit',compact('data'));
   }
 }
 
