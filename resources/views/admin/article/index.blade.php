@@ -103,7 +103,7 @@
     function delArticle(art_id){
 //询问框
         layer.confirm('确定要删除？', {
-            btn: ['确定','删除'] //按钮
+            btn: ['确定','取消'] //按钮
         }, function(){
             $.post("{{url('admin/article')}}/"+art_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
                if(data.status==0){
