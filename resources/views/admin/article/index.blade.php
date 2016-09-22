@@ -58,7 +58,7 @@
                         <th>描述</th>
                         <th>关键字</th>
                         <th>点击</th>
-                        {{--<th>文章内容</th>--}}
+                        <th>作者</th>
                         <th>操作</th>
                     </tr>
                      @foreach($article as $v)
@@ -71,7 +71,7 @@
                         <td>{{$v->art_description}}</td>
                         <td>{{$v->art_tag}}</td>
                         <td>{{$v->art_view}}</td>
-                        {{--<td>{{$v->art_content}}</td>--}}
+                        <td>{{$v->art_editor}}</td>
                         <td>
                             <a href="{{url('admin/article/'.$v->art_id.'/edit')}}">修改</a>
                             <a href="javascript:void(0)" onclick="delCate({{$v->cate_id}});">删除</a>
