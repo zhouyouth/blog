@@ -18,7 +18,7 @@ class LinksController extends Controller
     public  function changeOrder(){
         $input = Input::all();
         $cate = Links::find($input['link_id']);
-        $cate->cate_order = $input['orderid'];
+        $cate->cate_order = $input['linkid'];
         $re = $cate->update();
         //var_dump($re);exit;
         if($re){
