@@ -41,8 +41,8 @@
             </div>
             <div class="result_content">
                 <div class="short_wrap">
-                    <a href="{{url('admin/article/create')}}"><i class="fa fa-plus"></i>新增友情链接</a>
-                    <a href="{{url('admin/article')}}"><i class="fa fa-plus"></i>友情链接列表</a>
+                    <a href="{{url('admin/linkicle/create')}}"><i class="fa fa-plus"></i>新增友情链接</a>
+                    <a href="{{url('admin/linkicle')}}"><i class="fa fa-plus"></i>友情链接列表</a>
                 </div>
             </div>
         </div>
@@ -53,29 +53,25 @@
                     <tr>
                         <th class="tc">排序</th>
                         <th class="tc">ID</th>
-                        <th class="tc" width="520">标题</th>
-                        <th>图片</th>
-                        <th>描述</th>
-                        <th>关键字</th>
-                        <th>点击</th>
-                        <th>作者</th>
+                        <th class="tc" width="520">名称</th>
+                        <th>标题</th>
+                        <th>图标</th>
+                        <th>网址</th>
                         <th>操作</th>
                     </tr>
                      @foreach($link as $v)
                     <tr>
-                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->cate_id}});" name="id[]" value="{{$v->cate_order}}"></td>
-                        <td class="tc">{{$v->art_id}}</td>
+                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->link_id}});" name="id[]" value="{{$v->link_order}}"></td>
+                        <td class="tc">{{$v->link_id}}</td>
                         <td>
-                            <a href="#">{{$v->art_title}}</a>
+                            <a href="#">{{$v->link_name}}</a>
                         </td>
-                        <td><img src="/{{$v->art_thumb}}" width="50px" width="50px"></td>
-                        <td>{{$v->art_description}}</td>
-                        <td>{{$v->art_tag}}</td>
-                        <td>{{$v->art_view}}</td>
-                        <td>{{$v->art_editor}}</td>
+                        <td><img src="/{{$v->link_title}}" width="50px" width="50px"></td>
+                        <td>图标</td>
+                        <td>{{$v->link_url}}</td>
                         <td>
-                            <a href="{{url('admin/article/'.$v->art_id.'/edit')}}">修改</a>
-                            <a href="javascript:void(0)" onclick="delArticle({{$v->art_id}});">删除</a>
+                            <a href="{{url('admin/linkicle/'.$v->link_id.'/edit')}}">修改</a>
+                            <a href="javascript:void(0)" onclick="dellinkicle({{$v->link_id}});">删除</a>
                         </td>
                     </tr>
                     @endforeach
@@ -101,12 +97,12 @@
      }
     </style>
     <script>
-    function delArticle(art_id){
+    function dellinkicle(link_id){
 //询问框
         layer.confirm('确定要删除？', {
             btn: ['确定','取消'] //按钮
         }, function(){
-            $.post("{{url('admin/article')}}/"+art_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
+            $.post("{{url('admin/linkicle')}}/"+link_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
                if(data.status==0){
                    location.href =location.href;
                    layer.msg(data.msg,{icon:6});
