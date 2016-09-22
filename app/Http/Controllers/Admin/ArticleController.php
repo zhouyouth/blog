@@ -48,6 +48,9 @@ class ArticleController extends CommonController
    }
   public  function edit($art_id){
       $data=Category::tree();
+      //find this article info;
+      $article = Article::find($art_id);
+      dd($article);
       return view('admin.article.edit',compact('data'));
   }
 }
