@@ -10,6 +10,7 @@ use App\Http\Controllers\Controller;
 class LinksController extends Controller
 {
     public  function  index(){
-        return view('admin.links.index');
+        $article ="";
+        return view('admin.links.index',compact('article'));
     }
 }
