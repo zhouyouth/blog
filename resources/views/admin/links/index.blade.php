@@ -51,7 +51,7 @@
             <div class="result_content">
                 <table class="list_tab">
                     <tr>
-
+                        <th class="tc">排序</th>
                         <th class="tc">ID</th>
                         <th class="tc" width="520">标题</th>
                         <th>图片</th>
@@ -61,8 +61,9 @@
                         <th>作者</th>
                         <th>操作</th>
                     </tr>
-                     @foreach($article as $v)
+                     @foreach($link as $v)
                     <tr>
+                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->cate_id}});" name="id[]" value="{{$v->cate_order}}"></td>
                         <td class="tc">{{$v->art_id}}</td>
                         <td>
                             <a href="#">{{$v->art_title}}</a>
@@ -82,7 +83,7 @@
             </div>
         </div>
         <div class="page_list">
-            {{$article->links()}}
+            {{$link->links()}}
         </div>
     </form>
     <!--结果页快捷搜索框 end-->
