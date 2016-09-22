@@ -52,6 +52,11 @@ class ArticleController extends CommonController
       $article = Article::find($art_id);
       return view('admin.article.edit',compact('data','article'));
   }
+ public function update($art_id){
+  $input = Input::all();
+   dd($input);
+
+ }
 }
 
 
