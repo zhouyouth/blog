@@ -11,7 +11,7 @@ use App\Http\Controllers\Controller;
 class LinksController extends Controller
 {
     public  function  index(){
-        $link = Links::orderBy('link_id', 'desc')->paginate(1);
+        $link = Links::orderBy('link_id', 'desc')->paginate(3);
         return view('admin.links.index',compact('link'));
     }
 }
