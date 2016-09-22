@@ -139,7 +139,7 @@
                         <th>内容：</th>
 
                         <td>
-                            <script id="editor" name="art_content" type="text/plain" style="width:1024px;height:500px;">{{$article->art_content}}</script>
+                            <script id="editor" name="art_content" type="text/plain" style="width:1024px;height:500px;">{!! $article->art_content !!}</script>
                         </td>
                     </tr>
 
