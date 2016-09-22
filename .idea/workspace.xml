@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/admin/article/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -76,8 +75,8 @@
       <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/article/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3322884">
-              <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.12539186">
+              <caret line="45" column="19" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -179,8 +178,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="406" />
-    <option name="y" value="138" />
+    <option name="x" value="457" />
+    <option name="y" value="119" />
     <option name="width" value="1291" />
     <option name="height" value="886" />
   </component>
@@ -544,12 +543,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00387" summary="&#10;">
-      <created>1474438012849</created>
-      <option name="number" value="00387" />
-      <option name="project" value="LOCAL" />
-      <updated>1474438012850</updated>
-    </task>
     <task id="LOCAL-00388" summary="&#10;">
       <created>1474438917217</created>
       <option name="number" value="00388" />
@@ -838,7 +831,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474506280647</updated>
     </task>
-    <option name="localTasksCounter" value="436" />
+    <task id="LOCAL-00436" summary="&#10;">
+      <created>1474506916899</created>
+      <option name="number" value="00436" />
+      <option name="project" value="LOCAL" />
+      <updated>1474506916899</updated>
+    </task>
+    <option name="localTasksCounter" value="437" />
     <servers />
   </component>
   <component name="TodoView">
@@ -851,7 +850,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="406" y="138" width="1291" height="886" extended-state="0" />
+    <frame x="457" y="119" width="1291" height="886" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1288,8 +1287,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/article/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3322884">
-          <caret line="48" column="81" selection-start-line="48" selection-start-column="81" selection-end-line="48" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.12539186">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="19" />
           <folding />
         </state>
       </provider>
