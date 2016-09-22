@@ -45,12 +45,11 @@ class ArticleController extends CommonController
        }else{
            return back()->withErrors($validator);
        }
-
-
-
-
-
    }
+  public  function edit($art_id){
+     echo $art_id;
+  }
 }
+
 
 
