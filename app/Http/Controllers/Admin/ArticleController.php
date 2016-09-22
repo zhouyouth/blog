@@ -47,7 +47,7 @@ class ArticleController extends CommonController
        }
    }
   public  function edit($art_id){
-     echo $art_id;
+     return view('admin.article.edit');
   }
 }
 
