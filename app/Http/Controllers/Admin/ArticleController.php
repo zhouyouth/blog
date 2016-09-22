@@ -71,7 +71,7 @@ class ArticleController extends CommonController
         }
     }
 
-    public function destory($art_id)
+    public function destroy($art_id)
     {
         $re = Article::where('art_id', $art_id)->delete();
         if ($re) {
