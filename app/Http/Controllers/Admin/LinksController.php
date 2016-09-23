@@ -37,6 +37,6 @@ class LinksController extends Controller
     }
     //添加表单回显
     public  function create(){
-        return view('admin.link.add');
+        return view('admin.links.add');
     }
 }
