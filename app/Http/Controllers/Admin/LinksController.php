@@ -67,10 +67,10 @@ class LinksController extends Controller
     }
     public function edit($art_id)
     {
-        $data = Category::tree();
-        //find this article info;
-        $article = Article::find($art_id);
-        return view('admin.article.edit', compact('data', 'article'));
+
+        //find this links info;
+        $article = Links::find($art_id);
+        return view('admin.article.edit', compact( 'article'));
     }
 
     public function update($art_id)
