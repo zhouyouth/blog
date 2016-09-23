@@ -44,8 +44,8 @@
       <file leaf-file-name="LinksController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LinksController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5432526">
-              <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.5686275">
+              <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
               <folding>
                 <element signature="e#46#71#0#PHP" expanded="true" />
               </folding>
@@ -554,12 +554,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00486" summary="&#10;">
-      <created>1474533933628</created>
-      <option name="number" value="00486" />
-      <option name="project" value="LOCAL" />
-      <updated>1474533933628</updated>
-    </task>
     <task id="LOCAL-00487" summary="&#10;">
       <created>1474534256182</created>
       <option name="number" value="00487" />
@@ -848,7 +842,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474599109275</updated>
     </task>
-    <option name="localTasksCounter" value="535" />
+    <task id="LOCAL-00535" summary="&#10;">
+      <created>1474608969067</created>
+      <option name="number" value="00535" />
+      <option name="project" value="LOCAL" />
+      <updated>1474608969067</updated>
+    </task>
+    <option name="localTasksCounter" value="536" />
     <servers />
   </component>
   <component name="TodoView">
@@ -862,7 +862,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="172" y="31" width="1936" height="1056" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20469083" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1303,8 +1303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LinksController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5432526">
-          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.5686275">
+          <caret line="72" column="61" selection-start-line="72" selection-start-column="61" selection-end-line="72" selection-end-column="61" />
           <folding>
             <element signature="e#46#71#0#PHP" expanded="true" />
           </folding>
