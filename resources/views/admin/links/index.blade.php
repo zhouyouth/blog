@@ -70,8 +70,8 @@
                         <td class="tc"><img src="/{{$v->link_logo}}" width="50px" width="50px"></td>
                         <td class="tc">{{$v->link_url}}
                         <td class="tc">
-                            <a href="{{url('admin/links/'.$v->link_id.'/edit')}}">修改</a>
-                            <a href="javascript:void(0)" onclick="dellinkicle({{$v->link_id}});">删除</a>
+                            <a  class="tc" href="{{url('admin/links/'.$v->link_id.'/edit')}}">修改</a>
+                            <a  class="tc" href="javascript:void(0)" onclick="dellinkicle({{$v->link_id}});">删除</a>
                         </td>
                     </tr>
                     @endforeach
