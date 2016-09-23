@@ -92,7 +92,7 @@ class LinksController extends Controller
                 'msg' => '删除文章成功!'
             ];
         } else {
-            $data = [
+                $data = [
                 'status' => 1,
                 'msg' => '删除文章失败!'
             ];
