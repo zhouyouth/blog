@@ -75,9 +75,9 @@ class LinksController extends Controller
     public function update($art_id)
     {
         $input = Input::except('_token', '_method');
-        $re = Article::where('art_id', $art_id)->update($input);
+        $re = Links::where('link_id', $art_id)->update($input);
         if ($re) {
-            return redirect('admin/article');
+            return redirect('admin/links');
         } else {
             return back()->withErrors('errors', '编辑文章失败!');
         }
