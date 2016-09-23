@@ -83,21 +83,21 @@
             <table class="add_tab">
                 <tbody>
                     <tr>
-                        <th><i class="require">*</i>友情链接标题：</th>
+                        <th><i class="require">*</i>友情链接名称：</th>
                         <td>
-                            <input type="text" class="lg" name="art_title">
+                            <input type="text" class="lg" name="link_name">
                             <p></p>
                         </td>
                     </tr>
                     <tr>
-                        <th>编辑：</th>
+                        <th>标题：</th>
                         <td>
-                            <input type="text" name="art_editor">
+                            <input type="text" name="link_title">
                             <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
                         </td>
                     </tr>
                     <tr>
-                        <th>缩略图：</th>
+                        <th>图标：</th>
                         <td>
                             <div><img  id="thumb"   /></div>
                             <input type="text" id="text" class="fa" name="art_thumb"  >
@@ -106,27 +106,11 @@
 
                     </tr>
                     <tr>
-                        <th>关键字：</th>
+                        <th>网址：</th>
                         <td>
-                            <textarea name="art_tag"></textarea>
+                            <input type="text" name="link_url">
                         </td>
                     </tr>
-                    <tr>
-                        <th>描述：</th>
-                        <td>
-                            <textarea class="lg" name="art_description"></textarea>
-
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <th>内容：</th>
-
-                        <td>
-                            <script id="editor" name="art_content" type="text/plain" style="width:1024px;height:500px;"></script>
-                        </td>
-                    </tr>
-
                     <tr>
                         <th></th>
                         <td>
