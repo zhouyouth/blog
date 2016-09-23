@@ -89,12 +89,12 @@ class LinksController extends Controller
         if ($re) {
             $data = [
                 'status' => 0,
-                'msg' => '删除友链成功!'
+                'msg' => '删除友情链接链成功!'
             ];
         } else {
                 $data = [
                 'status' => 1,
-                'msg' => '删除友链失败!'
+                'msg' => '删除友链链接失败!'
             ];
 
         }
