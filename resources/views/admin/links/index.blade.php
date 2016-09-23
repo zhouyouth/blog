@@ -64,12 +64,12 @@
                         <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->link_id}});" name="id[]" value="{{$v->link_order}}"></td>
                         <td class="tc">{{$v->link_id}}</td>
                         <td>
-                            <a href="#">{{$v->link_name}}</a>
+                            <a href="#" class="tc">{{$v->link_name}}</a>
                         </td>
-                        <td>{{$v->link_title}}</td>
-                        <td><img src="/{{$v->link_logo}}" width="50px" width="50px"></td>
-                        <td>{{$v->link_url}}
-                        <td>
+                        <td class="tc">{{$v->link_title}}</td>
+                        <td class="tc"><img src="/{{$v->link_logo}}" width="50px" width="50px"></td>
+                        <td class="tc">{{$v->link_url}}
+                        <td class="tc">
                             <a href="{{url('admin/links/'.$v->link_id.'/edit')}}">修改</a>
                             <a href="javascript:void(0)" onclick="dellinkicle({{$v->link_id}});">删除</a>
                         </td>
