@@ -93,6 +93,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/article/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.3103447">
+              <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="IdeDocumentHistory">
@@ -167,8 +177,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
-    <option name="y" value="33" />
+    <option name="x" value="124" />
+    <option name="y" value="4" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -580,12 +590,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00502" summary="&#10;">
-      <created>1474592166095</created>
-      <option name="number" value="00502" />
-      <option name="project" value="LOCAL" />
-      <updated>1474592166095</updated>
-    </task>
     <task id="LOCAL-00503" summary="&#10;">
       <created>1474592246812</created>
       <option name="number" value="00503" />
@@ -874,7 +878,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474620778994</updated>
     </task>
-    <option name="localTasksCounter" value="551" />
+    <task id="LOCAL-00551" summary="&#10;">
+      <created>1474620842690</created>
+      <option name="number" value="00551" />
+      <option name="project" value="LOCAL" />
+      <updated>1474620842690</updated>
+    </task>
+    <option name="localTasksCounter" value="552" />
     <servers />
   </component>
   <component name="TodoView">
@@ -887,7 +897,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="33" width="1936" height="1056" extended-state="0" />
+    <frame x="124" y="4" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1296,14 +1306,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/article/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.05074971">
-          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/LinksController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.37931">
@@ -1326,6 +1328,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-37.931034">
           <caret line="62" column="24" selection-start-line="62" selection-start-column="24" selection-end-line="62" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/article/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3103447">
+          <caret line="60" column="45" selection-start-line="60" selection-start-column="45" selection-end-line="60" selection-end-column="45" />
           <folding />
         </state>
       </provider>
