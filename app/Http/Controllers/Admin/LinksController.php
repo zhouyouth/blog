@@ -85,7 +85,7 @@ class LinksController extends Controller
 
     public function destroy($art_id)
     {
-        $re = Article::where('art_id', $art_id)->delete();
+        $re = Links::where('link_id', $art_id)->delete();
         if ($re) {
             $data = [
                 'status' => 0,
