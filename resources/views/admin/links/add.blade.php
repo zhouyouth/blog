@@ -100,10 +100,9 @@
                         <th>图标：</th>
                         <td>
                             <div><img  id="thumb"   /></div>
-                            <input type="text" id="text" class="fa" name="art_thumb"  >
+                            <input type="text" id="text" class="fa" name="link_logo"  >
                             <input id="file_upload" name="file_upload" type="file" multiple="true">
                         </td>
-
                     </tr>
                     <tr>
                         <th>网址：</th>
