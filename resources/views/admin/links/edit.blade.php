@@ -78,7 +78,7 @@
     </div>
 
     <div class="result_wrap">
-        <form action="{{url('admin/links')}}" method="post">
+        <form action="{{url('admin/links')}} .'/'.$link->link_id"> method="post">
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>
@@ -93,7 +93,7 @@
                     <th>标题：</th>
                     <td>
                         <input type="text" name="link_title" value="{{$link->link_title}}>
-                        <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
+                        <span><i class="fa fa-exclamation-circle yellow" ></i>作者</span>
                     </td>
                 </tr>
                 <tr>
