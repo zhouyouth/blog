@@ -79,6 +79,7 @@
 
     <div class="result_wrap">
         <form action="{{url('admin/links')}}/{{$link->link_id}}" method="post">
+            <input type="hidden" name="_method" value="put">
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>
