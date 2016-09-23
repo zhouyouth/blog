@@ -56,7 +56,7 @@ class LinksController extends Controller
         if ($validator->passes()) {
             $re = Links::create($input);
             if ($re) {
-                return redirect('admin/article');
+                return redirect('admin/links');
             } else {
                 return back()->withErrors('errors', '友情链接添加失败');
             }
