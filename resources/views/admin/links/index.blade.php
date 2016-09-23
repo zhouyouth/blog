@@ -57,7 +57,7 @@
                         <th class="tc">标题</th>
                         <th class="tc">图标</th>
                         <th class="tc">网址</th>
-                        <th class="tc">操作</th>
+                        <th width="200">操作</th>
                     </tr>
                      @foreach($link as $v)
                     <tr>
