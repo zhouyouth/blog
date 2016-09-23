@@ -107,7 +107,7 @@
                 <tr>
                     <th>网址：</th>
                     <td>
-                        <input type="text" name="link_url" {{$link->link_url}}>
+                        <input type="text" name="link_url"  value='{{$link->link_url}}'>
                     </td>
                 </tr>
                 <tr>
