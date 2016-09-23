@@ -69,7 +69,7 @@
                         <td>{{$v->link_title}}</td>
                         <td><img src="/{{$v->link_logo}}" width="50px" width="50px"></td>
                         <td>{{$v->link_url}}
-                        <td></td>
+                        <td>
                             <a href="{{url('admin/links/'.$v->link_id.'/edit')}}">修改</a>
                             <a href="javascript:void(0)" onclick="dellinkicle({{$v->link_id}});">删除</a>
                         </td>
