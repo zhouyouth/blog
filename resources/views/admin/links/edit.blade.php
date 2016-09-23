@@ -85,14 +85,14 @@
                 <tr>
                     <th><i class="require">*</i>友情链接名称：</th>
                     <td>
-                        <input type="text" class="lg" name="link_name">
+                        <input type="text" class="lg" name="link_name" value="{{$v->link_name}}">
                         <p></p>
                     </td>
                 </tr>
                 <tr>
                     <th>标题：</th>
                     <td>
-                        <input type="text" name="link_title">
+                        <input type="text" name="link_title" value="{{$v->link_title}}>
                         <span><i class="fa fa-exclamation-circle yellow"></i>作者</span>
                     </td>
                 </tr>
@@ -100,14 +100,14 @@
                     <th>图标：</th>
                     <td>
                         <div><img  id="thumb"   /></div>
-                        <input type="text" id="text" class="fa" name="link_logo"  >
+                        <input type="text" id="text" class="fa" name="link_logo" {{$v->link_logo}} >
                         <input id="file_upload" name="file_upload" type="file" multiple="true">
                     </td>
                 </tr>
                 <tr>
                     <th>网址：</th>
                     <td>
-                        <input type="text" name="link_url">
+                        <input type="text" name="link_url" {{$v->link_url}}>
                     </td>
                 </tr>
                 <tr>
