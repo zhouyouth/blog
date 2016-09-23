@@ -105,7 +105,7 @@
                 if(data.status==1){
 
                     layer.msg(data.msg,{icon:6});
-
+                    location.href =location.href;
                 }else{
                     layer.msg(data.msg,{icon:5});
                 }
