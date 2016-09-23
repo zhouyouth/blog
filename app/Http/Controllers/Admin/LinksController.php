@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Input;
 class LinksController extends Controller
 {
     public  function  index(){
-        $link = Links::orderBy('link_id', 'desc')->paginate(3);
+        $link = Links::orderBy('link_order', 'desc')->paginate(3);
         return view('admin.links.index',compact('link'));
     }
     //ajax 排序
