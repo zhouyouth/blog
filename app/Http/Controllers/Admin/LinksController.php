@@ -69,8 +69,8 @@ class LinksController extends Controller
     {
 
         //find this links info;
-        $article = Links::find($art_id);
-        return view('admin.links.edit', compact( 'article'));
+        $links = Links::find($art_id);
+        return view('admin.links.edit', compact( 'links'));
     }
 
     public function update($art_id)
