@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;" />
+    <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/links/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/links/index.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="blog.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -63,8 +66,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/links/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43137255">
-              <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.53287196">
+              <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -566,18 +569,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00478" summary="&#10;">
-      <created>1474532445599</created>
-      <option name="number" value="00478" />
-      <option name="project" value="LOCAL" />
-      <updated>1474532445599</updated>
-    </task>
-    <task id="LOCAL-00479" summary="&#10;">
-      <created>1474532758424</created>
-      <option name="number" value="00479" />
-      <option name="project" value="LOCAL" />
-      <updated>1474532758424</updated>
-    </task>
     <task id="LOCAL-00480" summary="&#10;">
       <created>1474532831936</created>
       <option name="number" value="00480" />
@@ -860,7 +851,19 @@
       <option name="project" value="LOCAL" />
       <updated>1474598289866</updated>
     </task>
-    <option name="localTasksCounter" value="527" />
+    <task id="LOCAL-00527" summary="&#10;">
+      <created>1474598461318</created>
+      <option name="number" value="00527" />
+      <option name="project" value="LOCAL" />
+      <updated>1474598461318</updated>
+    </task>
+    <task id="LOCAL-00528" summary="&#10;">
+      <created>1474598514816</created>
+      <option name="number" value="00528" />
+      <option name="project" value="LOCAL" />
+      <updated>1474598514816</updated>
+    </task>
+    <option name="localTasksCounter" value="529" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1315,8 +1318,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/links/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43137255">
-          <caret line="71" column="27" selection-start-line="71" selection-start-column="27" selection-end-line="71" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.53287196">
+          <caret line="72" column="44" selection-start-line="72" selection-start-column="44" selection-end-line="72" selection-end-column="44" />
           <folding />
         </state>
       </provider>
