@@ -93,8 +93,8 @@
                 <tr>
                     <th>标题：</th>
                     <td>
-                        <input type="text" name="link_title" value="{{$link->link_title}}>
-                        <span><i class="fa fa-exclamation-circle yellow" ></i>作者</span>
+                        <input type="text" name="link_title" value="{{$link->link_title}}">
+                        <span><i class="fa fa-exclamation-circle yellow " ></i>标题</span>
                     </td>
                 </tr>
                 <tr>
