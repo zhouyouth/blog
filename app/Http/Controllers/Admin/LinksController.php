@@ -65,4 +65,40 @@ class LinksController extends Controller
         }
 
     }
+    public function edit($art_id)
+    {
+        $data = Category::tree();
+        //find this article info;
+        $article = Article::find($art_id);
+        return view('admin.article.edit', compact('data', 'article'));
+    }
+
+    public function update($art_id)
+    {
+        $input = Input::except('_token', '_method');
+        $re = Article::where('art_id', $art_id)->update($input);
+        if ($re) {
+            return redirect('admin/article');
+        } else {
+            return back()->withErrors('errors', '编辑文章失败!');
+        }
+    }
+
+    public function destroy($art_id)
+    {
+        $re = Article::where('art_id', $art_id)->delete();
+        if ($re) {
+            $data = [
+                'status' => 0,
+                'msg' => '删除文章成功!'
+            ];
+        } else {
+            $data = [
+                'status' => 1,
+                'msg' => '删除文章失败!'
+            ];
+
+        }
+        return $data;
+    }
 }
