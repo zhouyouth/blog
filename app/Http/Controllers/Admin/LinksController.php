@@ -54,7 +54,7 @@ class LinksController extends Controller
         ];
         $validator = Validator::make($input, $rules, $message);
         if ($validator->passes()) {
-            $re = Article::create($input);
+            $re = Links::create($input);
             if ($re) {
                 return redirect('admin/article');
             } else {
