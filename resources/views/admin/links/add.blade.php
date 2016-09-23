@@ -78,7 +78,7 @@
     </div>
 
     <div class="result_wrap">
-        <form action="{{url('admin/article')}}" method="post">
+        <form action="{{url('admin/links')}}" method="post">
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>

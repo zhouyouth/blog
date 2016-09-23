@@ -37,7 +37,11 @@ class LinksController extends Controller
     }
     //添加表单回显
     public  function create(){
-        //$data=Category::where('cate_pid',0)->get();
         return view('admin.links.add',compact('data'));
+    }
+    //添加数据
+    public function store(){
+
+
     }
 }
