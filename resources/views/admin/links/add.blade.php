@@ -83,19 +83,6 @@
             <table class="add_tab">
                 <tbody>
                     <tr>
-                        <th width="120"><i class="require">*</i>所属分类：</th>
-                        <td>
-                            <select name="cate_id">
-                                <option value="0">==请选择==</option>
-                                @foreach($data as $v)
-                                <option value="{{$v->cate_id}}">{{$v->_cate_name}}</option>
-                                @endforeach
-                            </select>
-                        </td>
-                    </tr>
-
-
-                    <tr>
                         <th><i class="require">*</i>友情链接标题：</th>
                         <td>
                             <input type="text" class="lg" name="art_title">
