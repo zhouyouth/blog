@@ -99,8 +99,8 @@
                 <tr>
                     <th>图标：</th>
                     <td>
-                        <div><img  id="thumb"   /></div>
-                        <input type="text" id="text" class="fa" name="link_logo" {{$link->link_logo}} >
+                        <div><img  id="thumb"  src="/{{$link->link_logo}}" /></div>
+                        <input type="text" id="text" class="fa" name="link_logo"  value="/{{$link->link_logo}}" >
                         <input id="file_upload" name="file_upload" type="file" multiple="true">
                     </td>
                 </tr>
