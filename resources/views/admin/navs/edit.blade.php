@@ -37,7 +37,7 @@
     </div>
 
     <div class="result_wrap">
-        <form action="{{url('admin/links')}}/{{$link->link_id}}" method="post">
+        <form action="{{url('admin/navs')}}/{{$link->nav_id}}" method="post">
             <input type="hidden" name="_method" value="put">
             {{csrf_field()}}
             <table class="add_tab">
@@ -45,29 +45,21 @@
                 <tr>
                     <th><i class="require">*</i>导航栏目名称：</th>
                     <td>
-                        <input type="text" class="lg" name="link_name" value="{{$link->link_name}}">
+                        <input type="text" class="lg" name="link_name" value="{{$link->nav_name}}">
                         <p></p>
                     </td>
                 </tr>
                 <tr>
                     <th>标题：</th>
                     <td>
-                        <input type="text" name="link_title" value="{{$link->link_title}}">
+                        <input type="text" name="link_title" value="{{$link->nav_alias}}">
                         <span><i class="fa fa-exclamation-circle yellow " ></i>标题</span>
-                    </td>
-                </tr>
-                <tr>
-                    <th>图标：</th>
-                    <td>
-                        <div><img  id="thumb"  src="/{{$link->link_logo}}" width="100" height="100" /></div>
-                        <input type="text" id="text" class="fa" name="link_logo"  value="/{{$link->link_logo}}" >
-                        <input id="file_upload" name="file_upload" type="file" multiple="true">
                     </td>
                 </tr>
                 <tr>
                     <th>网址：</th>
                     <td>
-                        <input type="text" name="link_url"  value='{{$link->link_url}}'>
+                        <input type="text" name="link_url"  value='{{$link->nav_url}}'>
                     </td>
                 </tr>
                 <tr>
