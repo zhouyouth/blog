@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Http\Model\Links;
+use App\Http\Model\Navs;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Validator;
 class NavsController extends Controller
 {
     public  function  index(){
-        $link = Links::orderBy('link_order', 'asc')->paginate(3);
-        return view('admin.links.index',compact('link'));
+        $link = Navs::orderBy('link_order', 'asc')->paginate(3);
+        return view('admin.Navs.index',compact('link'));
     }
     //ajax 排序
     public  function changeOrder(){
         $input = Input::all();
-        $cate = Links::find($input['link_id']);
+        $cate = Navs::find($input['link_id']);
         $cate->link_order = $input['orderid'];
         $re = $cate->update();
         if($re){
@@ -38,7 +38,7 @@ class NavsController extends Controller
     }
     //添加表单回显
     public  function create(){
-        return view('admin.links.add',compact('data'));
+        return view('admin.Navs.add',compact('data'));
     }
     //添加数据
     public function store(){
@@ -49,16 +49,16 @@ class NavsController extends Controller
             'link_name' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
         ];
         $message = [
-            'link_title.required' => '友情链接名称不能为空!',
-            'link_name.required' => '友情链接标题不能为空!',
+            'link_title.required' => '导航栏目不能为空!',
+            'link_name.required' => '导航栏目标题不能为空!',
         ];
         $validator = Validator::make($input, $rules, $message);
         if ($validator->passes()) {
-            $re = Links::create($input);
+            $re = Navs::create($input);
             if ($re) {
-                return redirect('admin/links');
+                return redirect('admin/Navs');
             } else {
-                return back()->withErrors('errors', '友情链接添加失败');
+                return back()->withErrors('errors', '导航栏目添加失败');
             }
         } else {
             return back()->withErrors($validator);
@@ -67,17 +67,17 @@ class NavsController extends Controller
     }
     public function edit($art_id)
     {
-        //find this links info;
-        $link = Links::find($art_id);
-        return view('admin.links.edit', compact( 'link'));
+        //find this Navs info;
+        $link = Navs::find($art_id);
+        return view('admin.Navs.edit', compact( 'link'));
     }
 
     public function update($art_id)
     {
         $input = Input::except('_token', '_method');
-        $re = Links::where('link_id', $art_id)->update($input);
+        $re = Navs::where('link_id', $art_id)->update($input);
         if ($re) {
-            return redirect('admin/links');
+            return redirect('admin/Navs');
         } else {
             return back()->withErrors('errors', '编辑文章失败!');
         }
@@ -85,11 +85,11 @@ class NavsController extends Controller
 
     public function destroy($art_id)
     {
-        $re = Links::where('link_id', $art_id)->delete();
+        $re = Navs::where('link_id', $art_id)->delete();
         if ($re) {
             $data = [
                 'status' => 0,
-                'msg' => '删除友情链接链成功!'
+                'msg' => '删除导航栏目链成功!'
             ];
         } else {
             $data = [
