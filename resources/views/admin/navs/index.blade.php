@@ -60,16 +60,16 @@
                     </tr>
                      @foreach($navs as $v)
                     <tr>
-                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->navs_id}});" name="id[]" value="{{$v->navs_order}}"></td>
-                        <td class="tc">{{$v->navs_id}}</td>
+                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->nav_id}});" name="id[]" value="{{$v->nav_order}}"></td>
+                        <td class="tc">{{$v->nav_id}}</td>
                         <td>
-                            <a href="#" class="tc">{{$v->navs_name}}</a>
+                            <a href="#" class="tc">{{$v->nav_name}}</a>
                         </td>
-                        <td class="tc">{{$v->navs_alias}}</td>
-                        <td class="tc">{{$v->navs_url}}
+                        <td class="tc">{{$v->nav_alias}}</td>
+                        <td class="tc">{{$v->nav_url}}
                         <td>
-                            <a  href="{{url('admin/navs'.$v->navs_id.'/edit')}}">修改</a>
-                            <a   href="javascript:void(0)" onclick="delnavsicle({{$v->navs_id}});">删除</a>
+                            <a  href="{{url('admin/navs'.$v->nav_id.'/edit')}}">修改</a>
+                            <a   href="javascript:void(0)" onclick="delnavsicle({{$v->nav_id}});">删除</a>
                         </td>
                     </tr>
                     @endforeach
@@ -77,7 +77,7 @@
             </div>
         </div>
         <div class="page_list">
-            {{$navs->navs()}}
+            {{$navs->nav()}}
         </div>
     </form>
     <!--结果页快捷搜索框 end-->
