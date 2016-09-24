@@ -20,7 +20,7 @@ class NavsController extends Controller
     public  function changeOrder(){
         $input = Input::all();
         $cate = Navs::find($input['nav_id']);
-        $cate->link_order = $input['orderid'];
+        $cate->nav_order = $input['orderid'];
         $re = $cate->update();
         if($re){
             $data = [
