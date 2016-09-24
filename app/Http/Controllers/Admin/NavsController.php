@@ -100,8 +100,5 @@ class NavsController extends Controller
         }
         return $data;
     }
-    public function show(){
 
-
-    }
 }
