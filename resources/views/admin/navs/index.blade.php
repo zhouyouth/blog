@@ -98,7 +98,7 @@
             var orderid= $(obj).val();
             //alert(orderid);
             //排序id
-            $.post("{{url('admin/navs/changeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'navs_id':navs_id},function(data){
+            $.post("{{url('admin/navs/changeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'nav_id':navs_id},function(data){
                 if(data.status==1){
 
                     layer.msg(data.msg,{icon:6});
