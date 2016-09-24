@@ -38,7 +38,7 @@ class NavsController extends Controller
     }
     //添加表单回显
     public  function create(){
-        return view('admin.Navs.add',compact('data'));
+        return view('admin.navs.add',compact('data'));
     }
     //添加数据
     public function store(){
@@ -69,7 +69,7 @@ class NavsController extends Controller
     {
         //find this Navs info;
         $link = Navs::find($art_id);
-        return view('admin.Navs.edit', compact( 'link'));
+        return view('admin.navs.edit', compact( 'link'));
     }
 
     public function update($art_id)
@@ -77,7 +77,7 @@ class NavsController extends Controller
         $input = Input::except('_token', '_method');
         $re = Navs::where('link_id', $art_id)->update($input);
         if ($re) {
-            return redirect('admin/Navs');
+            return redirect('admin/navs');
         } else {
             return back()->withErrors('errors', '编辑文章失败!');
         }
