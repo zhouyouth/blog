@@ -41,7 +41,7 @@
             </div>
             <div class="result_content">
                 <div class="short_wrap">
-                    <a href="{{url('admin/links/create')}}"><i class="fa fa-plus"></i>新增导航栏目</a>
+                    <a href="{{url('admin/navscreate')}}"><i class="fa fa-plus"></i>新增导航栏目</a>
                     <a href="{{url('admin/links')}}"><i class="fa fa-plus"></i>导航栏目列表</a>
                 </div>
             </div>
@@ -70,7 +70,7 @@
                         <td class="tc"><img src="/{{$v->link_logo}}" width="50px" width="50px"></td>
                         <td class="tc">{{$v->link_url}}
                         <td>
-                            <a  href="{{url('admin/links/'.$v->link_id.'/edit')}}">修改</a>
+                            <a  href="{{url('admin/navs'.$v->link_id.'/edit')}}">修改</a>
                             <a   href="javascript:void(0)" onclick="dellinkicle({{$v->link_id}});">删除</a>
                         </td>
                     </tr>
@@ -101,7 +101,7 @@
             var orderid= $(obj).val();
             //alert(orderid);
             //排序id
-            $.post("{{url('admin/links/changeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'link_id':link_id},function(data){
+            $.post("{{url('admin/navschangeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'link_id':link_id},function(data){
                 if(data.status==1){
 
                     layer.msg(data.msg,{icon:6});
