@@ -42,7 +42,7 @@
             <div class="result_content">
                 <div class="short_wrap">
                     <a href="{{url('admin/navs/create')}}"><i class="fa fa-plus"></i>新增导航栏目</a>
-                    <a href="{{url('admin/links')}}"><i class="fa fa-plus"></i>导航栏目列表</a>
+                    <a href="{{url('admin/navs')}}"><i class="fa fa-plus"></i>导航栏目列表</a>
                 </div>
             </div>
         </div>
@@ -53,25 +53,23 @@
                     <tr>
                         <th class="tc">排序</th>
                         <th class="tc">ID</th>
-                        <th class="tc" width="520">名称</th>
-                        <th class="tc">标题</th>
-                        <th class="tc">图标</th>
-                        <th class="tc">网址</th>
+                        <th class="tc" width="520">导航名称</th>
+                        <th class="tc">别名</th>
+                        <th class="tc">链接地址</th>
                         <th width="100">操作</th>
                     </tr>
-                     @foreach($link as $v)
+                     @foreach($navs as $v)
                     <tr>
-                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->link_id}});" name="id[]" value="{{$v->link_order}}"></td>
-                        <td class="tc">{{$v->link_id}}</td>
+                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->navs_id}});" name="id[]" value="{{$v->navs_order}}"></td>
+                        <td class="tc">{{$v->navs_id}}</td>
                         <td>
-                            <a href="#" class="tc">{{$v->link_name}}</a>
+                            <a href="#" class="tc">{{$v->navs_name}}</a>
                         </td>
-                        <td class="tc">{{$v->link_title}}</td>
-                        <td class="tc"><img src="/{{$v->link_logo}}" width="50px" width="50px"></td>
-                        <td class="tc">{{$v->link_url}}
+                        <td class="tc">{{$v->navs_alias}}</td>
+                        <td class="tc">{{$v->navs_url}}
                         <td>
-                            <a  href="{{url('admin/navs'.$v->link_id.'/edit')}}">修改</a>
-                            <a   href="javascript:void(0)" onclick="dellinkicle({{$v->link_id}});">删除</a>
+                            <a  href="{{url('admin/navs'.$v->navs_id.'/edit')}}">修改</a>
+                            <a   href="javascript:void(0)" onclick="delnavsicle({{$v->navs_id}});">删除</a>
                         </td>
                     </tr>
                     @endforeach
@@ -79,7 +77,7 @@
             </div>
         </div>
         <div class="page_list">
-            {{$link->links()}}
+            {{$navs->navs()}}
         </div>
     </form>
     <!--结果页快捷搜索框 end-->
@@ -97,11 +95,11 @@
      }
     </style>
     <script>
-        function changeOrder(obj,link_id){
+        function changeOrder(obj,navs_id){
             var orderid= $(obj).val();
             //alert(orderid);
             //排序id
-            $.post("{{url('admin/navschangeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'link_id':link_id},function(data){
+            $.post("{{url('admin/navschangeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'navs_id':navs_id},function(data){
                 if(data.status==1){
 
                     layer.msg(data.msg,{icon:6});
@@ -111,12 +109,12 @@
                 }
             });
         }
-    function dellinkicle(link_id){
+    function delnavsicle(navs_id){
 //询问框
         layer.confirm('确定要删除？', {
             btn: ['确定','取消'] //按钮
         }, function(){
-            $.post("{{url('admin/links')}}/"+link_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
+            $.post("{{url('admin/navs')}}/"+navs_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
                if(data.status==0){
                    location.href =location.href;
                    layer.msg(data.msg,{icon:6});
