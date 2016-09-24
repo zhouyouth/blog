@@ -83,9 +83,9 @@ class NavsController extends Controller
         }
     }
 
-    public function destroy($art_id)
+    public function destroy($nav_id)
     {
-        $re = Navs::where('link_id', $art_id)->delete();
+        $re = Navs::where('nav_id', $nav_id)->delete();
         if ($re) {
             $data = [
                 'status' => 0,
@@ -97,7 +97,7 @@ class NavsController extends Controller
                 'msg' => '删除导航栏目失败!'
             ];
 
-        }
+     }
         return $data;
     }
 
