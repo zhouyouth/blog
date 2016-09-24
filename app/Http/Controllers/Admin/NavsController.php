@@ -45,12 +45,12 @@ class NavsController extends Controller
         $input = Input::except('_token');
 //        $input['art_time'] = time();
         $rules = [
-            'link_title' => 'required',
-            'link_name' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
+            'nav_alias' => 'required',
+            'nav_name' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
         ];
         $message = [
-            'link_title.required' => '导航栏目不能为空!',
-            'link_name.required' => '导航栏目标题不能为空!',
+            'nav_alias.required' => '导航栏目不能为空!',
+            'nav_name.required' => '导航栏目标题不能为空!',
         ];
         $validator = Validator::make($input, $rules, $message);
         if ($validator->passes()) {
