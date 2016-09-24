@@ -44,8 +44,8 @@
       <file leaf-file-name="NavsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NavsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6090469">
-              <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.3602585">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
               <folding>
                 <element signature="e#46#70#0#PHP" expanded="true" />
               </folding>
@@ -56,8 +56,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/navs/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.1136363">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.1136365">
+              <caret line="75" column="16" selection-start-line="51" selection-start-column="40" selection-end-line="75" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -186,8 +186,8 @@
         <option value="$PROJECT_DIR$/resources/views/admin/links/add.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Http/Model/Navs.php" />
-        <option value="$PROJECT_DIR$/resources/views/admin/navs/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/navs/add.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/navs/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Admin/NavsController.php" />
       </list>
     </option>
@@ -209,8 +209,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="78" />
-    <option name="y" value="210" />
+    <option name="x" value="125" />
+    <option name="y" value="314" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -562,18 +562,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00530" summary="&#10;">
-      <created>1474598619523</created>
-      <option name="number" value="00530" />
-      <option name="project" value="LOCAL" />
-      <updated>1474598619523</updated>
-    </task>
-    <task id="LOCAL-00531" summary="&#10;">
-      <created>1474598867230</created>
-      <option name="number" value="00531" />
-      <option name="project" value="LOCAL" />
-      <updated>1474598867230</updated>
-    </task>
     <task id="LOCAL-00532" summary="&#10;">
       <created>1474598909396</created>
       <option name="number" value="00532" />
@@ -856,7 +844,19 @@
       <option name="project" value="LOCAL" />
       <updated>1474695026100</updated>
     </task>
-    <option name="localTasksCounter" value="579" />
+    <task id="LOCAL-00579" summary="&#10;">
+      <created>1474695141185</created>
+      <option name="number" value="00579" />
+      <option name="project" value="LOCAL" />
+      <updated>1474695141186</updated>
+    </task>
+    <task id="LOCAL-00580" summary="&#10;">
+      <created>1474695329515</created>
+      <option name="number" value="00580" />
+      <option name="project" value="LOCAL" />
+      <updated>1474695329515</updated>
+    </task>
+    <option name="localTasksCounter" value="581" />
     <servers />
   </component>
   <component name="TodoView">
@@ -869,7 +869,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="78" y="210" width="1936" height="1056" extended-state="0" />
+    <frame x="125" y="314" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1287,14 +1287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/navs/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1136363">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.275862">
@@ -1311,10 +1303,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/navs/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1136365">
+          <caret line="75" column="16" selection-start-line="51" selection-start-column="40" selection-end-line="75" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NavsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6090469">
-          <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.3602585">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
           <folding>
             <element signature="e#46#70#0#PHP" expanded="true" />
           </folding>
