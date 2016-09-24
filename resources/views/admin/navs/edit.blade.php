@@ -16,7 +16,7 @@
         </div>
         <div class="result_content">
             <div class="short_wrap">
-                <a href="{{url('admin/navs/create')}}"><i class="fa fa-plus"></i>编辑导航栏目</a>
+                <a href="{{url('admin/navs/create')}}"><i class="fa fa-plus"></i>添加导航栏目</a>
                 <a href="{{url('admin/navs')}}"><i class="fa fa-plus"></i>导航栏目列表</a>
             </div>
         </div>
