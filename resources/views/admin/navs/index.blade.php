@@ -32,7 +32,6 @@
         </form>
     </div>
     <!--结果页快捷搜索框 结束-->
-
     <!--搜索结果页面 列表 开始-->
     <form action="#" method="post">
         <div class="result_wrap">
