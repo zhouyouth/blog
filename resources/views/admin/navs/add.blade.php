@@ -96,8 +96,8 @@
                             <span><i class="fa fa-exclamation-circle yellow"></i>别名</span>
                         </td>
                     </tr>
-                        <th>链接地址：</th>
                     <tr>
+                        <th>链接网址：</th>
                         <td>
                             <input type="text" name="nav_url">
                         </td>
