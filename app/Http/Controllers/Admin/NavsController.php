@@ -56,7 +56,7 @@ class NavsController extends Controller
         if ($validator->passes()) {
             $re = Navs::create($input);
             if ($re) {
-                return redirect('admin/Navs');
+                return redirect('admin/navs');
             } else {
                 return back()->withErrors('errors', '导航栏目添加失败');
             }
