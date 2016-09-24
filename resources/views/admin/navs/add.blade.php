@@ -1,47 +1,5 @@
 @extends('layouts.admin')
 @section('content')
-    <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/ueditor.config.js')}}"></script>
-    <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/ueditor.all.min.js')}}"> </script>
-    <script type="text/javascript" charset="utf-8" src="{{asset('resources/org/ueditor/lang/zh-cn/zh-cn.js')}}"></script>
-    <script src="{{asset('resources/org/uploadify/jquery.uploadify.min.js')}}" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="{{asset('resources/org/uploadify/uploadify.css')}}">
-    <script>
-        var ue = UE.getEditor('editor');
-        <?php $timestamp = time();?>
-        $(function() {
-            $('#file_upload').uploadify({
-                'buttonText' : '选择图片',
-                'formData'     : {
-                    'timestamp' : '<?php echo $timestamp;?>',
-                    '_token'     : '{{csrf_token()}}'
-                },
-                'swf'      : '{{asset("resources/org/uploadify")}}/uploadify.swf',
-                'uploader' : '{{url("admin/upload")}}',
-                'onUploadSuccess' : function(file, data, response) {
-                    $('#thumb').attr('src','/'+data);
-                    $('#thumb').attr('width',200);
-                    $('#thumb').attr('height',200);
-                    $('#text').val(data);
-                    //layer.msg('上传成功!',{icon: 6});
-                }
-            });
-        });
-
-    </script>
-
-
-    <style>
-        <!--编辑器样式矫正 -->
-        .edui-default{line-height: 28px;}
-        div.edui-combox-body,div.edui-button-body,div.edui-splitbutton-body
-        {overflow: hidden; height:20px;}
-        div.edui-box{overflow: hidden; height:22px;}
-
-       /*上传样式*/
-        .uploadify{display:inline-block;}
-        .uploadify-button{border:none; border-radius:5px; margin-top:8px;}
-        table.add_tab tr td span.uploadify-button-text{color: #FFF; margin:0;}
-    </style>
     <body>
     <!--面包屑导航 开始-->
     <div class="crumb_warp">
