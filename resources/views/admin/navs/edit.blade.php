@@ -16,8 +16,8 @@
         </div>
         <div class="result_content">
             <div class="short_wrap">
-                <a href="{{url('admin/links/create')}}"><i class="fa fa-plus"></i>编辑导航栏目</a>
-                <a href="{{url('admin/links')}}"><i class="fa fa-plus"></i>导航栏目列表</a>
+                <a href="{{url('admin/navs/create')}}"><i class="fa fa-plus"></i>编辑导航栏目</a>
+                <a href="{{url('admin/navs')}}"><i class="fa fa-plus"></i>导航栏目列表</a>
             </div>
         </div>
     </div>
@@ -45,21 +45,21 @@
                 <tr>
                     <th><i class="require">*</i>导航栏目名称：</th>
                     <td>
-                        <input type="text" class="lg" name="link_name" value="{{$link->nav_name}}">
+                        <input type="text" class="lg" name="nav_name" value="{{$link->nav_name}}">
                         <p></p>
                     </td>
                 </tr>
                 <tr>
                     <th>标题：</th>
                     <td>
-                        <input type="text" name="link_title" value="{{$link->nav_alias}}">
+                        <input type="text" name="nav_alias" value="{{$link->nav_alias}}">
                         <span><i class="fa fa-exclamation-circle yellow " ></i>标题</span>
                     </td>
                 </tr>
                 <tr>
                     <th>网址：</th>
                     <td>
-                        <input type="text" name="link_url"  value='{{$link->nav_url}}'>
+                        <input type="text" name="nav_url"  value='{{$link->nav_url}}'>
                     </td>
                 </tr>
                 <tr>
