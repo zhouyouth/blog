@@ -75,11 +75,11 @@ class NavsController extends Controller
     public function update($art_id)
     {
         $input = Input::except('_token', '_method');
-        $re = Navs::where('link_id', $art_id)->update($input);
+        $re = Navs::where('nav_id', $art_id)->update($input);
         if ($re) {
             return redirect('admin/navs');
         } else {
-            return back()->withErrors('errors', '编辑文章失败!');
+            return back()->withErrors('errors', '编辑导航信息失败!');
         }
     }
 
@@ -94,7 +94,7 @@ class NavsController extends Controller
         } else {
             $data = [
                 'status' => 1,
-                'msg' => '删除友链链接失败!'
+                'msg' => '删除导航栏目失败!'
             ];
 
         }
