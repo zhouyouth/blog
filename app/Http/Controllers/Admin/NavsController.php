@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Validator;
 class NavsController extends Controller
 {
     public  function  index(){
-        $link = Navs::orderBy('nav_order', 'asc')->paginate(3);
-        return view('admin.navs.index',compact('link'));
+        $navs = Navs::orderBy('nav_order', 'asc')->paginate(3);
+        return view('admin.navs.index',compact('navs'));
     }
     //ajax 排序
     public  function changeOrder(){
