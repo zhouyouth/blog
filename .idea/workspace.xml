@@ -44,8 +44,8 @@
       <file leaf-file-name="NavsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NavsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.86612904">
-              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7596774">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
               <folding>
                 <element signature="e#46#70#0#PHP" expanded="true" />
               </folding>
@@ -189,8 +189,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="75" />
+    <option name="y" value="127" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -488,12 +488,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00549" summary="&#10;">
-      <created>1474612440817</created>
-      <option name="number" value="00549" />
-      <option name="project" value="LOCAL" />
-      <updated>1474612440817</updated>
-    </task>
     <task id="LOCAL-00550" summary="&#10;">
       <created>1474620778994</created>
       <option name="number" value="00550" />
@@ -782,7 +776,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474697969583</updated>
     </task>
-    <option name="localTasksCounter" value="598" />
+    <task id="LOCAL-00598" summary="&#10;">
+      <created>1474698310238</created>
+      <option name="number" value="00598" />
+      <option name="project" value="LOCAL" />
+      <updated>1474698310238</updated>
+    </task>
+    <option name="localTasksCounter" value="599" />
     <servers />
   </component>
   <component name="TodoView">
@@ -795,7 +795,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="75" y="127" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1236,8 +1236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NavsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.86612904">
-          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7596774">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
           <folding>
             <element signature="e#46#70#0#PHP" expanded="true" />
           </folding>
