@@ -19,7 +19,7 @@ class NavsController extends Controller
     //ajax 排序
     public  function changeOrder(){
         $input = Input::all();
-        $cate = Navs::find($input['link_id']);
+        $cate = Navs::find($input['nav_id']);
         $cate->link_order = $input['orderid'];
         $re = $cate->update();
         if($re){
