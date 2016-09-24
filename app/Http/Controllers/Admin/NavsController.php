@@ -65,10 +65,10 @@ class NavsController extends Controller
         }
 
     }
-    public function edit($art_id)
+    public function edit($nav_id)
     {
         //find this Navs info;
-        $link = Navs::find($art_id);
+        $link = Navs::find($nav_id);
         return view('admin.navs.edit', compact( 'link'));
     }
 
