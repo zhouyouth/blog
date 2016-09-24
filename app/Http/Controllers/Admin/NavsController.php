@@ -14,7 +14,7 @@ class NavsController extends Controller
 {
     public  function  index(){
         $link = Navs::orderBy('link_order', 'asc')->paginate(3);
-        return view('admin.Navs.index',compact('link'));
+        return view('admin.navs.index',compact('link'));
     }
     //ajax 排序
     public  function changeOrder(){
