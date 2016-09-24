@@ -76,7 +76,7 @@
             </div>
         </div>
         <div class="page_list">
-            {{$navs->nav()}}
+            {{$navs->links()}}
         </div>
     </form>
     <!--结果页快捷搜索框 end-->
