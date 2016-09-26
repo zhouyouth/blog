@@ -33,6 +33,7 @@ Route::group(['middleware' => ['admin.login'],'prefix'=>'admin','namespace'=>'Ad
     Route::post('links/changeorder', "LinksController@changeOrder");
     Route::resource('navs', "NavsController");
     Route::post('navs/changeorder', "NavsController@changeOrder");
+    Route::resource('config', "ConfigController");
 } );
 
 
