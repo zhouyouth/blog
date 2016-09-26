@@ -2,15 +2,17 @@
 
 namespace App\Http\Controllers\Admin;
 
+use App\Http\Model\Conf;
 use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use League\Flysystem\Config;
 
 class ConfController extends Controller
 {
     public  function  index(){
-        $navs = Navs::orderBy('nav_order', 'asc')->paginate(3);
+        $navs = Conf::orderBy('nav_order', 'asc')->paginate(3);
         return view('admin.config.index',compact('navs'));
     }
     //ajax 排序
