@@ -10,6 +10,6 @@ use App\Http\Controllers\Controller;
 class ConfController extends Controller
 {
      public  function  index(){
-         echo  'conf';
+        return  view('admin.config.index');
      }
 }
