@@ -104,7 +104,7 @@
     <script>
      $('.conf_type').bind('click', function () {
          if($(this).val()==1){
-         $('.conf_value').find("input[type!='text']").show;
+         $('.conf_value').find("input[type='text']").hide();
         }
        //console.log( $('input[name=conf_value]'));
 
