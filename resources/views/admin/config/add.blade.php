@@ -117,7 +117,7 @@
            if($(this).val()=='radio'){
                $('.conf_value').find("input[type='radio']").show();
            }if($(this).val()=='textarea'){
-               $('.conf_value').find("input[id='textarea']").show();
+               $('.conf_value').find("#textarea").show();
            }
 
        //console.log( $('input[name=conf_value]'));
