@@ -71,7 +71,7 @@
                     <tr >
                         <th>值：</th>
                         <td class='conf_value'>
-                            <input type="text"    name="conf_value" value="">
+                            <input type="text"  id="text"  name="conf_value" value="">
                             <input type="radio"   name="conf_value" value="1"/>开启
                             <input type="radio"   name="conf_value" value="2"/>关闭
                             <textarea id="textarea" name="conf_value"></textarea>
@@ -102,12 +102,12 @@
         </form>
     </div>
     <script>
-        $('.conf_value').contents().hide();
+
 //       console.log($('.conf_value').contents());
        $('.conf_type').bind('click', function () {
-
+           $('.conf_value').contents().hide();
          if($(this).val()=='input'){
-         $('.conf_value').find("input[type='text']").show();
+         $('.conf_value').find("input #text").show();
 
         }
            if($(this).val()=='radio'){
