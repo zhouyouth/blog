@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/config/add.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/config/add.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -44,7 +43,7 @@
       <file leaf-file-name="NavsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NavsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-23.068966">
               <caret line="101" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
               <folding>
                 <element signature="e#46#70#0#PHP" expanded="true" />
@@ -57,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/admin/config/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.7716263">
-              <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+              <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -211,8 +210,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="161" />
-    <option name="y" value="34" />
+    <option name="x" value="254" />
+    <option name="y" value="26" />
     <option name="width" value="1492" />
     <option name="height" value="1056" />
   </component>
@@ -496,18 +495,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00604" summary="&#10;">
-      <created>1474699874015</created>
-      <option name="number" value="00604" />
-      <option name="project" value="LOCAL" />
-      <updated>1474699874015</updated>
-    </task>
-    <task id="LOCAL-00605" summary="&#10;">
-      <created>1474699878629</created>
-      <option name="number" value="00605" />
-      <option name="project" value="LOCAL" />
-      <updated>1474699878630</updated>
-    </task>
     <task id="LOCAL-00606" summary="&#10;">
       <created>1474700128271</created>
       <option name="number" value="00606" />
@@ -790,7 +777,19 @@
       <option name="project" value="LOCAL" />
       <updated>1474954204954</updated>
     </task>
-    <option name="localTasksCounter" value="653" />
+    <task id="LOCAL-00653" summary="&#10;">
+      <created>1474954249892</created>
+      <option name="number" value="00653" />
+      <option name="project" value="LOCAL" />
+      <updated>1474954249892</updated>
+    </task>
+    <task id="LOCAL-00654" summary="&#10;">
+      <created>1474954425535</created>
+      <option name="number" value="00654" />
+      <option name="project" value="LOCAL" />
+      <updated>1474954425535</updated>
+    </task>
+    <option name="localTasksCounter" value="655" />
     <servers />
   </component>
   <component name="TodoView">
@@ -803,7 +802,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="161" y="34" width="1492" height="1056" extended-state="0" />
+    <frame x="254" y="26" width="1492" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1137,6 +1136,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,16 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NavsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="101" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
-          <folding>
-            <element signature="e#46#70#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.75">
@@ -1245,10 +1235,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/NavsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.068966">
+          <caret line="101" column="5" selection-start-line="14" selection-start-column="3" selection-end-line="101" selection-end-column="5" />
+          <folding>
+            <element signature="e#46#70#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/config/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.7716263">
-          <caret line="106" column="59" selection-start-line="106" selection-start-column="59" selection-end-line="106" selection-end-column="59" />
+          <caret line="100" column="20" selection-start-line="100" selection-start-column="20" selection-end-line="100" selection-end-column="20" />
           <folding />
         </state>
       </provider>
