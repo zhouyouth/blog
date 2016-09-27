@@ -63,9 +63,9 @@
                     <tr>
                         <th>类型：</th>
                         <td>
-                            <input type="radio" name="conf_type" value=" 输入框"> 输入框
-                            <input type="radio" name="conf_type" value="单选框">单选框
-                            <input type="radio" name="conf_type" value="文本框">文本框
+                            <input  type="radio" name="conf_type" class="conf_type" value=" 输入框"> 输入框
+                            <input type="radio" name="conf_type" class="conf_type" value="单选框">单选框
+                            <input type="radio" name="conf_type"  class="conf_type" value="文本框">文本框
                         </td>
                     </tr>
                     <tr>
@@ -96,9 +96,15 @@
                             <input type="button" class="back" onclick="history.go(-1)" value="返回">
                         </td>
                     </tr>
+
                 </tbody>
             </table>
         </form>
     </div>
+    <script>
+     $('.conf_type').bind('click', function () {
+          alert(sdfsd);
+     })
+    </script>
 @endsection
 
