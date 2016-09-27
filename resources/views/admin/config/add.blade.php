@@ -51,7 +51,7 @@
                         <th>标题：</th>
                         <td>
                             <input type="text" name="conf_title">
-                            <span><i class="fa fa-exclamation-circle yellow"></i>别名</span>
+                            <span><i class="fa fa-exclamation-circle yellow"></i>标题</span>
                         </td>
                     </tr>
                     <tr>
