@@ -109,8 +109,9 @@
            $('.conf_value').contents().hide();
 
          if($(this).val()=='input'){
-             $('#textarea').hide();
+
          $('.conf_value').find("#text").show();
+             $('#textarea').hide();
 
         }
            if($(this).val()=='radio'){
