@@ -72,7 +72,7 @@ class ConfController extends Controller
     {
         //find this Conf info;
         $link = Conf::find($nav_id);
-        return view('admin.conf.edit', compact( 'link'));
+        return view('admin.config.edit', compact( 'link'));
     }
 
     public function update($art_id)
