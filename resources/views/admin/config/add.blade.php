@@ -65,7 +65,7 @@
                         <td>
                             <input  type="radio" name="conf_type" class="conf_type" value="input"> 输入框
                             <input type="radio" name="conf_type" class="conf_type" value="radio">单选框
-                            <input type="radio" name="conf_type"  class="conf_type" value="text">文本框
+                            <input type="radio" name="conf_type"  class="conf_type" value="textarea">文本框
                         </td>
                     </tr>
                     <tr >
@@ -116,9 +116,8 @@
         }
            if($(this).val()=='radio'){
                $('.conf_value').find("input[type='radio']").show();
-           }else{
-
-               $('#textarea').show();
+           }if($(this).val()=='textarea'){
+               $('.conf_value').find("input[id='textarea']").show();
            }
 
        //console.log( $('input[name=conf_value]'));
