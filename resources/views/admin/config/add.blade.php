@@ -104,9 +104,7 @@
     <script>
         $('.conf_value').contents("input[type='radio'],#textarea").hide();
        $('.conf_type').bind('click', function () {
-
-
-
+           $('.conf_value').contents().hide();
          if($(this).val()=='input'){
 
          $('.conf_value').find("#text").show();
