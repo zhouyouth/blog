@@ -58,7 +58,7 @@ class ConfController extends Controller
         if ($validator->passes()) {
             $re = Conf::create($input);
             if ($re) {
-                return redirect('admin/Conf');
+                return redirect('admin/conf');
             } else {
                 return back()->withErrors('errors', '导航栏目添加失败');
             }
