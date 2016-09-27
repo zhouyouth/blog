@@ -102,12 +102,13 @@
         </form>
     </div>
     <script>
-
+        $('.conf_value').contents().hide();
 //       console.log($('.conf_value').contents());
        $('.conf_type').bind('click', function () {
-           $('.conf_value').contents().hide();
+
          if($(this).val()=='input'){
          $('.conf_value').find("input[type='text']").show();
+
         }
            if($(this).val()=='radio'){
                $('.conf_value').find("input[type='radio']").show();
