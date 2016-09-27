@@ -105,7 +105,6 @@
      $('.conf_type').bind('click', function () {
         if($(this).val==1){
         console.log($('.conf_value').type());
-
         }
        //console.log( $('input[name=conf_value]'));
 
