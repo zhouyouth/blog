@@ -67,7 +67,7 @@
                         </td>
                         <td class="tc">{{$v->conf_title}}</td>
                         <td class="tc">{{$v->conf_content}}</td>
-                        <td class="tc">{!!$v->field_value!!}</td>
+                        <td class="tc">{{$v->field_value}}</td>
                         <td class="tc">{{$v->conf_tips}}</td>
                         <td>
                             <a  href="{{url('admin/navs/'.$v->nav_id.'/edit')}}">修改</a>
@@ -79,7 +79,7 @@
             </div>
         </div>
         <div class="page_list">
-            {{$Conf->links()}}
+            {{$navs->links()}}
         </div>
     </form>
     <!--结果页快捷搜索框 end-->
