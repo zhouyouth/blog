@@ -102,6 +102,7 @@
         </form>
     </div>
     <script>
+        console.log($('.conf_value').contents());
         $('.conf_value').contents("input[type='radio'],#textarea").hide();
        $('.conf_type').bind('click', function () {
            $('.conf_value').contents().hide();
