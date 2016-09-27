@@ -45,7 +45,6 @@ class ConfController extends Controller
     //添加数据
     public function store(){
         $input = Input::except('_token');
-        dd($input);
 //        $input['art_time'] = time();
         $rules = [
             'conf_name' => 'required',
