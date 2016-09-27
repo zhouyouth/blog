@@ -2,13 +2,13 @@
 @section('content')
 
     <body>
-    <!--面包屑导航 开始-->
+    <!--面包屑配置 开始-->
     <div class="crumb_warp">
 
         <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
-        <i class="fa fa-home"></i> <a href="#">首页</a>  &raquo; 导航栏目列表
+        <i class="fa fa-home"></i> <a href="#">首页</a>  &raquo; 网站配置栏目列表
     </div>
-    <!--面包屑导航 结束-->
+    <!--面包屑配置 结束-->
 
 	<!--结果页快捷搜索框 开始-->
 	<div class="search_wrap">
@@ -16,7 +16,7 @@
             {{csrf_field()}}
             <table class="search_tab">
                 <tr>
-                    <th width="120">选择导航栏目:</th>
+                    <th width="120">选择配置栏目:</th>
                     <td>
                         <select onchange="location.href=this.value;">
                             <option value="">全部</option>
@@ -36,12 +36,12 @@
     <form action="#" method="post">
         <div class="result_wrap">
             <div class="result_title">
-                <h3>导航栏目管理</h3>
+                <h3>配置栏目管理</h3>
             </div>
             <div class="result_content">
                 <div class="short_wrap">
-                    <a href="{{url('admin/navs/create')}}"><i class="fa fa-plus"></i>新增导航栏目</a>
-                    <a href="{{url('admin/navs')}}"><i class="fa fa-plus"></i>导航栏目列表</a>
+                    <a href="{{url('admin/navs/create')}}"><i class="fa fa-plus"></i>新增配置栏目</a>
+                    <a href="{{url('admin/navs')}}"><i class="fa fa-plus"></i>配置栏目列表</a>
                 </div>
             </div>
         </div>
@@ -52,20 +52,23 @@
                     <tr>
                         <th class="tc">排序</th>
                         <th class="tc">ID</th>
-                        <th class="tc" width="520">导航名称</th>
-                        <th class="tc">别名</th>
-                        <th class="tc">链接地址</th>
-                        <th width="100">操作</th>
+                        <th class="tc" width="520">配置名称</th>
+                        <th class="tc">标题</th>
+                        <th class="tc">内容</th>
+                        <th width="100">值</th>
+                        <th width="100">提示</th>
                     </tr>
                      @foreach($navs as $v)
                     <tr>
-                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->nav_id}});" name="id[]" value="{{$v->nav_order}}"></td>
+                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->conf_id}});" name="id[]" value="{{$v->conf_order}}"></td>
                         <td class="tc">{{$v->nav_id}}</td>
                         <td>
-                            <a href="#" class="tc">{{$v->nav_name}}</a>
+                            <a href="#" class="tc">{{$v->conf_name}}</a>
                         </td>
-                        <td class="tc">{{$v->nav_alias}}</td>
-                        <td class="tc">{{$v->nav_url}}
+                        <td class="tc">{{$v->conf_title}}</td>
+                        <td class="tc">{{$v->conf_content}}</td>
+                        <td class="tc">{{$v->field_value}}</td>
+                        <td class="tc">{{$v->conf_tips}}</td>
                         <td>
                             <a  href="{{url('admin/navs/'.$v->nav_id.'/edit')}}">修改</a>
                             <a   href="javascript:void(0)" onclick="delnavsicle({{$v->nav_id}});">删除</a>
