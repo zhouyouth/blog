@@ -58,7 +58,7 @@
                         <th width="100">值</th>
                         <th width="100">提示</th>
                     </tr>
-                     @foreach($navs as $v)
+                     @foreach($Conf as $v)
                     <tr>
                         <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->conf_id}});" name="id[]" value="{{$v->conf_order}}"></td>
                         <td class="tc">{{$v->nav_id}}</td>
