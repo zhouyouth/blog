@@ -114,6 +114,8 @@
         }
            if($(this).val()=='radio'){
                $('.conf_value').find("input[type='radio']").show();
+               $('.conf_value').find("span").show();
+
            }if($(this).val()=='textarea'){
                $('.conf_value').find("#textarea").show();
            }
