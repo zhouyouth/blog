@@ -72,7 +72,7 @@
                         <td class="tc">{{$v->conf_tips}}</td>
                         <td>
                             <a  href="{{url('admin/navs/'.$v->nav_id.'/edit')}}">修改</a>
-                            <a   href="javascript:void(0)" onclick="delnavsicle({{$v->nav_id}});">删除</a>
+                            <a   href="javascript:void(0)" onclick="delnavsicle({{$v->conf_id}});">删除</a>
                         </td>
                     </tr>
                     @endforeach
