@@ -102,6 +102,7 @@
         </form>
     </div>
     <script>
+       console.log($('conf_value'));
         $('conf_value').hide();
         $('.conf_type').bind('click', function () {
          if($(this).val()==1){
