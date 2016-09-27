@@ -37,7 +37,7 @@ class ConfController extends Controller
     }
     //添加表单回显
     public  function create(){
-        return view('admin.Config.add',compact('data'));
+        return view('admin.config.add',compact('data'));
     }
     //添加数据
     public function store(){
