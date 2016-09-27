@@ -57,7 +57,6 @@
                         <th class="tc">内容</th>
                         <th width="100">值</th>
                         <th width="100">提示</th>
-
                     </tr>
                      @foreach($Conf as $v)
                     <tr>
