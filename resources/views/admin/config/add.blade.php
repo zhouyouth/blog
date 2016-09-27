@@ -74,7 +74,7 @@
                             <input type="text"    name="conf_value" value="">
                             <input type="radio"   name="conf_value" value="1"/>开启
                             <input type="radio"   name="conf_value" value="2"/>关闭
-                            <textarea name="conf_value"></textarea>
+                            <textarea id="textarea" name="conf_value"></textarea>
                         </td>
                     </tr>
                     <tr>
@@ -113,7 +113,7 @@
                $('.conf_value').find("input[type='radio']").show();
            }else{
 
-               $('.conf_value').find("textarea").show();
+               $('#textarea').show();
            }
 
        //console.log( $('input[name=conf_value]'));
