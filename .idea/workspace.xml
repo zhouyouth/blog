@@ -57,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/admin/config/add.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.8638614">
-              <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+              <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -495,18 +495,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00582" summary="&#10;">
-      <created>1474695452002</created>
-      <option name="number" value="00582" />
-      <option name="project" value="LOCAL" />
-      <updated>1474695452002</updated>
-    </task>
-    <task id="LOCAL-00583" summary="&#10;">
-      <created>1474695562157</created>
-      <option name="number" value="00583" />
-      <option name="project" value="LOCAL" />
-      <updated>1474695562157</updated>
-    </task>
     <task id="LOCAL-00584" summary="&#10;">
       <created>1474695778572</created>
       <option name="number" value="00584" />
@@ -789,7 +777,19 @@
       <option name="project" value="LOCAL" />
       <updated>1474942327779</updated>
     </task>
-    <option name="localTasksCounter" value="631" />
+    <task id="LOCAL-00631" summary="&#10;">
+      <created>1474942351373</created>
+      <option name="number" value="00631" />
+      <option name="project" value="LOCAL" />
+      <updated>1474942351373</updated>
+    </task>
+    <task id="LOCAL-00632" summary="&#10;">
+      <created>1474942370723</created>
+      <option name="number" value="00632" />
+      <option name="project" value="LOCAL" />
+      <updated>1474942370724</updated>
+    </task>
+    <option name="localTasksCounter" value="633" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1247,7 +1247,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/admin/config/add.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8638614">
-          <caret line="105" column="24" selection-start-line="105" selection-start-column="24" selection-end-line="105" selection-end-column="24" />
+          <caret line="105" column="35" selection-start-line="105" selection-start-column="35" selection-end-line="105" selection-end-column="35" />
           <folding />
         </state>
       </provider>
