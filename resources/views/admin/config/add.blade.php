@@ -106,15 +106,12 @@
        $('.conf_type').bind('click', function () {
            $('.conf_value').contents().hide();
          if($(this).val()=='input'){
-
          $('.conf_value').find("#text").show();
              $('#textarea').hide();
-
         }
            if($(this).val()=='radio'){
                $('.conf_value').find("input[type='radio']").show();
                $('.conf_value').find("span").show();
-
            }if($(this).val()=='textarea'){
                $('.conf_value').find("#textarea").show();
            }
