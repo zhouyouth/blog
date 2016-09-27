@@ -103,7 +103,7 @@
     </div>
     <script>
      $('.conf_type').bind('click', function () {
-       console.log( $('.conf_type'));
+       console.log( $('input[name=conf_value]'));
 
 
      })
