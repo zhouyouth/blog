@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Input;
 use League\Flysystem\Config;
 
 class ConfController extends Controller
@@ -39,6 +40,7 @@ class ConfController extends Controller
     public  function create(){
         return view('admin.config.add',compact('data'));
     }
+
     //添加数据
     public function store(){
         $input = Input::except('_token');
