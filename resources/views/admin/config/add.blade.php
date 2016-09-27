@@ -57,9 +57,9 @@
                     <tr>
                         <th>类型：</th>
                         <td>
-                            <input  type="radio" name="conf_type" class="conf_type" checked value="input"> 输入框
-                            <input type="radio" name="conf_type" class="conf_type" value="radio">单选框
-                            <input type="radio" name="conf_type"  class="conf_type" value="textarea">文本框
+                            <input  type="radio" name="field_type" class="field_type" checked value="input"> 输入框
+                            <input type="radio" name="field_type" class="field_type" value="radio">单选框
+                            <input type="radio" name="field_type"  class="field_type" value="textarea">文本框
                         </td>
                     </tr>
                     <tr >
@@ -97,7 +97,7 @@
     </div>
     <script>
         $('.conf_value').contents("input[type='radio'],#textarea,span").hide();
-       $('.conf_type').bind('click', function () {
+       $('.field_type').bind('click', function () {
            $('.conf_value').contents().hide();
          if($(this).val()=='input'){
          $('.conf_value').find("#text").show();
