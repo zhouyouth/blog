@@ -71,9 +71,10 @@
                     <tr>
                         <th>值：</th>
                         <td>
+                            <input type="radio"  class='conf_value' name="conf_value" value="2">关闭
                             <input type="text"   class='conf_value' name="conf_value" value="">
                             <input type="radio"  class='conf_value' name="conf_value" value="1">开启
-                            <input type="radio"  class='conf_value' name="conf_value" value="2">关闭
+
                             <textarea name="conf_value"></textarea>
                         </td>
                     </tr>
