@@ -68,17 +68,17 @@ class ConfController extends Controller
         }
 
     }
-    public function edit($nav_id)
+    public function edit($conf_id)
     {
         //find this Conf info;
-        $link = Conf::find($nav_id);
+        $link = Conf::find($conf_id);
         return view('admin.config.edit', compact( 'link'));
     }
 
     public function update($art_id)
     {
         $input = Input::except('_token', '_method');
-        $re = Conf::where('nav_id', $art_id)->update($input);
+        $re = Conf::where('conf_id', $art_id)->update($input);
         if ($re) {
             return redirect('admin/Conf');
         } else {
@@ -86,9 +86,9 @@ class ConfController extends Controller
         }
     }
 
-    public function destroy($nav_id)
+    public function destroy($conf_id)
     {
-        $re = Conf::where('nav_id', $nav_id)->delete();
+        $re = Conf::where('conf_id', $conf_id)->delete();
         if ($re) {
             $data = [
                 'status' => 0,

@@ -36,21 +36,21 @@
     </div>
 
     <div class="result_wrap">
-        <form action="{{url('admin/conf')}}" method="post">
+        <form action="{{url('admin/conf').'/'.$v->conf_id}}" method="post">
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>
                 <tr>
                     <th><i class="require">*</i>网站配置栏目名称：</th>
                     <td>
-                        <input type="text" class="lg" name="conf_name">
+                        <input type="text" class="lg" name="conf_name" value="{{$link->conf_name}}">
                         <p></p>
                     </td>
                 </tr>
                 <tr>
                     <th>标题：</th>
                     <td>
-                        <input type="text" name="conf_title">
+                        <input type="text" name="conf_title" value="conf_title">
                         <span><i class="fa fa-exclamation-circle yellow"></i>标题</span>
                     </td>
                 </tr>
