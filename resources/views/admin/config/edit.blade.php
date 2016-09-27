@@ -36,7 +36,7 @@
     </div>
 
     <div class="result_wrap">
-        <form action="{{url('admin/conf').'/'.$v->conf_id}}" method="post">
+        <form action="{{url('admin/conf').'/'.$link->conf_id}}" method="post">
             {{csrf_field()}}
             <table class="add_tab">
                 <tbody>
