@@ -1,131 +1,119 @@
 @extends('layouts.admin')
 @section('content')
-
     <body>
-    <!--面包屑配置 开始-->
+    <!--面包屑网站配置 开始-->
     <div class="crumb_warp">
-
         <!--<i class="fa fa-bell"></i> 欢迎使用登陆网站后台，建站的首选工具。-->
-        <i class="fa fa-home"></i> <a href="#">首页</a>  &raquo; 网站配置栏目列表
+        <i class="fa fa-home"></i> <a href="{{url('admin/info')}}">首页</a> &raquo; 修改网站配置栏目网站配置栏目
     </div>
-    <!--面包屑配置 结束-->
+    <!--面包屑网站配置 结束-->
 
-	<!--结果页快捷搜索框 开始-->
-	<div class="search_wrap">
-        <form action="" method="post">
+    <!--结果集标题与网站配置组件 开始-->
+    <div class="result_wrap">
+        <div class="result_title">
+            <h3>网站配置栏目管理</h3>
+        </div>
+        <div class="result_content">
+            <div class="short_wrap">
+                <a href="{{url('admin/conf/create')}}"><i class="fa fa-plus"></i>编辑网站配置栏目</a>
+                <a href="{{url('admin/conf')}}"><i class="fa fa-plus"></i>网站配置栏目列表</a>
+            </div>
+        </div>
+    </div>
+    <!--结果集标题与网站配置组件 结束-->
+    <div class="result_title">
+        @if(count($errors)>0)
+            <div class="mark">
+                @if(is_object($errors))
+                    @foreach($errors->all() as $error)
+                        <p>{{$error}}</p>
+                    @endforeach
+                @else
+                    <p>{{$errors}}</p>
+                @endif
+            </div>
+        @endif
+    </div>
+
+    <div class="result_wrap">
+        <form action="{{url('admin/conf')}}" method="post">
             {{csrf_field()}}
-            <table class="search_tab">
+            <table class="add_tab">
+                <tbody>
                 <tr>
-                    <th width="120">选择配置栏目:</th>
+                    <th><i class="require">*</i>网站配置栏目名称：</th>
                     <td>
-                        <select onchange="location.href=this.value;">
-                            <option value="">全部</option>
-                            <option value="http://www.baidu.com">百度</option>
-                            <option value="http://www.sina.com">新浪</option>
-                        </select>
+                        <input type="text" class="lg" name="conf_name">
+                        <p></p>
                     </td>
-                    <th width="70">关键字:</th>
-                    <td><input type="text" name="keywords" placeholder="关键字"></td>
-                    <td><input type="submit" name="sub" value="查询"></td>
                 </tr>
+                <tr>
+                    <th>标题：</th>
+                    <td>
+                        <input type="text" name="conf_title">
+                        <span><i class="fa fa-exclamation-circle yellow"></i>标题</span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>类型：</th>
+                    <td>
+                        <input  type="radio" name="field_type" class="field_type" checked value="input"> 输入框
+                        <input type="radio" name="field_type" class="field_type" value="radio">单选框
+                        <input type="radio" name="field_type"  class="field_type" value="textarea">文本框
+                    </td>
+                </tr>
+                <tr >
+                    <th>值：</th>
+                    <td class='field_value'>
+                        <input type="text"  id="text"  name="field_value" >
+                        <input type="radio"   name="field_value" value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                        <input type="radio"   name="field_value" value="2"/><span>关闭</span>
+                        <textarea id="textarea" ></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>配置内容：</th>
+                    <td>
+                        <textarea name='conf_content'></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <th>提示：</th>
+                    <td>
+                        <input type="text" name="conf_tips">
+                    </td>
+                </tr>
+                <tr>
+                    <th></th>
+                    <td>
+                        <input type="submit" value="提交">
+                        <input type="button" class="back" onclick="history.go(-1)" value="返回">
+                    </td>
+                </tr>
+
+                </tbody>
             </table>
         </form>
     </div>
-    <!--结果页快捷搜索框 结束-->
-    <!--搜索结果页面 列表 开始-->
-    <form action="#" method="post">
-        <div class="result_wrap">
-            <div class="result_title">
-                <h3>配置栏目管理</h3>
-            </div>
-            <div class="result_content">
-                <div class="short_wrap">
-                    <a href="{{url('admin/navs/create')}}"><i class="fa fa-plus"></i>新增配置栏目</a>
-                    <a href="{{url('admin/navs')}}"><i class="fa fa-plus"></i>配置栏目列表</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="result_wrap">
-            <div class="result_content">
-                <table class="list_tab">
-                    <tr>
-                        <th class="tc">排序</th>
-                        <th class="tc">ID</th>
-                        <th class="tc" width="520">配置名称</th>
-                        <th class="tc">标题</th>
-                        <th class="tc">内容</th>
-                        <th width="100">值</th>
-                        <th width="100">提示</th>
-                        <th width="100">操作</th>
-                    </tr>
-                     @foreach($Conf as $v)
-                    <tr>
-                        <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->conf_id}});" name="id[]" value="{{$v->conf_order}}"></td>
-                        <td class="tc">{{$v->nav_id}}</td>
-                        <td>
-                            <a href="#" class="tc">{{$v->conf_name}}</a>
-                        </td>
-                        <td class="tc">{{$v->conf_title}}</td>
-                        <td class="tc">{!! $v->conf_content !!}</td>
-                        <td class="tc">{{$v->field_value}}</td>
-                        <td class="tc">{{$v->conf_tips}}</td>
-                        <td>
-                            <a  href="{{url('admin/conf/'.$v->conf_id.'/edit')}}">修改</a>
-                            <a   href="javascript:void(0)" onclick="delnavsicle({{$v->conf_id}});">删除</a>
-                        </td>
-                    </tr>
-                    @endforeach
-                </table>
-            </div>
-        </div>
-        <div class="page_list">
-            {{$Conf->links()}}
-        </div>
-    </form>
-    <!--结果页快捷搜索框 end-->
-    <!-- 分页样式  -->
-    <style>
-        .page_list ul li span{
-         font-size: 15px;
-         padding: 6px 12px;
-     }
-     .page_list ul .active span{
-         background-color: #337ab7;
-         border-color: #337ab7;
-         color: #fff;
-         cursor: default;
-     }
-    </style>
     <script>
-        function changeOrder(obj,nav_id){
-            var orderid= $(obj).val();
-            //alert(orderid);
-            //排序id
-            $.post("{{url('admin/conf/changeorder')}}",{'_token':"{{csrf_token()}}",'orderid':orderid,'conf_id':nav_id},function(data){
-                if(data.status==1){
-                    layer.msg(data.msg,{icon:6});
-                    location.href =location.href;
-                }else{
-                    layer.msg(data.msg,{icon:5});
-                }
-            });
-        }
-    function delnavsicle(navs_id){
-//询问框
-        layer.confirm('确定要删除？', {
-            btn: ['确定','取消'] //按钮
-        }, function(){
-            $.post("{{url('admin/navs')}}/"+navs_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
-               if(data.status==0){
-                   location.href =location.href;
-                   layer.msg(data.msg,{icon:6});
-               }else{
-                   layer.msg(data.msg,{icon:5});
-               }
-            });
-        });
-    }
-    </script>
+        $('.field_value').contents("input[type='radio'],#textarea,span").hide();
+        $('.field_type').bind('click', function () {
+            $('.field_value').contents().hide();
+            if($(this).val()=='input'){
+                $('.field_value').find("#text").show();
+                $('#textarea').hide();
+            }
+            if($(this).val()=='radio'){
+                $('.field_value').find("input[type='radio']").show();
+                $('.field_value').find("span").show();
+            }if($(this).val()=='textarea'){
+                $("#textarea").attr("name","field_value");
+                $('.field_value').find("#textarea").show();
+            }
+            //console.log( $('input[name=field_value]'));
 
+
+        })
+    </script>
 @endsection
+
