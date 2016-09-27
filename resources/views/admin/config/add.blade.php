@@ -68,9 +68,9 @@
                             <input type="radio" name="conf_type"  class="conf_type" value="3">文本框
                         </td>
                     </tr>
-                    <tr class='conf_value'>
+                    <tr >
                         <th>值：</th>
-                        <td >
+                        <td class='conf_value'>
                             <input type="text"    name="conf_value" value="">
                             <input type="radio"   name="conf_value" value="1">开启
                             <input type="radio"   name="conf_value" value="2">关闭
@@ -104,7 +104,7 @@
     <script>
      $('.conf_type').bind('click', function () {
          if($(this).val()==1){
-         $('.conf_value').hide();
+         $('.conf_value').find("input[type!='text']").show;
         }
        //console.log( $('input[name=conf_value]'));
 
