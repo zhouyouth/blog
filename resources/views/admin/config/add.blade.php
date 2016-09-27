@@ -72,7 +72,7 @@
                         <th>值：</th>
                         <td class='conf_value'>
                             <input type="text"  id="text"  name="conf_value" value="">
-                            <input type="radio"   name="conf_value" value="1"/><span>开启</span>
+                            <input type="radio"   name="conf_value" value="1"/><span>开启&nbsp;&nbsp;</span>
                             <input type="radio"   name="conf_value" value="2"/><span>关闭</span>
                             <textarea id="textarea" name="conf_value"></textarea>
                         </td>
