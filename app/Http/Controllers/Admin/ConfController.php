@@ -44,12 +44,12 @@ class ConfController extends Controller
         $input = Input::except('_token');
 //        $input['art_time'] = time();
         $rules = [
-            'nav_alias' => 'required',
-            'nav_name' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
+            'conf_name' => 'required',
+            'conf_title' => 'required',//必填're_password_c' => 'required|between:6,20|confirmed',//必填
         ];
         $message = [
-            'nav_alias.required' => '导航栏目不能为空!',
-            'nav_name.required' => '导航栏目标题不能为空!',
+            'conf_name.required' => '配置名称不能为空!',
+            'conf_title.required' => '配置标题不能为空!',
         ];
         $validator = Validator::make($input, $rules, $message);
         if ($validator->passes()) {
