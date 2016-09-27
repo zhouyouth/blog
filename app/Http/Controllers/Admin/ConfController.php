@@ -14,7 +14,7 @@ use League\Flysystem\Config;
 class ConfController extends Controller
 {
     public  function  index(){
-        $Conf = Conf::orderBy('nav_order', 'asc')->paginate(3);
+        $Conf = Conf::orderBy('conf_order', 'asc')->paginate(3);
         return view('admin.config.index',compact('Conf'));
     }
     //ajax 排序
