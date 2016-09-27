@@ -107,8 +107,9 @@
        $('.conf_type').bind('click', function () {
 
            $('.conf_value').contents().hide();
-           alert(1);
+
          if($(this).val()=='input'){
+             $('#textarea').hide();
          $('.conf_value').find("#text").show();
 
         }
