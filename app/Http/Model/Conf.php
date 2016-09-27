@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Conf extends Model
 {
-    protected $table="links";
-    protected $primaryKey="link_id";
+    protected $table="conf";
+    protected $primaryKey="conf_id";
     public    $timestamps=false;
     protected $guarded=[];
 }
