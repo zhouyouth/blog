@@ -97,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.18800461">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+              <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
               <folding>
                 <element signature="e#46#70#0#PHP" expanded="true" />
               </folding>
@@ -550,12 +550,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00698" summary="&#10;">
-      <created>1474959017809</created>
-      <option name="number" value="00698" />
-      <option name="project" value="LOCAL" />
-      <updated>1474959017809</updated>
-    </task>
     <task id="LOCAL-00699" summary="&#10;">
       <created>1474959479052</created>
       <option name="number" value="00699" />
@@ -844,7 +838,13 @@
       <option name="project" value="LOCAL" />
       <updated>1474964823370</updated>
     </task>
-    <option name="localTasksCounter" value="747" />
+    <task id="LOCAL-00747" summary="&#10;">
+      <created>1474964860244</created>
+      <option name="number" value="00747" />
+      <option name="project" value="LOCAL" />
+      <updated>1474964860244</updated>
+    </task>
+    <option name="localTasksCounter" value="748" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1283,14 +1283,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/config/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-24.793104">
-          <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-23.068966">
@@ -1299,10 +1291,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/config/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-24.793104">
+          <caret line="108" column="22" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18800461">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <caret line="25" column="30" selection-start-line="25" selection-start-column="30" selection-end-line="25" selection-end-column="30" />
           <folding>
             <element signature="e#46#70#0#PHP" expanded="true" />
           </folding>
