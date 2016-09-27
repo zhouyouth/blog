@@ -102,7 +102,7 @@
         </form>
     </div>
     <script>
-        $('.conf_value').hide();
+        $('.conf_value').children().hide();
        $('.conf_type').bind('click', function () {
          if($(this).val()==1){
          $('.conf_value').find("input[type='text']").show();
