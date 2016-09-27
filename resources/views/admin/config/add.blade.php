@@ -55,12 +55,6 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>配置名称：</th>
-                        <td>
-                            <input type="text" name="conf_name">
-                        </td>
-                    </tr>
-                    <tr>
                         <th>类型：</th>
                         <td>
                             <input  type="radio" name="conf_type" class="conf_type" checked value="input"> 输入框
