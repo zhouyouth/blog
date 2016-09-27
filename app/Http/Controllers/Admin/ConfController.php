@@ -22,7 +22,7 @@ class ConfController extends Controller
         $input = Input::all();
         //var_dump($input);exit;
         $cate = Conf::find($input['conf_id']);
-        $cate->nav_order = $input['orderid'];
+        $cate->conf_order = $input['orderid'];
         $re = $cate->update();
         if($re){
             $data = [
