@@ -63,17 +63,17 @@
                     <tr>
                         <th>类型：</th>
                         <td>
-                            <input  type="radio" name="conf_type" class="conf_type" value=" 输入框"> 输入框
-                            <input type="radio" name="conf_type" class="conf_type" value="单选框">单选框
-                            <input type="radio" name="conf_type"  class="conf_type" value="文本框">文本框
+                            <input  type="radio" name="conf_type" class="conf_type" value=" 1"> 输入框
+                            <input type="radio" name="conf_type" class="conf_type" value="2">单选框
+                            <input type="radio" name="conf_type"  class="conf_type" value="3">文本框
                         </td>
                     </tr>
                     <tr>
                         <th>值：</th>
                         <td>
-                            <input type="text"  name="conf_value" value="">
-                            <input type="radio" name="conf_value" value="1">开启
-                            <input type="radio" name="conf_value" value="2">关闭
+                            <input type="text"   class='conf_value' name="conf_value" value="">
+                            <input type="radio"  class='conf_value' name="conf_value" value="1">开启
+                            <input type="radio"  class='conf_value' name="conf_value" value="2">关闭
                             <textarea name="conf_value"></textarea>
                         </td>
                     </tr>
@@ -103,7 +103,10 @@
     </div>
     <script>
      $('.conf_type').bind('click', function () {
-         console.log($(this));
+        if($(this).val==1){
+
+
+        }
        //console.log( $('input[name=conf_value]'));
 
 
