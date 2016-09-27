@@ -20,6 +20,7 @@ class ConfController extends Controller
     //ajax 排序
     public  function changeOrder(){
         $input = Input::all();
+        var_dump($input);exit;
         $cate = Conf::find($input['conf_id']);
         $cate->nav_order = $input['orderid'];
         $re = $cate->update();
