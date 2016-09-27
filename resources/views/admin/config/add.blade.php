@@ -103,7 +103,7 @@
     </div>
     <script>
      $('.conf_type').bind('click', function () {
-          alert(sdfsd);
+          alert(23);
      })
     </script>
 @endsection
