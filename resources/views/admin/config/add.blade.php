@@ -103,7 +103,9 @@
     </div>
     <script>
      $('.conf_type').bind('click', function () {
-          alert(23);
+       console.log( $('conf_type:checked'));
+
+
      })
     </script>
 @endsection
