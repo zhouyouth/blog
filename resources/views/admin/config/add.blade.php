@@ -102,7 +102,7 @@
         </form>
     </div>
     <script>
-       console.log($('.conf_value').contents());
+//       console.log($('.conf_value').contents());
        $('.conf_type').bind('click', function () {
            $('.conf_value').contents().hide();
          if($(this).val()=='input'){
