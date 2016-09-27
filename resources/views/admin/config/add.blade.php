@@ -64,6 +64,8 @@
                         <th>类型：</th>
                         <td>
                             <input type="text" name="conf_type">
+                            <input type="radio" name="conf_type" value="1">开启
+                            <input type="radio" name="conf_type" value="0">关闭
                         </td>
                     </tr>
                     <tr>
@@ -75,7 +77,7 @@
                     <tr>
                         <th>配置内容：</th>
                         <td>
-                            <input type="text" name="conf_content">
+                            <textarea name='conf_content'></textarea>
                         </td>
                     </tr>
                     <tr>
