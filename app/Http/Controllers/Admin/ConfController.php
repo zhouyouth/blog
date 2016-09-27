@@ -12,13 +12,13 @@ use League\Flysystem\Config;
 class ConfController extends Controller
 {
     public  function  index(){
-        $navs = Conf::orderBy('nav_order', 'asc')->paginate(3);
-        return view('admin.config.index',compact('navs'));
+        $Conf = Conf::orderBy('nav_order', 'asc')->paginate(3);
+        return view('admin.config.index',compact('Conf'));
     }
     //ajax 排序
     public  function changeOrder(){
         $input = Input::all();
-        $cate = Navs::find($input['nav_id']);
+        $cate = Conf::find($input['nav_id']);
         $cate->nav_order = $input['orderid'];
         $re = $cate->update();
         if($re){
@@ -37,7 +37,7 @@ class ConfController extends Controller
     }
     //添加表单回显
     public  function create(){
-        return view('admin.navs.add',compact('data'));
+        return view('admin.Config.add',compact('data'));
     }
     //添加数据
     public function store(){
@@ -53,9 +53,9 @@ class ConfController extends Controller
         ];
         $validator = Validator::make($input, $rules, $message);
         if ($validator->passes()) {
-            $re = Navs::create($input);
+            $re = Conf::create($input);
             if ($re) {
-                return redirect('admin/navs');
+                return redirect('admin/Conf');
             } else {
                 return back()->withErrors('errors', '导航栏目添加失败');
             }
@@ -66,17 +66,17 @@ class ConfController extends Controller
     }
     public function edit($nav_id)
     {
-        //find this Navs info;
-        $link = Navs::find($nav_id);
-        return view('admin.navs.edit', compact( 'link'));
+        //find this Conf info;
+        $link = Conf::find($nav_id);
+        return view('admin.Conf.edit', compact( 'link'));
     }
 
     public function update($art_id)
     {
         $input = Input::except('_token', '_method');
-        $re = Navs::where('nav_id', $art_id)->update($input);
+        $re = Conf::where('nav_id', $art_id)->update($input);
         if ($re) {
-            return redirect('admin/navs');
+            return redirect('admin/Conf');
         } else {
             return back()->withErrors('errors', '编辑导航信息失败!');
         }
@@ -84,7 +84,7 @@ class ConfController extends Controller
 
     public function destroy($nav_id)
     {
-        $re = Navs::where('nav_id', $nav_id)->delete();
+        $re = Conf::where('nav_id', $nav_id)->delete();
         if ($re) {
             $data = [
                 'status' => 0,
