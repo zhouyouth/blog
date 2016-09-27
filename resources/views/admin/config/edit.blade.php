@@ -50,7 +50,7 @@
                 <tr>
                     <th>标题：</th>
                     <td>
-                        <input type="text" name="conf_title" value="conf_title">
+                        <input type="text" name="conf_title" value="{{$link->conf_title}}">
                         <span><i class="fa fa-exclamation-circle yellow"></i>标题</span>
                     </td>
                 </tr>
@@ -74,13 +74,13 @@
                 <tr>
                     <th>配置内容：</th>
                     <td>
-                        <textarea name='conf_content'></textarea>
+                        <textarea name='conf_content'>{{$link->conf_content}}</textarea>
                     </td>
                 </tr>
                 <tr>
                     <th>提示：</th>
                     <td>
-                        <input type="text" name="conf_tips">
+                        <input type="text" name="conf_tips" value="{{$link->conf_tips}}">
                     </td>
                 </tr>
                 <tr>
