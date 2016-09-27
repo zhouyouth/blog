@@ -64,11 +64,11 @@
                     </tr>
                     <tr >
                         <th>值：</th>
-                        <td class='conf_value'>
-                            <input type="text"  id="text"  name="conf_value" value="">
-                            <input type="radio"   name="conf_value" value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                            <input type="radio"   name="conf_value" value="2"/><span>关闭</span>
-                            <textarea id="textarea" name="conf_value"></textarea>
+                        <td class='field_value'>
+                            <input type="text"  id="text"  name="field_value" value="">
+                            <input type="radio"   name="field_value" value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <input type="radio"   name="field_value" value="2"/><span>关闭</span>
+                            <textarea id="textarea" name="field_value"></textarea>
                         </td>
                     </tr>
                     <tr>
@@ -96,21 +96,21 @@
         </form>
     </div>
     <script>
-        $('.conf_value').contents("input[type='radio'],#textarea,span").hide();
+        $('.field_value').contents("input[type='radio'],#textarea,span").hide();
        $('.field_type').bind('click', function () {
-           $('.conf_value').contents().hide();
+           $('.field_value').contents().hide();
          if($(this).val()=='input'){
-         $('.conf_value').find("#text").show();
+         $('.field_value').find("#text").show();
              $('#textarea').hide();
         }
            if($(this).val()=='radio'){
-               $('.conf_value').find("input[type='radio']").show();
-               $('.conf_value').find("span").show();
+               $('.field_value').find("input[type='radio']").show();
+               $('.field_value').find("span").show();
            }if($(this).val()=='textarea'){
-               $('.conf_value').find("#textarea").show();
+               $('.field_value').find("#textarea").show();
            }
 
-       //console.log( $('input[name=conf_value]'));
+       //console.log( $('input[name=field_value]'));
 
 
      })
