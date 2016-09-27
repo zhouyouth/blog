@@ -107,7 +107,7 @@
        $('.conf_type').bind('click', function () {
            $('.conf_value').contents().hide();
          if($(this).val()=='input'){
-         $('.conf_value').find("input #text").show();
+         $('.conf_value').find("#text").show();
 
         }
            if($(this).val()=='radio'){
