@@ -103,7 +103,7 @@
     </div>
     <script>
      $('.conf_type').bind('click', function () {
-        console.log($(this).val);
+        console.log(this.val);
          if($(this).val==1){
         console.log($('.conf_value').type());
         }
