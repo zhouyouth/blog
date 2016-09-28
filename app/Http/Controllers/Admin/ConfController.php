@@ -110,6 +110,7 @@ class ConfController extends Controller
             ];
             $v='<textarea id="textarea" >$link->field_value</textarea>';
         }
+        dd($v);
         return view('admin.config.edit', compact( 'link','data','v'));
     }
 
