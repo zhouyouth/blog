@@ -33,9 +33,9 @@ Route::group(['middleware' => ['admin.login'],'prefix'=>'admin','namespace'=>'Ad
     Route::post('links/changeorder', "LinksController@changeOrder");
     Route::resource('navs', "NavsController");
     Route::post('navs/changeorder', "NavsController@changeOrder");
-    Route::get('conf/confall', "ConfController@confall");
     Route::resource('conf', "ConfController");
     Route::post('conf/changeorder', "ConfController@changeOrder");
+    Route::get('conf/confall', "ConfController@confall");
 
 
 } );
