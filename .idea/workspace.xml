@@ -54,8 +54,8 @@
       <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/config/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2755214">
-              <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.25137213">
+              <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -538,18 +538,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00721" summary="&#10;">
-      <created>1474962309759</created>
-      <option name="number" value="00721" />
-      <option name="project" value="LOCAL" />
-      <updated>1474962309759</updated>
-    </task>
-    <task id="LOCAL-00722" summary="&#10;">
-      <created>1474962469527</created>
-      <option name="number" value="00722" />
-      <option name="project" value="LOCAL" />
-      <updated>1474962469527</updated>
-    </task>
     <task id="LOCAL-00723" summary="&#10;">
       <created>1474962536513</created>
       <option name="number" value="00723" />
@@ -832,7 +820,19 @@
       <option name="project" value="LOCAL" />
       <updated>1475028074393</updated>
     </task>
-    <option name="localTasksCounter" value="770" />
+    <task id="LOCAL-00770" summary="&#10;">
+      <created>1475028247488</created>
+      <option name="number" value="00770" />
+      <option name="project" value="LOCAL" />
+      <updated>1475028247489</updated>
+    </task>
+    <task id="LOCAL-00771" summary="&#10;">
+      <created>1475028276961</created>
+      <option name="number" value="00771" />
+      <option name="project" value="LOCAL" />
+      <updated>1475028276961</updated>
+    </task>
+    <option name="localTasksCounter" value="772" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1289,8 +1289,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/config/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2755214">
-          <caret line="104" column="55" selection-start-line="104" selection-start-column="55" selection-end-line="104" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.25137213">
+          <caret line="103" column="25" selection-start-line="103" selection-start-column="25" selection-end-line="103" selection-end-column="25" />
           <folding />
         </state>
       </provider>
