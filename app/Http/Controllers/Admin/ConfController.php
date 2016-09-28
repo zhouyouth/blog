@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
+use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
 
@@ -156,6 +157,7 @@ class ConfController extends Controller
         return $data;
     }
    public function  confall(){
+       //Config::
      $dg=Config::get('web.title');
        dd($dg);
      $c=Conf::pluck('conf_content','conf_name')->all();
