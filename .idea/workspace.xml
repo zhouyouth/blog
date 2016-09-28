@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -84,8 +83,8 @@
       <file leaf-file-name="ConfController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49541286">
-              <caret line="136" column="36" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.8318043">
+              <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
               <folding>
                 <element signature="e#46#70#0#PHP" expanded="true" />
               </folding>
@@ -478,18 +477,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00767" summary="&#10;">
-      <created>1475027975972</created>
-      <option name="number" value="00767" />
-      <option name="project" value="LOCAL" />
-      <updated>1475027975972</updated>
-    </task>
-    <task id="LOCAL-00768" summary="&#10;">
-      <created>1475028030590</created>
-      <option name="number" value="00768" />
-      <option name="project" value="LOCAL" />
-      <updated>1475028030590</updated>
-    </task>
     <task id="LOCAL-00769" summary="&#10;">
       <created>1475028074392</created>
       <option name="number" value="00769" />
@@ -772,7 +759,19 @@
       <option name="project" value="LOCAL" />
       <updated>1475043192600</updated>
     </task>
-    <option name="localTasksCounter" value="816" />
+    <task id="LOCAL-00816" summary="&#10;">
+      <created>1475043210718</created>
+      <option name="number" value="00816" />
+      <option name="project" value="LOCAL" />
+      <updated>1475043210718</updated>
+    </task>
+    <task id="LOCAL-00817" summary="&#10;">
+      <created>1475043365114</created>
+      <option name="number" value="00817" />
+      <option name="project" value="LOCAL" />
+      <updated>1475043365114</updated>
+    </task>
+    <option name="localTasksCounter" value="818" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1208,8 +1207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49541286">
-          <caret line="136" column="36" selection-start-line="136" selection-start-column="36" selection-end-line="136" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.8318043">
+          <caret line="137" column="16" selection-start-line="137" selection-start-column="16" selection-end-line="137" selection-end-column="16" />
           <folding>
             <element signature="e#46#70#0#PHP" expanded="true" />
           </folding>
