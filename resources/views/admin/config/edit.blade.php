@@ -70,7 +70,7 @@
                          {!! $str !!}
                         @endforeach
                         @else
-                            {!! $va !!}
+
                         @endif
                     </td>
                 </tr>
