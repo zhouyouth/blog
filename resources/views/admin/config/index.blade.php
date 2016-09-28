@@ -116,7 +116,7 @@
         layer.confirm('确定要删除？', {
             btn: ['确定','取消'] //按钮
         }, function(){
-            $.post("{{url('admin/navs')}}/"+navs_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
+            $.post("{{url('admin/conf')}}/"+navs_id,{'_method':'delete','_token':"{{csrf_token()}}"},function (data){
                if(data.status==0){
                    location.href =location.href;
                    layer.msg(data.msg,{icon:6});
