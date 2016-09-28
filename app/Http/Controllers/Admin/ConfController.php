@@ -158,10 +158,10 @@ class ConfController extends Controller
     }
    public function  Confall(){
    //配置项
-    echo "123";
+
  }
  public  function  show(){
 
-
+     echo "123";
  }
 }
