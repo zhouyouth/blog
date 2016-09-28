@@ -65,10 +65,12 @@
                 <tr >
                     <th>值：</th>
                     <td class='field_value'>
-                        @if(is_object($v)){
-
-
-                        }
+                        @if(is_array($v))
+                          @foreach($v as $str)
+                          {{$str}}
+                        @endforeach
+                        @endif
+                        {{$v}}
                     </td>
                 </tr>
                 <tr>
