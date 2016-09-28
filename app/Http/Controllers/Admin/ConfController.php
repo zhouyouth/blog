@@ -158,7 +158,8 @@ class ConfController extends Controller
     }
    public function  confall(){
      $c=Conf::pluck('conf_content','conf_name');
-   dd($c);
+     $path = base_path().'\config';
+     dd($path) ;
  }
 
 }
