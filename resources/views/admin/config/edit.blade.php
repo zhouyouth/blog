@@ -57,9 +57,9 @@
                 <tr>
                     <th>类型：</th>
                     <td>
-                        <input  type="radio" name="field_type" class="field_type" checked value="input"> 输入框
-                        <input type="radio" name="field_type" class="field_type" value="radio">单选框
-                        <input type="radio" name="field_type"  class="field_type" value="textarea">文本框
+                       @foreach($data as $v)
+                         {{$v}}
+                       @endforeach
                     </td>
                 </tr>
                 <tr >
