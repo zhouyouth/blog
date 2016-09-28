@@ -84,8 +84,8 @@
       <file leaf-file-name="ConfController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63554215">
-              <caret line="159" column="45" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.7018072">
+              <caret line="161" column="16" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
               <folding>
                 <element signature="e#46#70#0#PHP" expanded="true" />
               </folding>
@@ -179,8 +179,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="812" />
-    <option name="y" value="200" />
+    <option name="x" value="739" />
+    <option name="y" value="136" />
     <option name="width" value="1492" />
     <option name="height" value="1100" />
   </component>
@@ -478,12 +478,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00793" summary="&#10;">
-      <created>1475032845389</created>
-      <option name="number" value="00793" />
-      <option name="project" value="LOCAL" />
-      <updated>1475032845390</updated>
-    </task>
     <task id="LOCAL-00794" summary="&#10;">
       <created>1475032897649</created>
       <option name="number" value="00794" />
@@ -772,7 +766,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475048356351</updated>
     </task>
-    <option name="localTasksCounter" value="842" />
+    <task id="LOCAL-00842" summary="&#10;">
+      <created>1475048577063</created>
+      <option name="number" value="00842" />
+      <option name="project" value="LOCAL" />
+      <updated>1475048577063</updated>
+    </task>
+    <option name="localTasksCounter" value="843" />
     <servers />
   </component>
   <component name="TodoView">
@@ -785,7 +785,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="812" y="200" width="1492" height="1100" extended-state="0" />
+    <frame x="739" y="136" width="1492" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1208,8 +1208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63554215">
-          <caret line="159" column="45" selection-start-line="159" selection-start-column="45" selection-end-line="159" selection-end-column="45" />
+        <state vertical-scroll-proportion="0.7018072">
+          <caret line="161" column="16" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
           <folding>
             <element signature="e#46#70#0#PHP" expanded="true" />
           </folding>
