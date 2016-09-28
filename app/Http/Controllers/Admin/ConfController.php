@@ -74,11 +74,27 @@ class ConfController extends Controller
         $link = Conf::find($conf_id);
         $tag= $link->field_type;
         dd($tag);
-        if( $tag){
+        if( $tag=="input"){
+            $data =[
+                 '<input  type="radio" name="field_type" class="field_type" checked value="input"> 输入框',
+                 '<input type="radio" name="field_type" class="field_type" value="radio">单选框',
+                 ' <input type="radio" name="field_type"  class="field_type" value="textarea">文本框'
+            ];
+        }else if($tag=="radio"){
+            $data =[
+                '<input  type="radio" name="field_type" class="field_type"  value="input"> 输入框',
+                '<input type="radio" name="field_type" class="field_type" checked value="radio">单选框',
+                ' <input type="radio" name="field_type"  class="field_type" value="textarea">文本框'
+            ];
 
-
+        }else{
+            $data =[
+                '<input  type="radio" name="field_type" class="field_type"  value="input"> 输入框',
+                '<input type="radio" name="field_type" class="field_type"   value="radio">单选框',
+                ' <input type="radio" name="field_type"  class="field_type" checked value="textarea">文本框'
+            ];
         }
-        return view('admin.config.edit', compact( 'link'));
+        return view('admin.config.edit', compact( 'link','data'));
     }
 
     public function update($art_id)
