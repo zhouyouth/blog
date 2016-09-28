@@ -36,7 +36,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.49541286">
-              <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+              <caret line="35" column="57" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -479,18 +479,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00790" summary="&#10;">
-      <created>1475032758221</created>
-      <option name="number" value="00790" />
-      <option name="project" value="LOCAL" />
-      <updated>1475032758221</updated>
-    </task>
-    <task id="LOCAL-00791" summary="&#10;">
-      <created>1475032772873</created>
-      <option name="number" value="00791" />
-      <option name="project" value="LOCAL" />
-      <updated>1475032772873</updated>
-    </task>
     <task id="LOCAL-00792" summary="&#10;">
       <created>1475032826853</created>
       <option name="number" value="00792" />
@@ -773,7 +761,19 @@
       <option name="project" value="LOCAL" />
       <updated>1475048246255</updated>
     </task>
-    <option name="localTasksCounter" value="839" />
+    <task id="LOCAL-00839" summary="&#10;">
+      <created>1475048310264</created>
+      <option name="number" value="00839" />
+      <option name="project" value="LOCAL" />
+      <updated>1475048310264</updated>
+    </task>
+    <task id="LOCAL-00840" summary="&#10;">
+      <created>1475048340911</created>
+      <option name="number" value="00840" />
+      <option name="project" value="LOCAL" />
+      <updated>1475048340911</updated>
+    </task>
+    <option name="localTasksCounter" value="841" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1212,7 +1212,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49541286">
-          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="57" />
           <folding />
         </state>
       </provider>
