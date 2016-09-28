@@ -90,13 +90,13 @@ class ConfController extends Controller
                 ' <input type="radio" name="field_type"  class="field_type" value="textarea">文本框'
             ];
             if($link->field_value ==1){
-            $v =[
+            $va =[
                 '<input type="radio"   name="field_value" checked value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>',
                 ' <input type="radio"   name="field_value" value="2"/><span>关闭</span>',
             ];
 
             }else{
-                $v =[
+                $va =[
                     '<input type="radio"   name="field_value"  value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>',
                     ' <input type="radio"   name="field_value" checked value="2"/><span>关闭</span>',
                 ];
@@ -108,9 +108,9 @@ class ConfController extends Controller
                 '<input type="radio" name="field_type" class="field_type"   value="radio">单选框',
                 ' <input type="radio" name="field_type"  class="field_type" checked value="textarea">文本框'
             ];
-            $v='<textarea id="textarea" >$link->field_value</textarea>';
+            $va='<textarea id="textarea" >$link->field_value</textarea>';
         }
-        return view('admin.config.edit', compact( 'link','data','v'));
+        return view('admin.config.edit', compact( 'link','data','va'));
     }
 
     public function update($art_id)
