@@ -156,4 +156,8 @@ class ConfController extends Controller
         }
         return $data;
     }
+   public function  Confall(){
+   //配置项
+    echo "123";
+ }
 }
