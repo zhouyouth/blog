@@ -157,8 +157,8 @@ class ConfController extends Controller
         return $data;
     }
    public function  confall(){
-   //配置项
-
+     $c=Conf::all();
+   dd($c);
  }
 
 }
