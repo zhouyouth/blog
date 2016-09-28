@@ -96,24 +96,28 @@
         </form>
     </div>
     <script>
-        $('.field_value').contents("input[type='radio'],#textarea,span").hide();
-        $('.field_type').bind('click', function () {
-            $('.field_value').contents().hide();
-            if($(this).val()=='input'){
-                $('.field_value').find("#text").show();
-                $('#textarea').hide();
-            }
-            if($(this).val()=='radio'){
-                $('.field_value').find("input[type='radio']").show();
-                $('.field_value').find("span").show();
-            }if($(this).val()=='textarea'){
-                $("#textarea").attr("name","field_value");
-                $('.field_value').find("#textarea").show();
-            }
-            //console.log( $('input[name=field_value]'));
+        ini();
+        function ini(){
+            $('.field_value').contents("input[type='radio'],#textarea,span").hide();
+            $('.field_type').bind('click', function () {
+                $('.field_value').contents().hide();
+                if($(this).val()=='input'){
+                    $('.field_value').find("#text").show();
+                    $('#textarea').hide();
+                }
+                if($(this).val()=='radio'){
+                    $('.field_value').find("input[type='radio']").show();
+                    $('.field_value').find("span").show();
+                }if($(this).val()=='textarea'){
+                    $("#textarea").attr("name","field_value");
+                    $('.field_value').find("#textarea").show();
+                }
+                //console.log( $('input[name=field_value]'));
 
 
-        })
+            })
+        }
+
     </script>
 @endsection
 
