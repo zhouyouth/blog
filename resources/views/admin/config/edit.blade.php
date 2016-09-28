@@ -98,8 +98,12 @@
     <script>
         ini();
         function ini(){
-//            $('.field_value').contents("input[type='radio'],#textarea,span").hide();
-           console.log($('.field_type:checked'));
+            $('.field_value').contents("input[type='radio'],#textarea,span").hide();
+             var type=$('.field_type:checked');
+             if(type.val=="radion"){
+                 $('.field_value').find("input[type='radio']").show();
+                 $('.field_value').find("span").show();
+             }
             $('.field_type').bind('click', function () {
                 $('.field_value').contents().hide();
                 if($(this).val()=='input'){
