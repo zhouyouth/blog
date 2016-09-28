@@ -59,6 +59,7 @@ class ConfController extends Controller
         if ($validator->passes()) {
             $re = Conf::create($input);
             if ($re) {
+                $this->confall();
                 return redirect('admin/conf');
             } else {
                 return back()->withErrors('errors', '配置添加失败');
@@ -133,6 +134,7 @@ class ConfController extends Controller
         $input = Input::except('_token', '_method');
         $re = Conf::where('conf_id', $art_id)->update($input);
         if ($re) {
+            $this->confall();
             return redirect('admin/conf');
         } else {
             return back()->withErrors('errors', '编辑配置信息失败!');
@@ -143,23 +145,22 @@ class ConfController extends Controller
     {
         $re = Conf::where('conf_id', $conf_id)->delete();
         if ($re) {
+            $this->confall();
             $data = [
                 'status' => 0,
-                'msg' => '删除导航栏目链成功!'
+                'msg' => '删除配置成功!'
             ];
         } else {
             $data = [
                 'status' => 1,
-                'msg' => '删除导航栏目失败!'
+                'msg' => '删除配置失败!'
             ];
 
         }
         return $data;
     }
    public function  confall(){
-       //Config::
      $dg=Config::get('web.title');
-       dd($dg);
      $c=Conf::pluck('conf_content','conf_name')->all();
      $path = base_path().'\config\web.php';
      $Str ='<?php return ' .var_export($c,true).';';
