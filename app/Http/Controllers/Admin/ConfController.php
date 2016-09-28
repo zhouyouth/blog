@@ -110,7 +110,7 @@ class ConfController extends Controller
             ];
             $v='<textarea id="textarea" >$link->field_value</textarea>';
         }
-        return view('admin.config.edit', compact( 'link','data'));
+        return view('admin.config.edit', compact( 'link','data','v'));
     }
 
     public function update($art_id)
