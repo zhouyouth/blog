@@ -159,7 +159,7 @@ class ConfController extends Controller
    public function  confall(){
      $c=Conf::pluck('conf_content','conf_name')->all();
      $path = base_path().'\config\web.php';
-     $Str ='<?php return ' .var_export($c,ture).';';
+     $Str ='<?php return ' .var_export($c,true).';';
     file_put_contents($path,$Str);
     // dd($path);
  }
