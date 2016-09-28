@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/config/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/config/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -54,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/admin/config/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.2996707">
-              <caret line="101" column="55" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
+              <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -198,8 +199,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="188" />
-    <option name="y" value="511" />
+    <option name="x" value="526" />
+    <option name="y" value="321" />
     <option name="width" value="1492" />
     <option name="height" value="1100" />
   </component>
@@ -537,18 +538,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00718" summary="&#10;">
-      <created>1474961886084</created>
-      <option name="number" value="00718" />
-      <option name="project" value="LOCAL" />
-      <updated>1474961886084</updated>
-    </task>
-    <task id="LOCAL-00719" summary="&#10;">
-      <created>1474962122169</created>
-      <option name="number" value="00719" />
-      <option name="project" value="LOCAL" />
-      <updated>1474962122169</updated>
-    </task>
     <task id="LOCAL-00720" summary="&#10;">
       <created>1474962283236</created>
       <option name="number" value="00720" />
@@ -831,7 +820,19 @@
       <option name="project" value="LOCAL" />
       <updated>1475027964531</updated>
     </task>
-    <option name="localTasksCounter" value="767" />
+    <task id="LOCAL-00767" summary="&#10;">
+      <created>1475027975972</created>
+      <option name="number" value="00767" />
+      <option name="project" value="LOCAL" />
+      <updated>1475027975972</updated>
+    </task>
+    <task id="LOCAL-00768" summary="&#10;">
+      <created>1475028030590</created>
+      <option name="number" value="00768" />
+      <option name="project" value="LOCAL" />
+      <updated>1475028030590</updated>
+    </task>
+    <option name="localTasksCounter" value="769" />
     <servers />
   </component>
   <component name="TodoView">
@@ -844,7 +845,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="188" y="511" width="1492" height="1100" extended-state="0" />
+    <frame x="526" y="321" width="1492" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1289,7 +1290,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/admin/config/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2996707">
-          <caret line="101" column="55" selection-start-line="101" selection-start-column="55" selection-end-line="101" selection-end-column="55" />
+          <caret line="101" column="37" selection-start-line="101" selection-start-column="37" selection-end-line="101" selection-end-column="37" />
           <folding />
         </state>
       </provider>
