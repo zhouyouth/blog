@@ -157,7 +157,7 @@ class ConfController extends Controller
         return $data;
     }
    public function  confall(){
-     $c=Conf::all();
+     $c=Conf::pluck('conf_content','conf_name');
    dd($c);
  }
 
