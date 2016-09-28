@@ -156,7 +156,7 @@ class ConfController extends Controller
         }
         return $data;
     }
-   public function  Confall(){
+   public function  confall(){
    //配置项
 
  }
