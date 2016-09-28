@@ -40,8 +40,8 @@
             </div>
             <div class="result_content">
                 <div class="short_wrap">
-                    <a href="{{url('admin/navs/create')}}"><i class="fa fa-plus"></i>新增配置栏目</a>
-                    <a href="{{url('admin/navs')}}"><i class="fa fa-plus"></i>配置栏目列表</a>
+                    <a href="{{url('admin/conf/create')}}"><i class="fa fa-plus"></i>新增配置栏目</a>
+                    <a href="{{url('admin/conf')}}"><i class="fa fa-plus"></i>配置栏目列表</a>
                 </div>
             </div>
         </div>
