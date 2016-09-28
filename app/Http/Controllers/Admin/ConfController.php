@@ -131,6 +131,7 @@ class ConfController extends Controller
     public function update($art_id)
     {
         $input = Input::except('_token', '_method');
+        dd($input);
         $re = Conf::where('conf_id', $art_id)->update($input);
         if ($re) {
             return redirect('admin/Conf');
