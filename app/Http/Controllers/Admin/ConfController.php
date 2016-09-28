@@ -156,7 +156,7 @@ class ConfController extends Controller
         return $data;
     }
    public function  confall(){
-     $dg= \Illuminate\Support\Facades\Config::get('web.网站标题
+     $dg= \Illuminate\Support\Facades\Config::get('web.title
       ');
        dd($dg);
      $c=Conf::pluck('conf_content','conf_name')->all();
