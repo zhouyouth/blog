@@ -136,7 +136,7 @@ class ConfController extends Controller
         if ($re) {
             return redirect('admin/Conf');
         } else {
-            return back()->withErrors('errors', '编辑导航信息失败!');
+            return back()->withErrors('errors', '编辑配置信息失败!');
         }
     }
 
