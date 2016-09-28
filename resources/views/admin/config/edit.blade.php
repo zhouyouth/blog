@@ -106,7 +106,13 @@
                  $('.field_value').find("input[type='text']").hide();
                  $('.field_value').find("input[type='radio']").show();
                  $('.field_value').find("span").show();
-             }
+             } if(type.val()==="textarea"){
+                $('.field_value').contents("input[type='radio'],#textarea,span").hide();
+                //alert(type.val());
+                $('.field_value').find("input[type='text']").hide();
+                $("#textarea").attr("name","field_value");
+                $('.field_value').find("#textarea").show();
+            }
             $('.field_type').bind('click', function () {
                 $('.field_value').contents().hide();
                 if($(this).val()=='input'){
