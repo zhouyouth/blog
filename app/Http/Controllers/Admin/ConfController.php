@@ -73,7 +73,7 @@ class ConfController extends Controller
         //find this Conf info;
         $link = Conf::find($conf_id);
         $tag= $link->field_type;
-        dd($tag);
+//        dd($tag);
         if( $tag=="input"){
             $data =[
                  '<input  type="radio" name="field_type" class="field_type" checked value="input"> 输入框',
