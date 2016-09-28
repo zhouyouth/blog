@@ -100,8 +100,9 @@
         function ini(){
             $('.field_value').contents("input[type='radio'],#textarea,span").hide();
              var type=$('.field_type:checked');
-            //alert(type.val());
+            //
              if(type.val()=="radio"){
+                 alert(type.val());
                  $('.field_value').find("input[type='radio']").show();
                  $('.field_value').find("span").show();
              }
