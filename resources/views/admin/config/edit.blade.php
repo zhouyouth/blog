@@ -124,6 +124,7 @@
                 if($(this).val()=='radio'){
                     $('.field_value').find("input[type='radio']").show();
                     $('.field_value').find("span").show();
+                    $("#textarea").removeAttr('name');
                 }if($(this).val()=='textarea'){
                     $("#textarea").attr("name","field_value");
                     $('.field_value').find("#textarea").show();
