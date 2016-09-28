@@ -62,7 +62,7 @@
                      @foreach($Conf as $v)
                     <tr>
                         <td class="tc"><input type="text" onchange="changeOrder(this,{{$v->conf_id}});" name="id[]" value="{{$v->conf_order}}"></td>
-                        <td class="tc">{{$v->nav_id}}</td>
+                        <td class="tc">{{$v->conf_id}}</td>
                         <td>
                             <a href="#" class="tc">{{$v->conf_name}}</a>
                         </td>
