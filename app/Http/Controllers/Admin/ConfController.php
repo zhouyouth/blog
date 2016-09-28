@@ -72,8 +72,12 @@ class ConfController extends Controller
     {
         //find this Conf info;
         $link = Conf::find($conf_id);
-        dd($link);
+        $tag= $link->field_type;
+        dd($tag);
+        if( $tag){
 
+
+        }
         return view('admin.config.edit', compact( 'link'));
     }
 
