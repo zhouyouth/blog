@@ -65,7 +65,7 @@
                 <tr >
                     <th>值：</th>
                     <td class='field_value'>
-                        @if(is_array($va))
+                        @if(is_array(va))
                           @foreach($va as $str)
                          {!! $str !!}
                         @endforeach
