@@ -54,8 +54,8 @@
       <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/config/edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8965516">
-              <caret line="67" column="75" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="75" />
+            <state vertical-scroll-proportion="-11.689655">
+              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -94,8 +94,8 @@
       <file leaf-file-name="ConfController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38638857">
-              <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.28979144">
+              <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
               <folding>
                 <element signature="e#46#70#0#PHP" expanded="true" />
               </folding>
@@ -199,8 +199,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="91" />
-    <option name="y" value="42" />
+    <option name="x" value="155" />
+    <option name="y" value="243" />
     <option name="width" value="1492" />
     <option name="height" value="1100" />
   </component>
@@ -538,18 +538,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00736" summary="&#10;">
-      <created>1474964057375</created>
-      <option name="number" value="00736" />
-      <option name="project" value="LOCAL" />
-      <updated>1474964057375</updated>
-    </task>
-    <task id="LOCAL-00737" summary="&#10;">
-      <created>1474964122724</created>
-      <option name="number" value="00737" />
-      <option name="project" value="LOCAL" />
-      <updated>1474964122724</updated>
-    </task>
     <task id="LOCAL-00738" summary="&#10;">
       <created>1474964163991</created>
       <option name="number" value="00738" />
@@ -832,7 +820,19 @@
       <option name="project" value="LOCAL" />
       <updated>1475031430433</updated>
     </task>
-    <option name="localTasksCounter" value="785" />
+    <task id="LOCAL-00785" summary="&#10;">
+      <created>1475031467368</created>
+      <option name="number" value="00785" />
+      <option name="project" value="LOCAL" />
+      <updated>1475031467368</updated>
+    </task>
+    <task id="LOCAL-00786" summary="&#10;">
+      <created>1475031818776</created>
+      <option name="number" value="00786" />
+      <option name="project" value="LOCAL" />
+      <updated>1475031818776</updated>
+    </task>
+    <option name="localTasksCounter" value="787" />
     <servers />
   </component>
   <component name="TodoView">
@@ -845,7 +845,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="91" y="42" width="1492" height="1100" extended-state="0" />
+    <frame x="155" y="243" width="1492" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -1279,16 +1279,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/admin/config/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8965516">
-          <caret line="67" column="75" selection-start-line="67" selection-start-column="24" selection-end-line="67" selection-end-column="75" />
+        <state vertical-scroll-proportion="-11.689655">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/ConfController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38638857">
-          <caret line="85" column="18" selection-start-line="85" selection-start-column="18" selection-end-line="85" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.28979144">
+          <caret line="84" column="18" selection-start-line="84" selection-start-column="18" selection-end-line="84" selection-end-column="18" />
           <folding>
             <element signature="e#46#70#0#PHP" expanded="true" />
           </folding>
