@@ -108,7 +108,7 @@ class ConfController extends Controller
                 '<input type="radio" name="field_type" class="field_type"   value="radio">单选框',
                 ' <input type="radio" name="field_type"  class="field_type" checked value="textarea">文本框'
             ];
-            $va='<textarea id="textarea" >$link->field_value</textarea>';
+            $va="<textarea id='textarea' >$link->field_value</textarea>";
         }
         return view('admin.config.edit', compact( 'link','data','va'));
     }
