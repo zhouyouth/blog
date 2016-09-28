@@ -65,10 +65,10 @@
                 <tr >
                     <th>值：</th>
                     <td class='field_value'>
-                        <input type="text"  id="text"  name="field_value" value="{{$link->field_value}}" >
-                        <input type="radio"   name="field_value" value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>
-                        <input type="radio"   name="field_value" value="2"/><span>关闭</span>
-                        <textarea id="textarea" >{{$link->field_value}}</textarea>
+                        @if(is_object($v)){
+
+
+                        }
                     </td>
                 </tr>
                 <tr>
