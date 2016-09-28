@@ -160,4 +160,8 @@ class ConfController extends Controller
    //配置项
     echo "123";
  }
+ public  function  show(){
+
+
+ }
 }
