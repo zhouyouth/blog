@@ -84,7 +84,7 @@ class ConfController extends Controller
            $va=[
                "<input type='text'  id='text'  name='field_value' value='$link->field_value' >",
                '<input type="radio"   name="field_value"  value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>',
-               ' <input type="radio"   name="field_value" value="2"/><span>关闭</span>',
+               ' <input type="radio"   name="field_value" value="0"/><span>关闭</span>',
                "<textarea id='textarea' ></textarea>"
            ];
 
@@ -98,7 +98,7 @@ class ConfController extends Controller
             $va =[
                 "<input type='text'  id='text'  name='field_value'  >",
                 '<input type="radio"   name="field_value" checked value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>',
-                ' <input type="radio"   name="field_value" value="2"/><span>关闭</span>',
+                ' <input type="radio"   name="field_value" value="0"/><span>关闭</span>',
                 "<textarea id='textarea' ></textarea>"
             ];
 
@@ -106,7 +106,7 @@ class ConfController extends Controller
                 $va =[
                     "<input type='text'  id='text'  name='field_value'  >",
                     '<input type="radio"   name="field_value"  value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>',
-                    ' <input type="radio"   name="field_value" checked value="2"/><span>关闭</span>',
+                    ' <input type="radio"   name="field_value" checked value="0"/><span>关闭</span>',
                     "<textarea id='textarea' ></textarea>"
                 ];
 
@@ -120,7 +120,7 @@ class ConfController extends Controller
             $va =[
                 "<input type='text'  id='text'  name='field_value'  >",
                 '<input type="radio"   name="field_value"  value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>',
-                ' <input type="radio"   name="field_value" value="2"/><span>关闭</span>',
+                ' <input type="radio"   name="field_value" value="0"/><span>关闭</span>',
                 "<textarea id='textarea' >$link->field_value</textarea>"
             ];
         }
