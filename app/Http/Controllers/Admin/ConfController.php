@@ -80,6 +80,16 @@ class ConfController extends Controller
                  '<input type="radio" name="field_type" class="field_type" value="radio">单选框',
                  ' <input type="radio" name="field_type"  class="field_type" value="textarea">文本框'
             ];
+
+           $v="<input type='text'  id='text'  name='field_value' value=\"$link->field_value; \" >";
+           dd($v);
+            $val=[
+
+               '<input type="text"  id="text"  name="field_value" >',
+               '<input type="radio"   name="field_value" value="1"/><span>开启&nbsp;&nbsp;&nbsp;&nbsp;</span>',
+               '<input type="radio" name="field_type"  class="field_type" value="textarea">文本框',
+               ' <textarea id="textarea" ></textarea>',
+           ];
         }else if($tag=="radio"){
             $data =[
                 '<input  type="radio" name="field_type" class="field_type"  value="input"> 输入框',
