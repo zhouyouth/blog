@@ -1,3 +1,3 @@
 <?php return array (
-  'title'=>'blog 系统',
+  '网站标题' => 'blog 系统',
 );
