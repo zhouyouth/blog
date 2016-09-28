@@ -69,8 +69,9 @@
                           @foreach($v as $str)
                          {!! $str !!}
                         @endforeach
-                        @endif
+                        @else
                             {!! $v !!}
+                        @endif
                     </td>
                 </tr>
                 <tr>
