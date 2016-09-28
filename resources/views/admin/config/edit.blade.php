@@ -120,6 +120,7 @@
                 if($(this).val()=='input'){
                     $('.field_value').find("#text").show();
                     $('#textarea').hide();
+                    $("#textarea").removeAttr('name');
                 }
                 if($(this).val()=='radio'){
                     $('.field_value').find("input[type='radio']").show();
