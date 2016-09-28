@@ -58,7 +58,7 @@
                     <th>类型：</th>
                     <td>
                        @foreach($data as $v)
-                         {{$v}}
+                        {!! $v !!}
                        @endforeach
                     </td>
                 </tr>
