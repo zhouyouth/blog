@@ -134,7 +134,7 @@ class ConfController extends Controller
         //dd($input);
         $re = Conf::where('conf_id', $art_id)->update($input);
         if ($re) {
-            return redirect('admin/Conf');
+            return redirect('admin/conf');
         } else {
             return back()->withErrors('errors', '编辑配置信息失败!');
         }
