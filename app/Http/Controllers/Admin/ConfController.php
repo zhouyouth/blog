@@ -160,7 +160,7 @@ class ConfController extends Controller
      $c=Conf::pluck('conf_content','conf_name');
      $path = base_path().'\config\web.php';
       var_export($c,true);
-     file_put_contents($path,$str);
+    // file_put_contents($path,$str);
     // dd($path);
  }
 
