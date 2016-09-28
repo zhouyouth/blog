@@ -99,7 +99,7 @@
         ini();
         function ini(){
 //            $('.field_value').contents("input[type='radio'],#textarea,span").hide();
-           console.log($('.field_type'));
+           console.log($('.field_type:checked'));
             $('.field_type').bind('click', function () {
                 $('.field_value').contents().hide();
                 if($(this).val()=='input'){
