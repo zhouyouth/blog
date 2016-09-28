@@ -9,7 +9,6 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Input;
 use Illuminate\Support\Facades\Validator;
-use League\Flysystem\Config;
 
 class ConfController extends Controller
 {
@@ -157,7 +156,7 @@ class ConfController extends Controller
         return $data;
     }
    public function  confall(){
-     $dg= Config::get('web.网站标题
+     $dg= \Illuminate\Support\Facades\Config::get('web.网站标题
       ');
        dd($dg);
      $c=Conf::pluck('conf_content','conf_name')->all();
