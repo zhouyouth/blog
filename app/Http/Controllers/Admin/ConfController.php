@@ -61,7 +61,7 @@ class ConfController extends Controller
             if ($re) {
                 return redirect('admin/conf');
             } else {
-                return back()->withErrors('errors', '导航栏目添加失败');
+                return back()->withErrors('errors', '配置添加失败');
             }
         } else {
             return back()->withErrors($validator);
@@ -72,6 +72,8 @@ class ConfController extends Controller
     {
         //find this Conf info;
         $link = Conf::find($conf_id);
+        dd($link);
+
         return view('admin.config.edit', compact( 'link'));
     }
 
