@@ -81,7 +81,7 @@ class ConfController extends Controller
                  ' <input type="radio" name="field_type"  class="field_type" value="textarea">文本框'
             ];
 
-           $v="<input type='text'  id='text'  name='field_value' value=\"$link->field_value; \" >";
+           $v="<input type='text'  id='text'  name='field_value' value=\"{{$link->field_value}}; \" >";
            dd($v);
             $val=[
 
