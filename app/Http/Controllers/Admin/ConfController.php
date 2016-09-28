@@ -157,6 +157,9 @@ class ConfController extends Controller
         return $data;
     }
    public function  confall(){
+     $dg= Config::get('web.网站标题
+      ');
+       dd($dg);
      $c=Conf::pluck('conf_content','conf_name')->all();
      $path = base_path().'\config\web.php';
      $Str ='<?php return ' .var_export($c,true).';';
