@@ -5,8 +5,8 @@
 <title>后盾个人博客</title>
 <meta name="keywords" content="个人博客模板,博客模板" />
 <meta name="description" content="寻梦主题的个人博客模板，优雅、稳重、大气,低调。" />
-<link href="{{asset('/resources/views/home/style/css/base.css}}" rel="stylesheet">
-<link href="{{asset('/resources/views/home/style/css/index.css}}" rel="stylesheet">
+<link href="{{asset('/resources/views/home/style/css/base.css')}}" rel="stylesheet">
+<link href="{{asset('/resources/views/home/style/css/index.css')}}" rel="stylesheet">
 <!--[if lt IE 9]>
 <script src="js/modernizr.js"></script>
 <![endif]-->
@@ -33,12 +33,12 @@
       <p><span>个人博客</span>模板 Templates</p>
     </h3>
     <ul>
-      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/01.jpg}}"></a><span>仿新浪博客风格·梅——古典个人博客模板</span></li>
-      <li><a href="/" target="_blank"><img src="{{asset('/resources/views/home/style/images/02.jpg}}"></a><span>黑色质感时间轴html5个人博客模板</span></li>
-      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/03.jpg}}"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
-      <li><a href="/" target="_blank"><img src="{{asset('/resources/views/home/style/images/04.jpg}}"></a><span>女生清新个人博客网站模板</span></li>
-      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/02.jpg}}"></a><span>黑色质感时间轴html5个人博客模板</span></li>
-      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/03.jpg}}"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
+      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/01.jpg')}}"></a><span>仿新浪博客风格·梅——古典个人博客模板</span></li>
+      <li><a href="/" target="_blank"><img src="{{asset('/resources/views/home/style/images/02.jpg')}}"></a><span>黑色质感时间轴html5个人博客模板</span></li>
+      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/03.jpg')}}"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
+      <li><a href="/" target="_blank"><img src="{{asset('/resources/views/home/style/images/04.jpg')}}"></a><span>女生清新个人博客网站模板</span></li>
+      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/02.jpg')}}"></a><span>黑色质感时间轴html5个人博客模板</span></li>
+      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/03.jpg')}}"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
     </ul>
   </div>
 </div>
@@ -48,35 +48,35 @@
   </h2>
   <div class="bloglist left">
     <h3>程序员请放下你的技术情节，与你的同伴一起进步</h3>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png}}"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
     <ul>
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
     </ul>
     <p class="dateview"><span>2013-11-04</span><span>作者：后盾</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
     <h3>程序员请放下你的技术情节，与你的同伴一起进步</h3>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png}}"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
     <ul>
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
     </ul>
     <p class="dateview"><span>2013-11-04</span><span>作者：后盾</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
     <h3>程序员请放下你的技术情节，与你的同伴一起进步</h3>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png}}"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
     <ul>
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
     </ul>
     <p class="dateview"><span>2013-11-04</span><span>作者：后盾</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
     <h3>程序员请放下你的技术情节，与你的同伴一起进步</h3>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png}}"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
     <ul>
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
     </ul>
     <p class="dateview"><span>2013-11-04</span><span>作者：后盾</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
     <h3>程序员请放下你的技术情节，与你的同伴一起进步</h3>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png}}"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
     <ul>
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
@@ -130,6 +130,6 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 <footer>
   <p>Design by 后盾网 <a href="http://www.miitbeian.gov.cn/" target="_blank">http://www.houdunwang.com</a> <a href="/">网站统计</a></p>
 </footer>
-<script src="{{asset('/resources/views/home/style/js/silder.js}}"></script>
+<script src="{{asset('/resources/views/home/style/js/silder.js')}}"></script>
 </body>
 </html>
