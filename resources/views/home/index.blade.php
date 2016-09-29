@@ -49,7 +49,7 @@
       <p>最新<span>文章</span></p>
     </h3>
     <ul class="rank">
-      @foreach($news as $v)
+      @foreach($new as $v)
       <li><a href="/" title="{{$v->art_title}}" target="_blank">{{$v->art_title}}</a></li>
       @endforeach
     </ul>
