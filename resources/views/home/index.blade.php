@@ -72,7 +72,7 @@
       <p>友情<span>链接</span></p>
     </h3>
     <ul class="website">
-       @for($links as $l)
+       @foreach($links as $v)
       <li><a href="{{$v->link_url}}">{{$v->link_name}}</a></li>
        @endforeach
     </ul>
