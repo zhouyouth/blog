@@ -102,8 +102,4 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
     <!-- Baidu Button END -->   
 </aside>
 </article>
-<footer>
-  <p>Design by 后盾网 <a href="http://www.miitbeian.gov.cn/" target="_blank">http://www.houdunwang.com</a> <a href="/">网站统计</a></p>
-</footer>
-<script src="{{asset('/resources/views/home/style/js/silder.js')}}"></script>
 @endsection
