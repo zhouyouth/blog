@@ -54,7 +54,7 @@
     <div class="line"></div>
     <div class="blank"></div>
     <div class="ad">  
-    <img src="images/ad.png">
+    <img src="{{asset('/resources/views/home/style/images/ad.png')}}">
     </div>
     <div class="page">
 
