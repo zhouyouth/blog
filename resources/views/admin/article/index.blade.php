@@ -80,10 +80,11 @@
                     @endforeach
                 </table>
             </div>
+            <div class="page_list">
+                {{$article->links()}}
+            </div>
         </div>
-        <div class="page_list">
-            {{$article->links()}}
-        </div>
+
         <style>
             .page_list .pagination{
                 display:inline;
