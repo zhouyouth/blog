@@ -5,10 +5,10 @@
 <title>后盾个人博客—一个站在web前段设计之路的女技术员个人博客网站</title>
 <meta name="keywords" content="个人博客,后盾个人博客,个人博客模板,后盾" />
 <meta name="description" content="后盾个人博客，是一个站在web前端设计之路的女程序员个人网站，提供个人博客模板免费资源下载的个人原创网站。" />
-<link href="css/base.css" rel="stylesheet">
-<link href="css/new.css" rel="stylesheet">
+  <link href="{{asset('/resources/views/home/style/css/base.css')}}" rel="stylesheet">
+  <link href="{{asset('/resources/views/home/style/css/style.css')}}" rel="stylesheet">
 <!--[if lt IE 9]>
-<script src="js/modernizr.js"></script>
+<script src="{{asset('/resources/views/home/style/js/modernizr.js')}}"></script>
 <![endif]-->
 </head>
 <body>
@@ -25,11 +25,11 @@
     <ul class="infos">
       <p>进一好友空间，再一次看到她置顶的那一篇《他和她的故事》爱情在他俩的生活中经历了不少分分合合，但最后俩人还是走在了一起。当今天再一次阅读的时候，我没有第一次那么感性，我注重他们俩曲折的过程，其中出现过第三者...</p>
       <p>如果我是她，对于他当初的脚踏两只船、尽管仍然说爱但亦然离开而选择别人，我很肯定我是无法原谅他的，也许你会说是因为我不是真正爱他吧，我也不知道，这是不是因为爱得不够深，不能包容他的过错...我是很小气的人，就像很多人说的那样，一年365天，你364天对她好，只要有一天对她不好，她也会在n天也许n年后提出来，你哪天对我不好。</p>
-      <p><img src="images/e5e39b1148811261c78b933805d07232.png" alt="分手"></p>
+      <p><img src="{{asset('/resources/views/home/images/e5e39b1148811261c78b933805d07232.png')}}" alt="分手"></p>
       <p>大学时跟我分分合合的男朋友，却是这么一个爱犯错的人。跟他交往，会有意无意的伤到我自尊，至今我也那么认为那伤害了我的自尊。在我骨子里有一种骄傲和很强的自尊，而他却偏偏伤了一次又一次。他的朋友都说我小气，我至今也觉得如果我不小气，那就是我傻！</p>
       <p>我认为大学时的恋爱，是毕业前进入社会的一次恋爱实习。参杂了很多的疑问和抉择。就像工作，从销售到文员到编辑到技术员，最后才知道什么工作适合自己。找一个人陪你恋爱实习，也许很简单，也许很难。</p>
       <p>这么多年过去了，当初分手都会舍不得那段4年的感情，后来也是时间煮了这段记忆。现在我们各自有了各自的生活，他也找到了他心仪的女孩，我能感觉出他们俩很相爱，当初最后一次分手的过渡时间，无论有多么的不舍与难熬，现在看看都是正确的。</p>
-      <p><img src="images/1f8aea2172f6eb987c3de3f7ba474eb1.png" alt="分手"></p>
+      <p><img src="{{asset('/resources/views/home/images/1f8aea2172f6eb987c3de3f7ba474eb1.png')}}" alt="分手"></p>
       <p>为何我会毅然放弃，因为在我心里，那些过去的伤，那些不好的记忆永远都抹不去，我无法面对，哪怕是当初妥协了，我想最后我也一定会再一次选择放弃....</p>
       <p>我觉得爱情也可以重新来过，只是换换主角罢了...</p>
     </ul>
@@ -101,6 +101,6 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 <footer>
   <p>Design by 后盾网 <a href="http://www.miitbeian.gov.cn/" target="_blank">http://www.houdunwang.com</a> <a href="/">网站统计</a></p>
 </footer>
-<script src="js/silder.js"></script>
+<script src="{{asset('/resources/views/home/style/js/silder.js')}}"></script>
 </body>
 </html>
