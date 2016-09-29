@@ -5,8 +5,8 @@
 <title>后盾个人博客</title>
 <meta name="keywords" content="个人博客,后盾个人博客,个人博客模板,后盾" />
 <meta name="description" content="后盾个人博客，是一个站在web前端设计之路的女程序员个人网站，提供个人博客模板免费资源下载的个人原创网站。" />
-<link href="css/base.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
+<link href="{{asset('/resources/views/home/style/css/base.css')}}" rel="stylesheet">
+<link href="{{asset('/resources/views/home/style/css/css/style.css')}}css/style.css" rel="stylesheet">
 <!--[if lt IE 9]>
 <script src="js/modernizr.js"></script>
 <![endif]-->
@@ -22,7 +22,7 @@
 <div class="newblog left">
    <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
    <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
-    <figure><img src="images/001.png"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/css/images/001.png')}}"></figure>
     <ul class="nlist">
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
@@ -30,7 +30,7 @@
     <div class="line"></div>
      <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
    <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
-    <figure><img src="images/001.png"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/css/images/001.png')}}"></figure>
     <ul class="nlist">
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
@@ -38,7 +38,7 @@
     <div class="line"></div>
          <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
    <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
-    <figure><img src="images/001.png"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/css/images/001.png')}}"></figure>
     <ul class="nlist">
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
@@ -46,7 +46,7 @@
     <div class="line"></div>
          <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
    <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
-    <figure><img src="images/001.png"></figure>
+    <figure><img src="{{asset('/resources/views/home/style/css/images/001.png')}}"></figure>
     <ul class="nlist">
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
@@ -116,6 +116,6 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
 <footer>
   <p>Design by 后盾网 <a href="http://www.miitbeian.gov.cn/" target="_blank">http://www.houdunwang.com</a> <a href="/">网站统计</a></p>
 </footer>
-<script src="js/silder.js"></script>
+<script src="{{asset('/resources/views/home/style/js/silder.js')}}"></script>
 </body>
 </html>
