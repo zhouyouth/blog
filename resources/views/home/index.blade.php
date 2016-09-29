@@ -33,8 +33,8 @@
   </h2>
   <div class="bloglist left">
     @foreach($data as $v)
-    <h3>程序员请放下你的技术情节，与你的同伴一起进步</h3>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
+    <h3>{{$v->art_title}}</h3>
+    <figure><img src="{{url('/').'/'.$v->art_title}}"></figure>
     <ul>
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
