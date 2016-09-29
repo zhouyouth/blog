@@ -12,7 +12,7 @@
 |
 */
 //home
-Route::get('home/index', "Home\IndexController@index");
+Route::get('/', "Home\IndexController@index");
 
 //admin
 Route::get('admin/code', "Admin\LoginController@code");
