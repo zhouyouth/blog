@@ -44,6 +44,13 @@
       <div class="page_list">
         {{$data->links()}}
       </div>
+      <style>
+        .page_list ul li{
+          display:inline;
+
+        }
+
+      </style>
   </div>
   <aside class="right">
     <div class="weather"><iframe width="250" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&icon=1&num=1"></iframe></div>
