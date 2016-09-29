@@ -42,7 +42,7 @@
     <p class="dateview"><span>{{date('Y-m-d H:i:s',$v->art_time)}}</span><span>作者：{{$v->art_editor}}</span></p>
     @endforeach
       <div class="page_list">
-        {{$v->links()}}
+        {{$data->links()}}
       </div>
   </div>
   <aside class="right">
