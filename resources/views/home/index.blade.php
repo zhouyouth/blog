@@ -53,6 +53,12 @@
          padding:10px;
 
         }
+        .page_list ul .active span{
+          background-color: #337ab7;
+          border-color: #337ab7;
+          color: #fff;
+          cursor: default;
+        }
 
       </style>
   </div>
