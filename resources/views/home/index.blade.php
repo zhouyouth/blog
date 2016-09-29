@@ -41,6 +41,9 @@
     </ul>
     <p class="dateview"><span>{{date('Y-m-d H:i:s',$v->art_time)}}</span><span>作者：{{$v->art_editor}}</span></p>
     @endforeach
+      <div class="page_list">
+        {{$article->links()}}
+      </div>
   </div>
   <aside class="right">
     <div class="weather"><iframe width="250" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&icon=1&num=1"></iframe></div>
