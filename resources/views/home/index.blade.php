@@ -37,7 +37,7 @@
     <figure><img src="{{url('/').'/'.$v->art_thumb}}"></figure>
     <ul>
       <p>{{$v->art_description}}...</p>
-      <a title="/" href="{{url('/art/').$v->art_id}}" target="_blank" class="readmore">阅读全文>></a>
+      <a title="/" href="{{url('/art').'/'.$v->art_id}}" target="_blank" class="readmore">阅读全文>></a>
     </ul>
     <p class="dateview"><span>{{date('Y-m-d H:i:s',$v->art_time)}}</span><span>作者：{{$v->art_editor}}</span></p>
     @endforeach
