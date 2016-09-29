@@ -20,7 +20,7 @@ class IndexController extends Controller
         $new = Article::orderBy('art_time','desc')->take(8)->get();
         //友情链接
         $links =Links::orderBy('link_order','asc')->get();
-        dd($links);
+        //dd($links);
        return view('home.index',compact('hot','data','new','links'));
     }
     public function lis(){
