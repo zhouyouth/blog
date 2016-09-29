@@ -1,4 +1,5 @@
 ﻿@extends('layouts.home')
+<link href="{{asset('/resources/views/home/style/css/style.css')}}" rel="stylesheet">
   @section('content')
 <header>
   <div id="logo"><a href="/"></a></div>
