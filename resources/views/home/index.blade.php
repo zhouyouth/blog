@@ -49,8 +49,8 @@
           display:inline;
 
         }
-        .page_list ul li span{
-         padding:20px;
+        .page_list ul li span,a{
+         padding:10px;
 
         }
 
