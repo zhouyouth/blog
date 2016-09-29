@@ -55,6 +55,17 @@
         }
         .page_list ul li{
           display:inline;
+          -moz-border-bottom-colors: none;
+          -moz-border-left-colors: none;
+          -moz-border-right-colors: none;
+          -moz-border-top-colors: none;
+          border-color: -moz-use-text-color #ddd -moz-use-text-color -moz-use-text-color;
+          border-image: none;
+          border-style: none solid none none;
+          border-width: medium 1px medium medium;
+          float: left;
+          height: 30px;
+          line-height: 30px;
 
         }
         .page_list ul li span,a{
