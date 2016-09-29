@@ -85,14 +85,6 @@
         <div class="page_list">
             {{$article->links()}}
         </div>
-        <style>
-            .page_list .ul li{
-                display:inline;
-
-
-            }
-
-        </style>
     </form>
     <!--结果页快捷搜索框 end-->
     <!-- 分页样式  -->
