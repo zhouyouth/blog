@@ -87,9 +87,5 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
     </div>
   </aside>
 </article>
-<footer>
-  <p>Design by 后盾网 <a href="http://www.miitbeian.gov.cn/" target="_blank">http://www.houdunwang.com</a> <a href="/">网站统计</a></p>
-</footer>
-
 </body>
 </html>
