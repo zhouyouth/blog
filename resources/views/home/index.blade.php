@@ -72,8 +72,9 @@
       <p>友情<span>链接</span></p>
     </h3>
     <ul class="website">
-      <li><a href="http://www.houdunwang.com">后盾网</a></li>
-      <li><a href="http://bbs.houdunwang.com">后盾论坛</a></li>
+       @for($links as $l)
+      <li><a href="{{$v->link_url}}">{{$v->link_name}}</a></li>
+       @endforeach
     </ul>
     </div>
     <!-- Baidu Button BEGIN -->
