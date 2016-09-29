@@ -11,9 +11,10 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/', function(){
-    Route::get('home/index', "Home\IndexController@index");
-});
+//home
+Route::get('home/index', "Home\IndexController@index");
+
+//admin
 Route::get('admin/code', "Admin\LoginController@code");
 Route::any('admin/login', "Admin\LoginController@login");
 Route::group(['middleware' => ['admin.login'],'prefix'=>'admin','namespace'=>'Admin'],function(){
