@@ -54,7 +54,7 @@
           padding: 0;
         }
         .page_list ul li{
-          display:inline;
+          /*display:inline;*/
 
         }
         .page_list ul li span,a{
