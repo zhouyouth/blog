@@ -72,8 +72,9 @@
 
         }
         .page_list ul li span,a{
+          padding: 6px 12px;
           font-size: 15px;
-          border: 1px solid #ddd;
+
 
         }
         .page_list ul .active span{
