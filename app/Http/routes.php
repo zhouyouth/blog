@@ -11,15 +11,11 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-Route::get('/zhou', function(){
-     echo "svn hook  0918 ok   ";
+Route::get('/', function(){
+    Route::get('home/index', "Home\IndexController@index");
 });
 Route::get('admin/code', "Admin\LoginController@code");
-//Route::any('admin/test', "Admin\LoginController@test");
-
 Route::any('admin/login', "Admin\LoginController@login");
-
-
 Route::group(['middleware' => ['admin.login'],'prefix'=>'admin','namespace'=>'Admin'],function(){
     Route::get('index', "IndexController@index");
     Route::get('info', "IndexController@info");
