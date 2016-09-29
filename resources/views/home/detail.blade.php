@@ -87,5 +87,7 @@ document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static
     </div>
   </aside>
 </article>
+
 </body>
 </html>
+ @endsection
