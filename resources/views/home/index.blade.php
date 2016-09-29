@@ -72,7 +72,7 @@
 
         }
         .page_list ul li span,a{
-          padding: 8px 12px;
+          padding: 6px 12px;
           font-size: 15px;
           border: 1px solid #ddd;
 
