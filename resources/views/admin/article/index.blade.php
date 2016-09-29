@@ -86,8 +86,9 @@
         </div>
 
         <style>
-            .page_list .pagination{
+            .page_list .pagination li{
                 display:inline;
+
 
             }
 
