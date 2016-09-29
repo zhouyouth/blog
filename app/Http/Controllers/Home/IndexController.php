@@ -21,7 +21,7 @@ class IndexController extends Controller
         //友情链接
         $links =Links::orderBy('link_order','asc')->get();
         dd($links);
-       return view('home.index');
+       return view('home.index',compact('hot','data','new','links'));
     }
     public function lis(){
         return view('home.list');
