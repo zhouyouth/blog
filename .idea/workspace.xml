@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/home/list.blade.php" afterPath="$PROJECT_DIR$/resources/views/home/list.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -31,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20114942">
-              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+            <state vertical-scroll-proportion="-12.862069">
+              <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
               <folding>
                 <element signature="e#8#393#0#PHP" expanded="true" />
               </folding>
@@ -43,11 +43,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="list.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/home/list.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.67447597">
+              <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.620689">
-              <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
+            <state vertical-scroll-proportion="-13.655172">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="e#45#73#0#PHP" expanded="true" />
               </folding>
@@ -58,8 +68,8 @@
       <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.181818">
-              <caret line="132" column="63" selection-start-line="132" selection-start-column="63" selection-end-line="132" selection-end-column="63" />
+            <state vertical-scroll-proportion="-6.965909">
+              <caret line="132" column="66" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -90,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Validator.php" />
         <option value="$PROJECT_DIR$/../blog3/app/Http/Controllers/Controller.php" />
         <option value="$PROJECT_DIR$/../blog3/app/Http/Model/User.php" />
         <option value="$PROJECT_DIR$/../blog3/resources/views/admin/pass.blade.php" />
@@ -141,6 +150,7 @@
         <option value="$PROJECT_DIR$/resources/views/home/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Home/IndexController.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/resources/views/home/list.blade.php" />
       </list>
     </option>
   </component>
@@ -504,36 +514,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00830" summary="&#10;">
-      <created>1475047656954</created>
-      <option name="number" value="00830" />
-      <option name="project" value="LOCAL" />
-      <updated>1475047656955</updated>
-    </task>
-    <task id="LOCAL-00831" summary="&#10;">
-      <created>1475047714622</created>
-      <option name="number" value="00831" />
-      <option name="project" value="LOCAL" />
-      <updated>1475047714622</updated>
-    </task>
-    <task id="LOCAL-00832" summary="&#10;">
-      <created>1475047781051</created>
-      <option name="number" value="00832" />
-      <option name="project" value="LOCAL" />
-      <updated>1475047781051</updated>
-    </task>
-    <task id="LOCAL-00833" summary="&#10;">
-      <created>1475047805264</created>
-      <option name="number" value="00833" />
-      <option name="project" value="LOCAL" />
-      <updated>1475047805264</updated>
-    </task>
-    <task id="LOCAL-00834" summary="&#10;">
-      <created>1475047930433</created>
-      <option name="number" value="00834" />
-      <option name="project" value="LOCAL" />
-      <updated>1475047930433</updated>
-    </task>
     <task id="LOCAL-00835" summary="&#10;">
       <created>1475047957689</created>
       <option name="number" value="00835" />
@@ -798,7 +778,37 @@
       <option name="project" value="LOCAL" />
       <updated>1475113869017</updated>
     </task>
-    <option name="localTasksCounter" value="879" />
+    <task id="LOCAL-00879" summary="&#10;">
+      <created>1475113925330</created>
+      <option name="number" value="00879" />
+      <option name="project" value="LOCAL" />
+      <updated>1475113925330</updated>
+    </task>
+    <task id="LOCAL-00880" summary="&#10;">
+      <created>1475113994131</created>
+      <option name="number" value="00880" />
+      <option name="project" value="LOCAL" />
+      <updated>1475113994131</updated>
+    </task>
+    <task id="LOCAL-00881" summary="&#10;">
+      <created>1475114079050</created>
+      <option name="number" value="00881" />
+      <option name="project" value="LOCAL" />
+      <updated>1475114079050</updated>
+    </task>
+    <task id="LOCAL-00882" summary="&#10;">
+      <created>1475114109560</created>
+      <option name="number" value="00882" />
+      <option name="project" value="LOCAL" />
+      <updated>1475114109560</updated>
+    </task>
+    <task id="LOCAL-00883" summary="&#10;">
+      <created>1475114127463</created>
+      <option name="number" value="00883" />
+      <option name="project" value="LOCAL" />
+      <updated>1475114127463</updated>
+    </task>
+    <option name="localTasksCounter" value="884" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1188,14 +1198,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/list.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/style/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1228,18 +1230,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.181818">
-          <caret line="132" column="63" selection-start-line="132" selection-start-column="63" selection-end-line="132" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.620689">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="23" />
+        <state vertical-scroll-proportion="-13.655172">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
           <folding>
             <element signature="e#45#73#0#PHP" expanded="true" />
           </folding>
@@ -1248,11 +1242,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20114942">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
+        <state vertical-scroll-proportion="-12.862069">
+          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
           <folding>
             <element signature="e#8#393#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.965909">
+          <caret line="132" column="66" selection-start-line="132" selection-start-column="13" selection-end-line="132" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67447597">
+          <caret line="114" column="10" selection-start-line="114" selection-start-column="10" selection-end-line="114" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
