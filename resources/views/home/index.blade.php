@@ -48,7 +48,7 @@
         .page_list ul {
           border: 1px solid #ddd;
           border-radius: 3px;
-          display: inline;
+          display: inline-block;
           margin: 0;
           overflow: hidden;
           padding: 0;
@@ -69,7 +69,7 @@
 
         }
         .page_list ul li span,a{
-          padding: 6px 12px;
+          padding: 7px 12px;
           font-size: 15px;
 
         }
