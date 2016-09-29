@@ -21,12 +21,9 @@
       <p><span>热点</span>资讯 News</p>
     </h3>
     <ul>
-      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/01.jpg')}}"></a><span>仿新浪博客风格·梅——古典个人博客模板</span></li>
-      <li><a href="/" target="_blank"><img src="{{asset('/resources/views/home/style/images/02.jpg')}}"></a><span>黑色质感时间轴html5个人博客模板</span></li>
+      @foreach($hot as  $h)
       <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/03.jpg')}}"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
-      <li><a href="/" target="_blank"><img src="{{asset('/resources/views/home/style/images/04.jpg')}}"></a><span>女生清新个人博客网站模板</span></li>
-      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/02.jpg')}}"></a><span>黑色质感时间轴html5个人博客模板</span></li>
-      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/03.jpg')}}"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
+     @endforeach
     </ul>
   </div>
 </div>
