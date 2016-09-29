@@ -16,6 +16,6 @@
 <footer>
     <p>Design by zhou <a href="http://www.miitbeian.gov.cn/" target="_blank">http://www.houdunwang.com</a> <a href="/">网站统计</a></p>
 </footer>
-<script src="{{asset('/resources/views/home/style/js/silder.js')}}silder.js"></script>
+<script src="{{asset('/resources/views/home/style/js/silder.js')}}"></script>
 </body>
 </html>
