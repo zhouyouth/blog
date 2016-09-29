@@ -32,7 +32,7 @@
     <p>文章<span>推荐</span></p>
   </h2>
   <div class="bloglist left">
-
+    @foreach($data as $v)
     <h3>程序员请放下你的技术情节，与你的同伴一起进步</h3>
     <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
     <ul>
@@ -40,6 +40,7 @@
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
     </ul>
     <p class="dateview"><span>2013-11-04</span><span>作者：后盾</span><span>个人博客：[<a href="/news/life/">程序人生</a>]</span></p>
+   @endforeach
   </div>
   <aside class="right">
     <div class="weather"><iframe width="250" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=12&icon=1&num=1"></iframe></div>
