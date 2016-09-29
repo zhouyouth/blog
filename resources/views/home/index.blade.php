@@ -55,7 +55,7 @@
           margin: 0;
           overflow: hidden;
           padding: 0;
-          width:300px;
+          width:100%;
         }
         .page_list ul li{
           display:inline;
