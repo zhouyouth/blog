@@ -8,7 +8,7 @@
 <link href="{{asset('/resources/views/home/style/css/base.css')}}" rel="stylesheet">
 <link href="{{asset('/resources/views/home/style/css/style.css')}}" rel="stylesheet">
 <!--[if lt IE 9]>
-<script src="js/modernizr.js"></script>
+    <script src="{{asset('/resources/views/home/style/js/modernizr.js')}}"></script>
 <![endif]-->
 </head>
 <body>
