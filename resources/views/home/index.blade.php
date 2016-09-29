@@ -50,7 +50,7 @@
 
         }
         .page_list ul li span,a{
-         padding:10px;
+          padding: 6px 12px;
 
         }
         .page_list ul .active span{
