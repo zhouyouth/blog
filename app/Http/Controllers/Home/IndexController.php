@@ -12,8 +12,10 @@ class IndexController extends Controller
 {
     public function index(){
         //热点文章
-        $art =Article::orderBy('art_view','desc')->take(6)->get();
-        dd($art);
+        $hot =Article::orderBy('art_view','desc')->take(6)->get();
+        //图文列表5篇(带分页)
+        $data = Article::orderBy('art_time','desc')->paginate(5);
+        dd($data);
        return view('home.index');
     }
     public function lis(){
