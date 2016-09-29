@@ -45,6 +45,10 @@
         {{$data->links()}}
       </div>
       <style>
+        .page_list ul {
+         float:right;
+
+        }
         .page_list ul li{
           display:inline;
 
