@@ -18,7 +18,7 @@
 <div class="template">
   <div class="box">
     <h3>
-      <p><span>热点</span>资讯News</p>
+      <p><span>热点</span>资讯 Templates</p>
     </h3>
     <ul>
       <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/01.jpg')}}"></a><span>仿新浪博客风格·梅——古典个人博客模板</span></li>
