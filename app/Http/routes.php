@@ -14,7 +14,7 @@
 //home
 Route::get('/', "Home\IndexController@index");
 Route::get('/lis', "Home\IndexController@lis");
-Route::get('/new', "Home\IndexController@new");
+Route::get('/detail', "Home\IndexController@detail");
 //admin
 Route::get('admin/code', "Admin\LoginController@code");
 Route::any('admin/login', "Admin\LoginController@login");
