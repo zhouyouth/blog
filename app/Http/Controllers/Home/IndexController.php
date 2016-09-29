@@ -16,6 +16,10 @@ class IndexController extends Controller
         return view('home.list');
 
   }
+    public function detail(){
+        return view('home.detail');
+
+    }
 
 
 }
