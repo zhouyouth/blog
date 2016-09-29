@@ -22,7 +22,7 @@
     </h3>
     <ul>
       @foreach($hot as  $h)
-      <li><a href="/"  target="_blank"><img src="{{asset('/resources/views/home/style/images/03.jpg')}}"></a><span>Green绿色小清新的夏天-个人博客模板</span></li>
+      <li><a href="{{url('a/')}}"  target="_blank"><img src="{{asset('/resources/views/home/style/images/03.jpg')}}"></a><span>{{$h->art_title}}</span></li>
      @endforeach
     </ul>
   </div>
