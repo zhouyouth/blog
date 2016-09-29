@@ -49,6 +49,10 @@
           display:inline;
 
         }
+        .page_list ul li span{
+         padding:20px;
+
+        }
 
       </style>
   </div>
