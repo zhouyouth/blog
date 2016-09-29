@@ -63,7 +63,7 @@
           border-image: none;
           border-style: none solid none none;
           border-width: medium 1px medium medium;
-          float: left;
+          /*float: left;*/
           height: 30px;
           line-height: 30px;
 
