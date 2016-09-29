@@ -12,7 +12,7 @@ class IndexController extends Controller
 {
     public function index(){
         //热点文章
-        $art =Article::all();
+        $art =Article::orderBy('art_view','desc')->take(6)->get();
         dd($art);
        return view('home.index');
     }
