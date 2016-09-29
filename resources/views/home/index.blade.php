@@ -45,6 +45,14 @@
         {{$data->links()}}
       </div>
       <style>
+        .page_list ul {
+          border: 1px solid #ddd;
+          border-radius: 3px;
+          display: inline-block;
+          margin: 0;
+          overflow: hidden;
+          padding: 0;
+        }
         .page_list ul li{
           display:inline;
 
