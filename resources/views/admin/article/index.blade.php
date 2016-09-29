@@ -85,7 +85,7 @@
             {{$article->links()}}
         </div>
         <style>
-            .page_list ul{
+            .page_list .pagination{
                 display:inline;
 
             }
