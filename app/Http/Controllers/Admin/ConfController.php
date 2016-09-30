@@ -165,7 +165,7 @@ class ConfController extends Controller
      $path = base_path().'/config/web.php';
      $Str ='<?php return ' .var_export($c,true).';';
      $re= file_put_contents($path,$Str);
-     var_dump($re);exit;
+     //var_dump($re);exit;
  }
 
 }
