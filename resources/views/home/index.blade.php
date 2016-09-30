@@ -71,8 +71,8 @@
           line-height: 30px;
 
         }
-        .page_list ul li span{
-          padding: 8px 12px;
+        .page_list ul li span,a{
+          /*padding: 8px 12px;*/
           font-size: 15px;
 
 
