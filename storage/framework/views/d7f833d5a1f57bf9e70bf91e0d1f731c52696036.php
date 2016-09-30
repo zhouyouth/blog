@@ -30,8 +30,8 @@
 				<li><a href="<?php echo e(url('admin/article')); ?>" target="main"><i class="fa fa-fw fa-list-ul"></i>文章列表</a></li>
 				<li><a href="<?php echo e(url('admin/links/create')); ?>" target="main"><i class="fa fa-fw fa-plus-square"></i>添加友情链接</a></li>
 				<li><a href="<?php echo e(url('admin/links')); ?>" target="main"><i class="fa fa-fw fa-list-ul"></i>友情链接列表</a></li>
-				<li><a href="tab.html" target="main"><i class="fa fa-fw fa-list-alt"></i>tab页</a></li>
-				<li><a href="img.html" target="main"><i class="fa fa-fw fa-image"></i>图片列表</a></li>
+				<?php /*<li><a href="tab.html" target="main"><i class="fa fa-fw fa-list-alt"></i>tab页</a></li>*/ ?>
+				<?php /*<li><a href="img.html" target="main"><i class="fa fa-fw fa-image"></i>图片列表</a></li>*/ ?>
 			</ul>
 		</li>
 		<li>
@@ -39,7 +39,7 @@
 			<ul class="sub_menu">
 				<li><a href="<?php echo e(url('admin/navs')); ?>" target="main"><i class="fa  fa-fw fa-navicon "></i>导航菜单管理</a></li>
 				<li><a href="<?php echo e(url('admin/conf')); ?>" target="main"><i class="fa fa-fw fa-cubes"></i>网站配置</a></li>
-				<li><a href="#" target="main"><i class="fa fa-fw fa-database"></i>备份还原</a></li>
+				<?php /*<li><a href="#" target="main"><i class="fa fa-fw fa-database"></i>备份还原</a></li>*/ ?>
 			</ul>
 		</li>
 		<li>
