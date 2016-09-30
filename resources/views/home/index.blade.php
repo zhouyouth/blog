@@ -50,7 +50,7 @@
         .page_list ul {
           border: 1px solid #ddd;
           border-radius: 3px;
-          display: inline-block;
+          /*display: inline-block;*/
           margin: 0;
           overflow: hidden;
           padding: 0;
