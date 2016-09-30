@@ -46,9 +46,7 @@
       </div>
       <style>
 
-        page_list {
-          margin-top: 15px;
-        }
+
         .page_list ul {
           border: 1px solid #ddd;
           border-radius: 3px;
