@@ -71,12 +71,12 @@
           line-height: 30px;
 
         }
-        /*.page_list ul li span,a{*/
-          /*padding: 8px 12px;*/
-          /*font-size: 15px;*/
+        .page_list ul li span{
+          padding: 8px 12px;
+          font-size: 15px;
 
 
-        /*}*/
+        }
         .page_list ul .active span{
           background-color: #abab93;
           border-color: #337ab7;
