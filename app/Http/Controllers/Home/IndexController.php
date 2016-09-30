@@ -26,8 +26,8 @@ class IndexController extends Controller
        return view('home.index',compact('hot','data','rank','new','links'));
     }
 
-    public function cat($cat_id){
-        echo $cat_id;
+    public function cat(){
+
         return view('home.list');
 
   }
