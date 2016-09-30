@@ -59,7 +59,7 @@
           width:auto;
         }
         .page_list ul li{
-          display:inline;
+          /*display:inline;*/
           -moz-border-bottom-colors: none;
           -moz-border-left-colors: none;
           -moz-border-right-colors: none;
