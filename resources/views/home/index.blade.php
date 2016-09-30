@@ -45,6 +45,7 @@
         {{$data->links()}}
       </div>
       <style>
+        /**
         page_list {
           margin-top: 15px;
         }
@@ -84,7 +85,7 @@
           color: #fff;
           cursor: default;
         }
-
+       */
       </style>
   </div>
   <aside class="right">
