@@ -15,7 +15,7 @@ class IndexController extends Controller
         //热点文章
         $hot =Article::orderBy('art_view','desc')->take(6)->get();
         //图文列表5篇(带分页)
-        $data = Article::orderBy('art_time','desc')->paginate(8);
+        $data = Article::orderBy('art_time','desc')->paginate(5);
         //最新发表的文章
         $new = Article::orderBy('art_time','desc')->take(8)->get();
         //友情链接
