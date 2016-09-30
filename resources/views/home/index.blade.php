@@ -102,7 +102,7 @@
       <p>点击<span>排行</span></p>
     </h3>
     <ul class="paih">
-      @foreach($hot as  $h)
+      @foreach($data as  $h)
       <li><a href="{{url('/art/').'/'.$h->art_id}}" title="{{$h->art_title}}" target="_blank">{{$h->art_title}}</a></li>
       @endforeach
     </ul>
