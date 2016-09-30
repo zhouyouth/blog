@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
     <title>{{Config::get('web.web_title')}}</title>
-    <meta name="keywords" content="个人博客模板,博客模板" />
-    <meta name="description" content="寻梦主题的个人博客模板，优雅、稳重、大气,低调。" />
+    <meta name="keywords" content="{{Config::get('web.web_key')}}" />
+    <meta name="description" content="{{Config::get('web.web_description')}}" />
     <link href="{{asset('/resources/views/home/style/css/base.css')}}" rel="stylesheet">
     <link href="{{asset('/resources/views/home/style/css/index.css')}}" rel="stylesheet">
     <!--[if lt IE 9]>
