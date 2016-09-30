@@ -25,6 +25,7 @@ class IndexController extends Controller
         //dd($links);
        return view('home.index',compact('hot','data','rank','new','links'));
     }
+
     public function lis(){
         return view('home.list');
 
