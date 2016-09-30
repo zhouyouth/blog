@@ -59,7 +59,9 @@
         }
         .page_list ul li{
           display:inline;
-          border-color:  #ddd ;
+          border-color:  #ddd -moz-use-text-color -moz-use-text-color;
+          border-image: none;
+          border-style: none solid none none;
           border-width: medium 1px medium medium;
           float: left;
           height: 30px;
