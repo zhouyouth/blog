@@ -13,7 +13,7 @@ class IndexController extends Controller
 {
     public function index(){
         //热点文章
-        $hot =Article::orderBy('art_view','desc')->take(6)->get();
+        $hot =Article::orderBy('art_view','desc')->take(5)->get();
         //图文列表5篇(带分页)
         $data = Article::orderBy('art_time','desc')->paginate(5);
         //最新发表的文章
