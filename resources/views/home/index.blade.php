@@ -102,11 +102,9 @@
       <p>点击<span>排行</span></p>
     </h3>
     <ul class="paih">
-      <li><a href="/" title="Column 三栏布局 个人网站模板" target="_blank">Column 三栏布局 个人网站模板</a></li>
-      <li><a href="/" title="withlove for you 个人网站模板" target="_blank">with love for you 个人网站模板</a></li>
-      <li><a href="/" title="免费收录网站搜索引擎登录口大全" target="_blank">免费收录网站搜索引擎登录口大全</a></li>
-      <li><a href="/" title="做网站到底需要什么?" target="_blank">做网站到底需要什么?</a></li>
-      <li><a href="/" title="企业做网站具体流程步骤" target="_blank">企业做网站具体流程步骤</a></li>
+      @foreach($hot as  $h)
+      <li><a href="{{url('/art/').$v->art_id}}" title="{{$v->art_title}}" target="_blank">{{$v->art_title}}</a></li>
+      @endforeach
     </ul>
     <h3 class="links">
       <p>友情<span>链接</span></p>
