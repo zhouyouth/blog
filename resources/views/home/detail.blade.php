@@ -18,7 +18,7 @@
       {{$field->art_content}}
     </ul>
     <div class="keybq">
-    <p><span>关键字词</span>：{{$field->art_tag}}</p>
+    <p><span>关键字词</span>：{!! $field->art_tag !!}</p>
     
     </div>
     <div class="ad"> </div>
