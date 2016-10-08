@@ -10,7 +10,7 @@
   </nav>
 </header>
 <article class="blogs">
-<h1 class="t_nav"><span>{{$cate->title}}</span><a href="{{url('/')}}" class="n1">网站首页</a><a href="{{url('cat/'.$cate->cate_id)}}" class="n2">{{$cate->name}}</a></h1>
+<h1 class="t_nav"><span>{{$cate->title}}</span><a href="{{url('/')}}" class="n1">网站首页</a><a href="{{url('cat/'.$cate->cate_id)}}" class="n2">{{$cate->cate_name}}</a></h1>
 <div class="newblog left">
    <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
    <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
