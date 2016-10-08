@@ -14,7 +14,7 @@
 //home
 Route::get('/', "Home\IndexController@index");
 Route::get('/cat/{cate_id}', "Home\IndexController@cat");
-Route::get('/detail', "Home\IndexController@detail");
+Route::get('/detail/{art_id}', "Home\IndexController@detail");
 //admin
 Route::get('admin/code', "Admin\LoginController@code");
 Route::any('admin/login', "Admin\LoginController@login");
