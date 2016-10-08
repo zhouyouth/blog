@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Home;
 
 use App\Http\Model\Article;
+use App\Http\Model\Category;
 use App\Http\Model\Links;
 use Illuminate\Http\Request;
 
@@ -27,8 +28,8 @@ class IndexController extends Controller
     }
 
     public function cat($cate_id){
-        echo $cate_id;
-
+        $cate= Category::find($cate_id);
+        dd($cate);
         return view('home.list');
 
   }
