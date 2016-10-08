@@ -27,7 +27,8 @@
     <img src="{{asset('/resources/views/home/style/images/ad.png')}}">
     </div>
     <div class="page">
-<ul class="pagination"><li class="disabled"><span>«</span></li> <li class="active"><span>1</span></li><li><a href="http://blog.hd/admin/article?page=2">2</a></li> <li><a href="http://blog.hd/admin/article?page=2" rel="next">»</a></li></ul>
+        {{$data->links()}}
+{{--<ul class="pagination"><li class="disabled"><span>«</span></li> <li class="active"><span>1</span></li><li><a href="http://blog.hd/admin/article?page=2">2</a></li> <li><a href="http://blog.hd/admin/article?page=2" rel="next">»</a></li></ul>--}}
     </div>
 </div>
 <aside class="right">
