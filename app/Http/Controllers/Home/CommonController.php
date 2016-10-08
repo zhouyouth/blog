@@ -25,6 +25,7 @@ class CommonController extends Controller{
           View::share('hot',$hot);
           View::share('data',$data);
           View::share('new',$new);
+          View::share('rank',$rank);
           View::share('links',$links);
       }
 
