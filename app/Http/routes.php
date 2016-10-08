@@ -13,6 +13,7 @@
 */
 //home
 Route::get('/', "Home\IndexController@index");
+Route::get('/index.php', "Home\IndexController@index");
 Route::get('/cat/{cate_id}', "Home\IndexController@cat");
 Route::get('/detail', "Home\IndexController@detail");
 //admin
