@@ -10,7 +10,7 @@
   </nav>
 </header>
 <article class="blogs">
-<h1 class="t_nav"><span>“慢生活”不是懒惰，放慢速度不是拖延时间，而是让我们在生活中寻找到平衡。</span><a href="/" class="n1">网站首页</a><a href="/" class="n2">慢生活</a></h1>
+<h1 class="t_nav"><span>{{$catee->title}}</span><a href="{{url('/')}}" class="n1">网站首页</a><a href="/" class="n2">慢生活</a></h1>
 <div class="newblog left">
    <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
    <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
