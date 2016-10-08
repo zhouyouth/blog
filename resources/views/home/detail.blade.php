@@ -23,7 +23,7 @@
     </div>
     <div class="ad"> </div>
     <div class="nextinfo">
-      @if($article['pre'])
+       @if($article['pre'])
       <p>上一篇：<a href="{{url('a/').$article['pre']->art_title}}">{{$article['pre']->art_title}}</a></p>
         @endif
         @if($article['next'])
