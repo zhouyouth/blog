@@ -37,6 +37,7 @@ class IndexController extends CommonController
   }
     public function detail($art_id){
         $field = Article::Join('category','articel.cate_id','=','category.cate_id');
+        dd($field);
         return view('home.detail',compact('field'));
     }
 
