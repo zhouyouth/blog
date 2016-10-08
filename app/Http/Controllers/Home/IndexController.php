@@ -33,7 +33,7 @@ class IndexController extends Controller
         $submenu = Category::where('cate_pid',$cate_id)->get();
         dd($submenu);
         $cate= Category::find($cate_id);
-        return view('home.list',compact('cate','data'));
+        return view('home.list',compact('cate','data','submenu'));
 
   }
     public function detail(){
