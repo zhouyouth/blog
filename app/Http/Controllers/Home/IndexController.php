@@ -35,8 +35,10 @@ class IndexController extends CommonController
         return view('home.list',compact('cate','data','submenu'));
 
   }
-    public function detail(){
-        return view('home.detail');
+    public function detail($art_id){
+
+        $field = Article::Join('category','articel.cate_id','=','category.cate_id');
+        return view('home.detail',cpmpact('field'));
     }
 
 
