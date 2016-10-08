@@ -66,8 +66,8 @@
       <file leaf-file-name="list.blade.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/home/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.45883644">
-              <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.50749713">
+              <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -191,10 +191,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="281" />
-    <option name="y" value="95" />
-    <option name="width" value="1492" />
-    <option name="height" value="1100" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -409,18 +409,6 @@
       <created>1473494915925</created>
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
-    </task>
-    <task id="LOCAL-01014" summary="&#10;">
-      <created>1475204676616</created>
-      <option name="number" value="01014" />
-      <option name="project" value="LOCAL" />
-      <updated>1475204676616</updated>
-    </task>
-    <task id="LOCAL-01015" summary="&#10;">
-      <created>1475213328827</created>
-      <option name="number" value="01015" />
-      <option name="project" value="LOCAL" />
-      <updated>1475213328827</updated>
     </task>
     <task id="LOCAL-01016" summary="&#10;">
       <created>1475213429022</created>
@@ -704,7 +692,19 @@
       <option name="project" value="LOCAL" />
       <updated>1475892228504</updated>
     </task>
-    <option name="localTasksCounter" value="1063" />
+    <task id="LOCAL-01063" summary="&#10;">
+      <created>1475892244086</created>
+      <option name="number" value="01063" />
+      <option name="project" value="LOCAL" />
+      <updated>1475892244086</updated>
+    </task>
+    <task id="LOCAL-01064" summary="&#10;">
+      <created>1475892297896</created>
+      <option name="number" value="01064" />
+      <option name="project" value="LOCAL" />
+      <updated>1475892297896</updated>
+    </task>
+    <option name="localTasksCounter" value="1065" />
     <servers />
   </component>
   <component name="TodoView">
@@ -717,11 +717,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="281" y="95" width="1492" height="1100" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29469272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2249467" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -1140,8 +1140,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45883644">
-          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.50749713">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
           <folding />
         </state>
       </provider>
