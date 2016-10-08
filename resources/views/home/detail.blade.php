@@ -23,7 +23,7 @@
     </div>
     <div class="ad"> </div>
     <div class="nextinfo">
-      <p>上一篇：<a href="{{url('a/').$article['pre']->art_title}}">{{$article['pre']->art_title}}</a></p>
+      {{--<p>上一篇：<a href="{{url('a/').$article['pre']->art_title}}">{{$article['pre']->art_title}}</a></p>--}}
       <p>下一篇：<a href="{{url('a/').$article['next']->art_title}}">{{$article['next']->art_title}}</a></p>
     </div>
     <div class="otherlink">
