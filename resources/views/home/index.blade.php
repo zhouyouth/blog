@@ -88,8 +88,8 @@
       </style>
   </div>
   <aside class="right">
+     @parent
 
-    <!-- Baidu Button END -->
     </aside>
 </article>
 @endsection
