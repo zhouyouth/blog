@@ -37,9 +37,8 @@
       <ul>
         @foreach($submenu as $sub)
        <li class="rnav4"><a href="{{url('cat/.$sub->cate_id')}}" target="_blank">{{$ub->cate_name}}</a></li>
-       @endforeach
+        @endforeach
       </ul>
-
     </div>
     @endif
 <div class="news">
