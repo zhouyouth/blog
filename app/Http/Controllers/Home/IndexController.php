@@ -28,11 +28,22 @@ class IndexController extends Controller
     }
 
     public function cat($cate_id){
+        $hot =Article::orderBy('art_view','desc')->take(6)->get();
+        //图文列表5篇(带分页)
+        $data = Article::orderBy('art_time','desc')->paginate(5);
+        //最新发表的文章
+        //点击排行
+        $rank= Article::orderBy('art_view','desc')->take(5)->get();
+        $new = Article::orderBy('art_time','desc')->take(8)->get();
+        //友情链接
+        $links =Links::orderBy('link_order','asc')->get();
+
+
         $data  = Article::where('cate_id',$cate_id)->orderby('art_time','desc')->paginate(4);
         //当前分类的子分类
         $submenu = Category::where('cate_pid',$cate_id)->get();
         $cate= Category::find($cate_id);
-        return view('home.list',compact('cate','data','submenu'));
+        return view('home.list',compact('cate','data','submenu','hot','rank','new'));
 
   }
     public function detail(){
