@@ -37,6 +37,8 @@ class IndexController extends CommonController
   }
     public function detail($art_id){
         $field = Article::Join('category','article.cate_id','=','category.cate_id')->where('art_id',$art_id)->first();
+         //view
+         Article::where('art_id',$art_id)->increment('art_view');
         //pre
         $article['pre']=Article::where('art_id','<',$art_id)->orderby('art_id','desc')->first();
         //next
