@@ -56,8 +56,8 @@
       <file leaf-file-name="CommonController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/CommonController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6520307">
-              <caret line="27" column="18" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.53128433">
+              <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
               <folding>
                 <element signature="e#44#71#0#PHP" expanded="true" />
               </folding>
@@ -536,12 +536,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-01037" summary="&#10;">
-      <created>1475889360205</created>
-      <option name="number" value="01037" />
-      <option name="project" value="LOCAL" />
-      <updated>1475889360206</updated>
-    </task>
     <task id="LOCAL-01038" summary="&#10;">
       <created>1475889419573</created>
       <option name="number" value="01038" />
@@ -830,7 +824,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475913199112</updated>
     </task>
-    <option name="localTasksCounter" value="1086" />
+    <task id="LOCAL-01086" summary="&#10;">
+      <created>1475913216066</created>
+      <option name="number" value="01086" />
+      <option name="project" value="LOCAL" />
+      <updated>1475913216066</updated>
+    </task>
+    <option name="localTasksCounter" value="1087" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1279,8 +1279,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/CommonController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6520307">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.53128433">
+          <caret line="22" column="34" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
           <folding>
             <element signature="e#44#71#0#PHP" expanded="true" />
           </folding>
