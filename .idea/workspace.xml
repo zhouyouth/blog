@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/resources/views/home/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.29497206">
-              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+              <caret line="12" column="125" selection-start-line="12" selection-start-column="125" selection-end-line="12" selection-end-column="125" />
               <folding />
             </state>
           </provider>
@@ -181,8 +181,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="174" />
-    <option name="y" value="104" />
+    <option name="x" value="-45" />
     <option name="width" value="1492" />
     <option name="height" value="1084" />
   </component>
@@ -510,12 +509,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00986" summary="&#10;">
-      <created>1475199842844</created>
-      <option name="number" value="00986" />
-      <option name="project" value="LOCAL" />
-      <updated>1475199842844</updated>
-    </task>
     <task id="LOCAL-00987" summary="&#10;">
       <created>1475200414808</created>
       <option name="number" value="00987" />
@@ -804,7 +797,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475889082782</updated>
     </task>
-    <option name="localTasksCounter" value="1035" />
+    <task id="LOCAL-01035" summary="&#10;">
+      <created>1475889212027</created>
+      <option name="number" value="01035" />
+      <option name="project" value="LOCAL" />
+      <updated>1475889212028</updated>
+    </task>
+    <option name="localTasksCounter" value="1036" />
     <servers />
   </component>
   <component name="TodoView">
@@ -817,7 +816,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="174" y="104" width="1492" height="1084" extended-state="0" />
+    <frame x="-45" y="0" width="1492" height="1084" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1239,7 +1238,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/home/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29497206">
-          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+          <caret line="12" column="125" selection-start-line="12" selection-start-column="125" selection-end-line="12" selection-end-column="125" />
           <folding />
         </state>
       </provider>
