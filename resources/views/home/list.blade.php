@@ -35,8 +35,8 @@
     @if($submenu)
    <div class="rnav">
       <ul>
-        @foreach($submenu as $sub)
-       <li class="rnav4"><a href="{{url('cat/'.$sub->cate_id)}}" target="_blank">{{$sub->cate_name}}</a></li>
+        @foreach($submenu as $k =>$sub)
+       <li class="rnav{{$k+1}}"><a href="{{url('cat/'.$sub->cate_id)}}" target="_blank">{{$sub->cate_name}}</a></li>
         @endforeach
       </ul>
     </div>
