@@ -28,7 +28,7 @@ class IndexController extends Controller
     }
 
     public function cat($cate_id){
-        $data  = Article::where('cate_id',$cate_id)->orderby('art_time',desc)->paginate(4);
+        $data  = Article::where('cate_id',$cate_id)->orderby('art_time','desc')->paginate(4);
         dd($data);
         $cate= Category::find($cate_id);
         return view('home.list',compact('cate'));
