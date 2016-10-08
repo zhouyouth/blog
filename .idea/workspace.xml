@@ -34,8 +34,8 @@
       <file leaf-file-name="IndexController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78265643">
-              <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.73435783">
+              <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
               <folding>
                 <element signature="e#45#72#0#PHP" expanded="true" />
               </folding>
@@ -486,18 +486,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-01064" summary="&#10;">
-      <created>1475892297896</created>
-      <option name="number" value="01064" />
-      <option name="project" value="LOCAL" />
-      <updated>1475892297896</updated>
-    </task>
-    <task id="LOCAL-01065" summary="&#10;">
-      <created>1475892380580</created>
-      <option name="number" value="01065" />
-      <option name="project" value="LOCAL" />
-      <updated>1475892380580</updated>
-    </task>
     <task id="LOCAL-01066" summary="&#10;">
       <created>1475892403300</created>
       <option name="number" value="01066" />
@@ -780,7 +768,19 @@
       <option name="project" value="LOCAL" />
       <updated>1475916327508</updated>
     </task>
-    <option name="localTasksCounter" value="1113" />
+    <task id="LOCAL-01113" summary="&#10;">
+      <created>1475916746002</created>
+      <option name="number" value="01113" />
+      <option name="project" value="LOCAL" />
+      <updated>1475916746002</updated>
+    </task>
+    <task id="LOCAL-01114" summary="&#10;">
+      <created>1475916794101</created>
+      <option name="number" value="01114" />
+      <option name="project" value="LOCAL" />
+      <updated>1475916794101</updated>
+    </task>
+    <option name="localTasksCounter" value="1115" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1235,8 +1235,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.78265643">
-          <caret line="42" column="84" selection-start-line="42" selection-start-column="84" selection-end-line="42" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.73435783">
+          <caret line="43" column="59" selection-start-line="43" selection-start-column="59" selection-end-line="43" selection-end-column="59" />
           <folding>
             <element signature="e#45#72#0#PHP" expanded="true" />
           </folding>
