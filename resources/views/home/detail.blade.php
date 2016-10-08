@@ -1,6 +1,6 @@
 ﻿@extends('layouts.home')
  @section('content')
-   <title>{{$field->art_title}}--{{Config::get('web.web_title')}}</title>
+   <title>{{$field->art_tag}}--{{Config::get('web.web_title')}}</title>
    <meta name="keywords" content="{{$field->art_keywords}}" />
    <meta name="description" content="{{$field->art_description}}" />
 <link href="{{asset('/resources/views/home/style/css/new.css')}}" rel="stylesheet">
