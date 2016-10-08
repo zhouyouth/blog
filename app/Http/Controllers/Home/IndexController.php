@@ -41,7 +41,7 @@ class IndexController extends CommonController
         $article['pre']=Article::where('art_id','<',$art_id)->orderby('art_id','desc')->first();
         //next
         $article['next']=Article::where('art_id','>',$art_id)->orderby('art_id','asc')->first();
-        return view('home.detail',compact('field','$article'));
+        return view('home.detail',compact('field','article'));
     }
 
 
