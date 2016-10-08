@@ -29,8 +29,7 @@ class IndexController extends Controller
 
     public function cat($cate_id){
         $cate= Category::find($cate_id);
-        dd($cate);
-        return view('home.list');
+        return view('home.list',compact('cate'));
 
   }
     public function detail(){
