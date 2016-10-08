@@ -30,10 +30,10 @@ class IndexController extends CommonController
 
         $data  = Article::where('cate_id',$cate_id)->orderby('art_time','desc')->paginate(4);
         //当前分类的子分类
+        Category::where('cate_id',$cate_id)->increment('art_view');
         $submenu = Category::where('cate_pid',$cate_id)->get();
         $cate= Category::find($cate_id);
         return view('home.list',compact('cate','data','submenu'));
-
   }
     public function detail($art_id){
         $field = Article::Join('category','article.cate_id','=','category.cate_id')->where('art_id',$art_id)->first();
