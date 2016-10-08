@@ -14,7 +14,7 @@
 <div class="newblog left">
          @foreach($data as  $v)
          <h2>{{$v->art_title}}</h2>
-   <p class="dateview"><span>{{date('Y-m-d H:i:s',$v->art_time)}}</span><span>{{$v->art_editor}}</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
+   <p class="dateview"><span>{{date('Y-m-d H:i:s',$v->art_time)}}</span><span>{{$v->art_editor}}</span><span>分类：[<a href="/news/life/">{{$cate->cate_name}}</a>]</span></p>
     <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
     <ul class="nlist">
       <p>{{$v->art_description}}...</p>
@@ -27,10 +27,7 @@
     <img src="{{asset('/resources/views/home/style/images/ad.png')}}">
     </div>
     <div class="page">
-
 <ul class="pagination"><li class="disabled"><span>«</span></li> <li class="active"><span>1</span></li><li><a href="http://blog.hd/admin/article?page=2">2</a></li> <li><a href="http://blog.hd/admin/article?page=2" rel="next">»</a></li></ul>
-
- 
     </div>
 </div>
 <aside class="right">
