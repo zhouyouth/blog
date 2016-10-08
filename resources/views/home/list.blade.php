@@ -12,22 +12,7 @@
 <article class="blogs">
 <h1 class="t_nav"><span>{{$cate->title}}</span><a href="/" class="n1">网站首页</a><a href="{{url('cat/'.$cate->cate_id)}}" class="n2">{{$cate->cate_name}}</a></h1>
 <div class="newblog left">
-   <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
-   <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
-    <ul class="nlist">
-      <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
-      <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
-    </ul>
-    <div class="line"></div>
-     <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
-   <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
-    <ul class="nlist">
-      <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
-      <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
-    </ul>
-    <div class="line"></div>
+         @foreach($data as  $v)
          <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
    <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
     <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
@@ -35,14 +20,7 @@
       <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
       <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
     </ul>
-    <div class="line"></div>
-         <h2>程序员请放下你的技术情节，与你的同伴一起进步</h2>
-   <p class="dateview"><span>发布时间：2013-11-04</span><span>作者：后盾</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
-    <ul class="nlist">
-      <p>如果说掌握一门赖以生计的技术是技术人员要学会的第一课的话， 那么我觉得技术人员要真正学会的第二课，不是技术，而是业务、交流与协作，学会关心其他工作伙伴的工作情况和进展...</p>
-      <a title="/" href="/" target="_blank" class="readmore">阅读全文>></a>
-    </ul>
+    @endforeach
     <div class="line"></div>
     <div class="blank"></div>
     <div class="ad">  
