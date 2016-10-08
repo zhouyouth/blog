@@ -15,7 +15,7 @@
          @foreach($data as  $v)
          <h2>{{$v->art_title}}</h2>
    <p class="dateview"><span>{{date('Y-m-d H:i:s',$v->art_time)}}</span><span>{{$v->art_editor}}</span><span>分类：[<a href="/news/life/">{{$cate->cate_name}}</a>]</span></p>
-    <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
+    <figure><img src="{{url('/').$v->thumb}}"></figure>
     <ul class="nlist">
       <p>{{$v->art_description}}...</p>
       <a title="/" href="{{url('/art').'/'.$v->art_id}}" target="_blank" class="readmore">阅读全文>></a>
