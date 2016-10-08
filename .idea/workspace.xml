@@ -87,7 +87,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.75850713">
-              <caret line="45" column="82" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
+              <caret line="45" column="89" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="89" />
               <folding>
                 <element signature="e#45#72#0#PHP" expanded="true" />
               </folding>
@@ -191,8 +191,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="198" />
-    <option name="y" value="72" />
+    <option name="x" value="122" />
+    <option name="y" value="86" />
     <option name="width" value="1492" />
     <option name="height" value="1100" />
   </component>
@@ -506,12 +506,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-01026" summary="&#10;">
-      <created>1475888498994</created>
-      <option name="number" value="01026" />
-      <option name="project" value="LOCAL" />
-      <updated>1475888498994</updated>
-    </task>
     <task id="LOCAL-01027" summary="&#10;">
       <created>1475888572582</created>
       <option name="number" value="01027" />
@@ -800,7 +794,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475894828415</updated>
     </task>
-    <option name="localTasksCounter" value="1075" />
+    <task id="LOCAL-01075" summary="&#10;">
+      <created>1475895232553</created>
+      <option name="number" value="01075" />
+      <option name="project" value="LOCAL" />
+      <updated>1475895232553</updated>
+    </task>
+    <option name="localTasksCounter" value="1076" />
     <servers />
   </component>
   <component name="TodoView">
@@ -813,7 +813,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="72" width="1492" height="1100" extended-state="0" />
+    <frame x="122" y="86" width="1492" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1236,7 +1236,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Home/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.75850713">
-          <caret line="45" column="82" selection-start-line="45" selection-start-column="82" selection-end-line="45" selection-end-column="82" />
+          <caret line="45" column="89" selection-start-line="45" selection-start-column="89" selection-end-line="45" selection-end-column="89" />
           <folding>
             <element signature="e#45#72#0#PHP" expanded="true" />
           </folding>

@@ -43,7 +43,7 @@ class IndexController extends Controller
         //当前分类的子分类
         $submenu = Category::where('cate_pid',$cate_id)->get();
         $cate= Category::find($cate_id);
-        return view('home.list',compact('cate','data','submenu','hot','rank','new'));
+        return view('home.list',compact('cate','data','submenu','hot','rank','new','links'));
 
   }
     public function detail(){
