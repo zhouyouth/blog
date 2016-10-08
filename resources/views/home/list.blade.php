@@ -13,7 +13,7 @@
 <h1 class="t_nav"><span>{{$cate->title}}</span><a href="/" class="n1">网站首页</a><a href="{{url('cat/'.$cate->cate_id)}}" class="n2">{{$cate->cate_name}}</a></h1>
 <div class="newblog left">
          @foreach($data as  $v)
-         <h2>{{$data->art_title}}</h2>
+         <h2>{{$v->art_title}}</h2>
    <p class="dateview"><span>{{date('Y-m-d H:i:s',$v->art_time)}}</span><span>{{$v->art_editor}}</span><span>分类：[<a href="/news/life/">程序人生</a>]</span></p>
     <figure><img src="{{asset('/resources/views/home/style/images/001.png')}}"></figure>
     <ul class="nlist">
