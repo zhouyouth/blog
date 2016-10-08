@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="fd14451d-8ef9-41f2-86cf-ca7655076213" name="Default" comment="&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="blog.iws" />
@@ -420,12 +419,6 @@
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
     </task>
-    <task id="LOCAL-00990" summary="&#10;">
-      <created>1475201325854</created>
-      <option name="number" value="00990" />
-      <option name="project" value="LOCAL" />
-      <updated>1475201325854</updated>
-    </task>
     <task id="LOCAL-00991" summary="&#10;">
       <created>1475201556864</created>
       <option name="number" value="00991" />
@@ -714,7 +707,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475889419573</updated>
     </task>
-    <option name="localTasksCounter" value="1039" />
+    <task id="LOCAL-01039" summary="&#10;">
+      <created>1475889599217</created>
+      <option name="number" value="01039" />
+      <option name="project" value="LOCAL" />
+      <updated>1475889599217</updated>
+    </task>
+    <option name="localTasksCounter" value="1040" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1114,14 +1113,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.4736843">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home/list.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.103448">
@@ -1142,6 +1133,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-24.586206">
           <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4736843">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
           <folding />
         </state>
       </provider>
