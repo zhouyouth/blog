@@ -21,8 +21,10 @@ class CommonController extends Controller{
           $new = Article::orderBy('art_time','desc')->take(8)->get();
           //友情链接
           $links =Links::orderBy('link_order','asc')->get();
-          //dd($links);
-
+          View::share('hot',$hot);
+          View::share('data',$data);
+          View::share('new',$new);
+          View::share('links',$links);
       }
 
 
