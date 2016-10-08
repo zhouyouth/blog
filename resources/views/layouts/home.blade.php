@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>{{Config::get('web.web_title')}}</title>
+    {{--<title>{{Config::get('web.web_title')}}</title>--}}
     {{--<meta name="keywords" content="{{Config::get('web.web_key')}}" />--}}
     {{--<meta name="description" content="{{Config::get('web.web_description')}}" />--}}
     <link href="{{asset('/resources/views/home/style/css/base.css')}}" rel="stylesheet">

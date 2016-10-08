@@ -1,5 +1,6 @@
 ﻿@extends('layouts.home')
  @section('content')
+   <title>{{Config::get('web.web_title')}}</title>
    <meta name="keywords" content="{{Config::get('web.web_key')}}" />
    <meta name="description" content="{{Config::get('web.web_description')}}" />
 
