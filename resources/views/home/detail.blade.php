@@ -24,7 +24,7 @@
     <div class="ad"> </div>
     <div class="nextinfo">
        @if($article['pre'])
-      <p>上一篇：<a href="{{url('a/').$article['pre']->art_id}}">{{$article['pre']->art_title}}</a></p>
+      <p>上一篇：<a href="{{url('a/').'/'.$article['pre']->art_id}}">{{$article['pre']->art_title}}</a></p>
         @endif
         @if($article['next'])
         <p>下一篇：<a href="{{url('a/')."/".$article['next']->art_id}}">{{$article['next']->art_title}}</a></p>
