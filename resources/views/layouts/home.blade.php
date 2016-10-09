@@ -66,6 +66,10 @@
         .bds_tools_32 a {
             padding:0px;
         }
+        .website li{
+            height:auto;
+        }
+
     </style>
 @show
 <footer>
