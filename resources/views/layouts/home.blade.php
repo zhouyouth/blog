@@ -47,7 +47,7 @@
         <ul class="website">
             @foreach($links as $v)
                 @if($v->link_logo)
-                <li><a href="{{$v->link_url}}"><img src="/{{$v->link_logo}}" width="100" height="100"></a></li>
+                <li><a href="{{$v->link_url}}"><img src="/{{$v->link_logo}}" width="50" height="50"></a></li>
                  @else
                     <li><a href="{{$v->link_url}}">{{$v->link_name}}</a></li>
                     @endif
