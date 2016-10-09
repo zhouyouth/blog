@@ -10,7 +10,7 @@
     <h2 class="c_titile">{{$field->art_title}}</h2>
     <p class="box_c"><span class="d_time">发布时间：{{date('Y-m-d H:i:s',$field->art_time)}}</span><span>编辑：{{$field->art_editor}}</span><span>查看次数：{{$field->art_view}}</span></p>
     <ul class="infos">
-      {{ $field->art_content}}
+      {!! $field->art_content  !!}
     </ul>
     <div class="keybq">
     <p><span>关键字词</span>：{{$field->art_tag}}</p>
