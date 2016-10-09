@@ -13,7 +13,7 @@
 </head>
 <header>
     <div id="logo"><a href="/"></a></div>
-    <nav class="topnav" id="topnav"><a href="index.html"><span>首页</span><span class="en">Protal</span></a>
+    <nav class="topnav" id="topnav"><a href="{{url('/')}}"><span>首页</span><span class="en">Protal</span></a>
         @foreach($navs as $n)
         <a href="{{url('/').$n->nav_url}}"><span>{{$n->nav_name}}</span><span class="en">{{$n->nav_alias}}</span></a>
         @endforeach
