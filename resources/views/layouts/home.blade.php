@@ -50,7 +50,7 @@
                 <li><a href="{{$v->link_url}}"><img src="link_logo"></a></li>
                  @else
                     <li><a href="{{$v->link_url}}">{{$v->link_name}}</a></li>
-                    @ednif
+                    @endif
 
             @endforeach
         </ul>
