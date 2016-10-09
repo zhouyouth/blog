@@ -15,7 +15,6 @@ class CommonController extends Controller{
       public  function __construct(){
           //导航
           $navs =  Navs::all();
-          dd($navs);
           //热点文章
           $hot =Article::orderBy('art_view','desc')->take(6)->get();
 
@@ -28,6 +27,7 @@ class CommonController extends Controller{
           View::share('new',$new);
           View::share('rank',$rank);
           View::share('links',$links);
+          View::share('navs',$navs);
       }
 
 
