@@ -20,7 +20,7 @@
         </h3>
         <ul class="rank">
             @foreach($new as $v)
-                <li><a href="{{url('index.php/a').'/'.$v->art_id}}" title="{{$v->art_title}}" target="_blank">{{$v->art_title}}</a></li>
+                <li><a href="{{url('/a').'/'.$v->art_id}}" title="{{$v->art_title}}" target="_blank">{{$v->art_title}}</a></li>
             @endforeach
         </ul>
         <h3 class="ph">
@@ -28,7 +28,7 @@
         </h3>
         <ul class="paih">
             @foreach($rank as  $h)
-                <li><a href="{{url('index.php/a').'/'.$h->art_id}}" title="{{$h->art_title}}" target="_blank">{{$h->art_title}}</a></li>
+                <li><a href="{{url('/a').'/'.$h->art_id}}" title="{{$h->art_title}}" target="_blank">{{$h->art_title}}</a></li>
             @endforeach
         </ul>
         <h3 class="links">
