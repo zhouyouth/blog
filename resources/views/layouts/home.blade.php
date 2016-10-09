@@ -17,7 +17,6 @@
         @foreach($navs as $n)
         <a href="book.html"><span>留言版</span><span class="en">Gustbook</span></a></nav>
         @endforeach
-    </nav>
 </header>
 
 <body>
