@@ -15,8 +15,10 @@
     <div id="logo"><a href="/"></a></div>
     <nav class="topnav" id="topnav"><a href="index.html"><span>首页</span><span class="en">Protal</span></a>
         @foreach($navs as $n)
-        <a href="book.html"><span>留言版</span><span class="en">Gustbook</span></a></nav>
+        <a href="book.html"><span>留言版</span><span class="en">Gustbook</span></a>
         @endforeach
+    </nav>
+
 </header>
 
 <body>
