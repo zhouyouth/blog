@@ -18,7 +18,7 @@
                         'swf'      : '{{asset("resources/org/uploadify")}}/uploadify.swf',
                         'uploader' : '{{url("admin/upload")}}',
                         'onUploadSuccess' : function(file, data, response) {
-                            $('#thumb').attr('src',+data);
+                            $('#thumb').attr('src','/'+data);
                             $('#thumb').attr('width',200);
                             $('#thumb').attr('height',200);
                             $('#text').val(data);
