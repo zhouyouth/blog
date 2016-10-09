@@ -24,7 +24,7 @@
             @endforeach
         </ul>
         <h3 class="ph">
-            <p>点击<span>排行</span></p>k
+            <p>点击<span>排行</span></p>
         </h3>
         <ul class="paih">
             @foreach($rank as  $h)
