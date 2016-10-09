@@ -131,7 +131,7 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.3321719">
-              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+              <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -417,12 +417,6 @@
       <created>1473494915925</created>
       <option name="number" value="Default" />
       <updated>1473494915925</updated>
-    </task>
-    <task id="LOCAL-01089" summary="&#10;">
-      <created>1475913542195</created>
-      <option name="number" value="01089" />
-      <option name="project" value="LOCAL" />
-      <updated>1475913542195</updated>
     </task>
     <task id="LOCAL-01090" summary="&#10;">
       <created>1475914251617</created>
@@ -712,7 +706,13 @@
       <option name="project" value="LOCAL" />
       <updated>1475974717308</updated>
     </task>
-    <option name="localTasksCounter" value="1138" />
+    <task id="LOCAL-01138" summary="&#10;">
+      <created>1475974777034</created>
+      <option name="number" value="01138" />
+      <option name="project" value="LOCAL" />
+      <updated>1475974777034</updated>
+    </task>
+    <option name="localTasksCounter" value="1139" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1150,7 +1150,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3321719">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
           <folding />
         </state>
       </provider>
