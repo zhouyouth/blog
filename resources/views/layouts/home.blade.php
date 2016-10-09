@@ -46,7 +46,12 @@
         </h3>
         <ul class="website">
             @foreach($links as $v)
-                <li><a href="{{$v->link_url}}">{{$v->link_name}}</a></li>
+                @if($v->link_logo)
+                <li><a href="{{$v->link_url}}"><img src="link_logo"></a></li>
+                 @else
+                    <li><a href="{{$v->link_url}}">{{$v->link_name}}</a></li>
+                    @ednif
+
             @endforeach
         </ul>
     </div>
