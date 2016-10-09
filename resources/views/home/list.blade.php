@@ -13,7 +13,7 @@
     <figure><img src="/{{$v->art_thumb}}"></figure>
     <ul class="nlist">
       <p>{{$v->art_description}}...</p>
-      <a title="/" href="{{url('/art').'/'.$v->art_id}}" target="_blank" class="readmore">阅读全文>></a>
+      <a title="/" href="{{url('/a').'/'.$v->art_id}}" target="_blank" class="readmore">阅读全文>></a>
     </ul>
     <div class="line"></div>
     <div class="blank"></div>
