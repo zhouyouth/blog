@@ -69,7 +69,9 @@
         .website li{
             height:auto;
         }
-
+        .website li img{
+            display: inline;
+        }
     </style>
 @show
 <footer>
